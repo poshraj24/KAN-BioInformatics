@@ -7,8 +7,29 @@ from tqdm import tqdm
 import numpy as np
 from torch.utils.data import Dataset, DataLoader
 import torch
+import os
+
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+LOG_FILE = "training_log.txt"
+
+
+def log_training_details(params, max_memory, final_val_loss, history, config):
+    with open(LOG_FILE, "a") as f:
+        f.write("=" * 50 + "\n")
+        f.write(
+            f"Configuration: width={config['width']}, grid={config['grid']}, k={config['k']}\n"
+        )
+        f.write(f"Total Parameters: {params}\n")
+        f.write(f"Maximum Memory Consumed: {max_memory} GB\n")
+        f.write(f"Final Validation Loss: {final_val_loss}\n")
+        f.write("Epoch-wise Training Statistics:\n")
+        for epoch, (train_loss, val_loss, test_loss) in enumerate(history, 1):
+            f.write(
+                f"Epoch {epoch}: Train Loss = {train_loss:.6f}, Val Loss = {val_loss:.6f}, Test Loss ={test_loss:.6f}\n"
+            )
+        f.write("=" * 50 + "\n")
 
 
 class KANDataset(Dataset):
@@ -53,24 +74,13 @@ print(y)
 
 # Unpack the data
 X_data, y_target, config = y
-model = KAN(
-    width=config["width"],
-    grid=config["grid"],
-    k=config["k"],
-    seed=config["seed"],
-    device=device,
-)
-
-# Training parameters
-optimizer = torch.optim.AdamW(model.parameters(), lr=0.0001, weight_decay=0.01)
-criterion = torch.nn.MSELoss()
-epochs = 5
 
 
 def train_with_early_stopping(
     model,
     train_loader,
     val_loader,
+    test_loader,
     optimizer,
     criterion,
     epochs,
@@ -90,19 +100,28 @@ def train_with_early_stopping(
             train_loss += loss
 
         model.eval()
-        val_loss = 0
+        val_loss, test_loss = 0, 0
         with torch.no_grad():
             for X, y in val_loader:
                 val_loss += criterion(
                     model(X.to(device)).squeeze(), y.to(device)
                 ).item()
+            for X, y in test_loader:
+                test_loss += criterion(
+                    model(X.to(device)).squeeze(), y.to(device)
+                ).item()
 
         train_loss /= len(train_loader)
         val_loss /= len(val_loader)
-        history.append((train_loss, val_loss))
+        test_loss /= len(test_loader)
+        history.append((train_loss, val_loss, test_loss))
 
         pbar.set_postfix(
-            {"train_loss": f"{train_loss:.4f}", "val_loss": f"{val_loss:.4f}"}
+            {
+                "train_loss": f"{train_loss:.4f}",
+                "val_loss": f"{val_loss:.4f}",
+                "test_loss": f"{test_loss:.4f}",
+            }
         )
 
         if val_loss < best_val_loss - min_delta:
@@ -116,7 +135,12 @@ def train_with_early_stopping(
             print("\nEarly stopping triggered")
             model.load_state_dict(torch.load("best_model.pt"))
             break
-
+    # Log training details after training
+    total_params = sum(p.numel() for p in model.parameters())
+    max_memory = (
+        torch.cuda.max_memory_allocated() / 1e9 if torch.cuda.is_available() else 0.05
+    )
+    log_training_details(total_params, max_memory, best_val_loss, history, config)
     return history
 
 

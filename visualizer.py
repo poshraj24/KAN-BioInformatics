@@ -1,9 +1,12 @@
 import matplotlib.pyplot as plt
 import os
 import seaborn as sns
+import numpy as np
+import torch
 
 
 class LiveVisualizer:
+
     def plot_training_metrics(self, metrics_history, save_path="visualizations"):
         save_path = os.path.abspath(save_path)
         os.makedirs(save_path, exist_ok=True)
