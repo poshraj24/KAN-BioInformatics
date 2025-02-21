@@ -47,8 +47,8 @@ class KANDataProcessor1:
         config = {
             "width": [X.shape[1], 1, 1],
             # "width": X.shape[1],
-            "grid": 5,
-            "k": 4,
+            "grid": 10,
+            "k": 7,
             "seed": 42,
             # "feature_names": related_genes,
         }
