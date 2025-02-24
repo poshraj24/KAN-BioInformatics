@@ -45,10 +45,10 @@ class KANDataProcessor1:
 
         # Create model config
         config = {
-            "width": [X.shape[1], 1, 1],
+            "width": [X.shape[1], 10, 1],
             # "width": X.shape[1],
-            "grid": 10,
-            "k": 7,
+            "grid": 5,
+            "k": 4,
             "seed": 42,
             # "feature_names": related_genes,
         }

@@ -3,12 +3,12 @@ auto_save: true
 base_fun_name: silu
 ckpt_path: ./model
 device: cuda
-grid: 10
+grid: 5
 grid_eps: 0.02
 grid_range:
 - -1
 - 1
-k: 7
+k: 4
 mult_arity: 2
 round: 0
 sb_trainable: true
@@ -16,30 +16,201 @@ sp_trainable: true
 state_id: 1
 symbolic.funs_name.0:
 - - '0'
+  - x
+  - exp
+  - x^0.5
+  - cos
+  - x
+  - exp
+  - 1/x^2
   - cos
   - 1/x^2
+  - exp
   - 1/x^2
   - x^0.5
-  - exp
-  - 1/x
+  - x
+  - '0'
+  - 1/x^2
   - '0'
   - '0'
-  - exp
+- - '0'
   - x^2
   - exp
-  - '0'
+  - cos
+  - x^2
+  - x
   - 1/x^2
   - '0'
+  - x^2
+  - exp
+  - exp
+  - 1/x^2
+  - sin
+  - x
   - '0'
   - '0'
+  - 1/x^3
+  - 1/x^3
+- - '0'
+  - x
+  - exp
+  - x
+  - x
+  - x
+  - exp
+  - '0'
+  - '0'
+  - exp
+  - exp
+  - 1/x
+  - x
+  - x
+  - 1/x^3
+  - '0'
+  - 1/x^3
+  - 1/x^3
+- - '0'
+  - x
+  - 1/x^2
+  - cos
+  - tan
+  - x
+  - exp
+  - '0'
+  - cos
+  - 1/x^2
+  - exp
+  - 1/x^2
+  - x^2
+  - x
+  - '0'
+  - '0'
+  - 1/x^3
+  - '0'
+- - '0'
+  - abs
+  - exp
+  - x^2
+  - sin
+  - x
+  - exp
+  - '0'
+  - sin
+  - 1/x^2
+  - exp
+  - 1/x^2
+  - x^2
+  - x
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+- - 1/x^3
+  - x
+  - 1/x
+  - sin
+  - exp
+  - x
+  - exp
+  - 1/x^2
+  - '0'
+  - exp
+  - exp
+  - 1/x^2
+  - cos
+  - x
+  - '0'
+  - '0'
+  - '0'
+  - '0'
+- - '0'
+  - '0'
+  - 1/x^2
+  - x^2
+  - exp
+  - exp
+  - exp
+  - 1/x^2
+  - '0'
+  - 1/x^2
+  - exp
+  - 1/x^2
+  - abs
+  - x
+  - '0'
+  - '0'
+  - '0'
+  - 1/x^3
+- - 1/x^3
+  - cos
+  - 1/x^2
+  - x^2
+  - sqrt
+  - x
+  - exp
+  - '0'
+  - '0'
+  - 1/x^2
+  - exp
+  - 1/x^2
+  - exp
+  - x
+  - 1/x^3
+  - '0'
+  - '0'
+  - 1/x^3
+- - '0'
+  - tan
+  - exp
+  - '0'
+  - x
+  - x
+  - exp
+  - '0'
+  - sin
+  - 1/x^2
+  - x^2
+  - exp
+  - x^2
+  - x
+  - '0'
+  - '0'
+  - 1/x^3
+  - '0'
+- - '0'
+  - cos
+  - exp
+  - x^2
+  - x^0.5
+  - x
+  - exp
+  - '0'
+  - sin
+  - 1/x^2
+  - exp
+  - 1/x
+  - 1/x^2
+  - x
+  - 1/x^3
+  - '0'
+  - 1/x^3
   - 1/x^2
 symbolic.funs_name.1:
-- - x
+- - cos
+  - '0'
+  - cos
+  - cos
+  - exp
+  - 1/x^0.5
+  - 1/x^2
+  - cos
+  - exp
+  - cos
 symbolic_enabled: true
 width:
 - - 18
   - 0
-- - 1
+- - 10
   - 0
 - - 1
   - 0

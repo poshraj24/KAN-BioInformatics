@@ -12,19 +12,6 @@ warnings.filterwarnings("ignore", message="meta NOT subset.*")
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 
-def plot_training_history(history):
-    train_losses, val_losses, test_losses = zip(*history)
-    plt.figure(figsize=(10, 5))
-    plt.plot(train_losses, label="Train Loss")
-    plt.plot(val_losses, label="Validation Loss")
-    plt.plot(test_losses, label="Test Loss")
-    plt.xlabel("Epoch")
-    plt.ylabel("Loss")
-    plt.legend()
-    plt.savefig("training_history.png")
-    plt.close()
-
-
 def evaluate_model(model, test_loader, criterion):
     model.eval()
     total_loss = 0
@@ -128,7 +115,7 @@ def main():
     history = train_with_early_stopping(
         model, train_loader, val_loader, test_loader, optimizer, criterion, epochs
     )
-    plot_training_history(history)
+    # plot_training_history(history)
     visualizer.plot_training_metrics(history)
 
     # Evaluate on test set

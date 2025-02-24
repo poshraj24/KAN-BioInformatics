@@ -1,504 +1,109 @@
 ==================================================
-Configuration: width=[18, 1, 1], grid=5, k=4
-Total Parameters: 597
-Maximum Memory Consumed: 0.017181184 GB
-Final Validation Loss: 0.4112518002037649
-Epoch-wise Training Statistics:
-Epoch 1: Train Loss = 0.887753, Val Loss = 0.831430, Test Loss =0.854126
-Epoch 2: Train Loss = 0.807200, Val Loss = 0.744870, Test Loss =0.777115
-Epoch 3: Train Loss = 0.726660, Val Loss = 0.656140, Test Loss =0.697936
-Epoch 4: Train Loss = 0.651668, Val Loss = 0.590025, Test Loss =0.636330
-Epoch 5: Train Loss = 0.604071, Val Loss = 0.555215, Test Loss =0.599191
-Epoch 6: Train Loss = 0.574950, Val Loss = 0.531522, Test Loss =0.572969
-Epoch 7: Train Loss = 0.553278, Val Loss = 0.512259, Test Loss =0.550785
-Epoch 8: Train Loss = 0.534482, Val Loss = 0.495040, Test Loss =0.530037
-Epoch 9: Train Loss = 0.517316, Val Loss = 0.479631, Test Loss =0.510834
-Epoch 10: Train Loss = 0.502057, Val Loss = 0.466082, Test Loss =0.494302
-Epoch 11: Train Loss = 0.488716, Val Loss = 0.454109, Test Loss =0.480708
-Epoch 12: Train Loss = 0.477473, Val Loss = 0.444458, Test Loss =0.469748
-Epoch 13: Train Loss = 0.468595, Val Loss = 0.436687, Test Loss =0.460681
-Epoch 14: Train Loss = 0.461793, Val Loss = 0.430635, Test Loss =0.453451
-Epoch 15: Train Loss = 0.456677, Val Loss = 0.426189, Test Loss =0.448429
-Epoch 16: Train Loss = 0.452890, Val Loss = 0.422795, Test Loss =0.444588
-Epoch 17: Train Loss = 0.450145, Val Loss = 0.420128, Test Loss =0.441214
-Epoch 18: Train Loss = 0.448109, Val Loss = 0.418312, Test Loss =0.439075
-Epoch 19: Train Loss = 0.446647, Val Loss = 0.417033, Test Loss =0.437645
-Epoch 20: Train Loss = 0.445592, Val Loss = 0.416054, Test Loss =0.436367
-Epoch 21: Train Loss = 0.444761, Val Loss = 0.415245, Test Loss =0.434780
-Epoch 22: Train Loss = 0.444186, Val Loss = 0.414739, Test Loss =0.434126
-Epoch 23: Train Loss = 0.443674, Val Loss = 0.414302, Test Loss =0.433542
-Epoch 24: Train Loss = 0.443235, Val Loss = 0.414045, Test Loss =0.432940
-Epoch 25: Train Loss = 0.442908, Val Loss = 0.413755, Test Loss =0.432483
-Epoch 26: Train Loss = 0.442658, Val Loss = 0.413619, Test Loss =0.432401
-Epoch 27: Train Loss = 0.442368, Val Loss = 0.413416, Test Loss =0.431569
-Epoch 28: Train Loss = 0.442174, Val Loss = 0.413277, Test Loss =0.431344
-Epoch 29: Train Loss = 0.442005, Val Loss = 0.413142, Test Loss =0.430966
-Epoch 30: Train Loss = 0.441821, Val Loss = 0.413014, Test Loss =0.430940
-Epoch 31: Train Loss = 0.441619, Val Loss = 0.412939, Test Loss =0.430816
-Epoch 32: Train Loss = 0.441471, Val Loss = 0.412815, Test Loss =0.430350
-Epoch 33: Train Loss = 0.441337, Val Loss = 0.412749, Test Loss =0.430292
-Epoch 34: Train Loss = 0.441216, Val Loss = 0.412654, Test Loss =0.430097
-Epoch 35: Train Loss = 0.441068, Val Loss = 0.412553, Test Loss =0.430045
-Epoch 36: Train Loss = 0.440952, Val Loss = 0.412515, Test Loss =0.429868
-Epoch 37: Train Loss = 0.440852, Val Loss = 0.412482, Test Loss =0.429629
-Epoch 38: Train Loss = 0.440743, Val Loss = 0.412430, Test Loss =0.429734
-Epoch 39: Train Loss = 0.440603, Val Loss = 0.412356, Test Loss =0.429661
-Epoch 40: Train Loss = 0.440506, Val Loss = 0.412281, Test Loss =0.429305
-Epoch 41: Train Loss = 0.440435, Val Loss = 0.412219, Test Loss =0.429311
-Epoch 42: Train Loss = 0.440335, Val Loss = 0.412221, Test Loss =0.428958
-Epoch 43: Train Loss = 0.440277, Val Loss = 0.412103, Test Loss =0.428998
-Epoch 44: Train Loss = 0.440206, Val Loss = 0.412053, Test Loss =0.429097
-Epoch 45: Train Loss = 0.440084, Val Loss = 0.411985, Test Loss =0.428845
-Epoch 46: Train Loss = 0.440021, Val Loss = 0.411963, Test Loss =0.428856
-Epoch 47: Train Loss = 0.439947, Val Loss = 0.411934, Test Loss =0.428678
-Epoch 48: Train Loss = 0.439898, Val Loss = 0.411881, Test Loss =0.428614
-Epoch 49: Train Loss = 0.439776, Val Loss = 0.411796, Test Loss =0.428852
-Epoch 50: Train Loss = 0.439748, Val Loss = 0.411776, Test Loss =0.428526
-Epoch 51: Train Loss = 0.439663, Val Loss = 0.411731, Test Loss =0.428425
-Epoch 52: Train Loss = 0.439649, Val Loss = 0.411761, Test Loss =0.428196
-Epoch 53: Train Loss = 0.439550, Val Loss = 0.411701, Test Loss =0.428632
-Epoch 54: Train Loss = 0.439499, Val Loss = 0.411619, Test Loss =0.428392
-Epoch 55: Train Loss = 0.439442, Val Loss = 0.411604, Test Loss =0.428333
-Epoch 56: Train Loss = 0.439385, Val Loss = 0.411560, Test Loss =0.428479
-Epoch 57: Train Loss = 0.439316, Val Loss = 0.411549, Test Loss =0.428137
-Epoch 58: Train Loss = 0.439274, Val Loss = 0.411526, Test Loss =0.428265
-Epoch 59: Train Loss = 0.439241, Val Loss = 0.411453, Test Loss =0.428159
-Epoch 60: Train Loss = 0.439197, Val Loss = 0.411432, Test Loss =0.428023
-Epoch 61: Train Loss = 0.439163, Val Loss = 0.411439, Test Loss =0.428096
-Epoch 62: Train Loss = 0.439108, Val Loss = 0.411353, Test Loss =0.428194
-Epoch 63: Train Loss = 0.439071, Val Loss = 0.411352, Test Loss =0.427933
-Epoch 64: Train Loss = 0.439021, Val Loss = 0.411315, Test Loss =0.427764
-Epoch 65: Train Loss = 0.438965, Val Loss = 0.411252, Test Loss =0.427954
-Epoch 66: Train Loss = 0.438922, Val Loss = 0.411258, Test Loss =0.427945
-Epoch 67: Train Loss = 0.438832, Val Loss = 0.411295, Test Loss =0.428223
-Epoch 68: Train Loss = 0.438875, Val Loss = 0.411235, Test Loss =0.427811
-Epoch 69: Train Loss = 0.438842, Val Loss = 0.411175, Test Loss =0.427984
-Epoch 70: Train Loss = 0.438786, Val Loss = 0.411165, Test Loss =0.427756
-==================================================
-
-==================================================
-Symbolic Formula:
---------------------
-[1.27580893039703*cos(0.864744898696587*sqrt(1 - 0.620107848807929*x_5) - 0.176592061761555*(-0.800012817588172*x_4 - 1)**2 - 1.01827430128223e-11*exp(9.52095985412598*x_6) + 0.256245386431651*sin(0.789359867572784*x_2 + 8.99792003631592) + 0.25524108525822*sin(1.20831990242004*x_9 - 3.3887197971344) + 6.80025659180605 + 0.00132741888172455*exp(-7.69200038909912*x_14) + 0.000121960238657044*exp(-9.83199977874756*x_10) + 2.98855204461649e-7/(-0.127119913697243*x_3 - 0.039679978042841) - 0.000574789780063598/(-x_13 - 0.0083836316408679)**3 + 3.20594718879343e-6/(-0.00623999955132604*x_12 - 0.00224000262096524) - 0.000656059822764489/(-0.0600001029670238*x_11 - 0.00367999635636806) + 5.13974801050965e-8/(0.432089324129237 - x_7)**2) - 0.446016192436218]
-[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
-==================================================
-
-==================================================
-Configuration: width=[18, 1, 1], grid=5, k=3
-Total Parameters: 540
-Maximum Memory Consumed: 0.017162752 GB
-Final Validation Loss: 0.4116105393127159
-Epoch-wise Training Statistics:
-Epoch 1: Train Loss = 0.891731, Val Loss = 0.836997, Test Loss =0.858384
-Epoch 2: Train Loss = 0.810844, Val Loss = 0.745588, Test Loss =0.778158
-Epoch 3: Train Loss = 0.726045, Val Loss = 0.655847, Test Loss =0.698254
-Epoch 4: Train Loss = 0.656568, Val Loss = 0.598121, Test Loss =0.643771
-Epoch 5: Train Loss = 0.612166, Val Loss = 0.562600, Test Loss =0.607216
-Epoch 6: Train Loss = 0.582016, Val Loss = 0.536951, Test Loss =0.579966
-Epoch 7: Train Loss = 0.559219, Val Loss = 0.516437, Test Loss =0.557126
-Epoch 8: Train Loss = 0.539769, Val Loss = 0.498480, Test Loss =0.536066
-Epoch 9: Train Loss = 0.522007, Val Loss = 0.482632, Test Loss =0.516250
-Epoch 10: Train Loss = 0.505915, Val Loss = 0.468690, Test Loss =0.498761
-Epoch 11: Train Loss = 0.491706, Val Loss = 0.456259, Test Loss =0.484232
-Epoch 12: Train Loss = 0.479709, Val Loss = 0.446077, Test Loss =0.472392
-Epoch 13: Train Loss = 0.470258, Val Loss = 0.437824, Test Loss =0.462667
-Epoch 14: Train Loss = 0.463089, Val Loss = 0.431412, Test Loss =0.454977
-Epoch 15: Train Loss = 0.457786, Val Loss = 0.426765, Test Loss =0.449643
-Epoch 16: Train Loss = 0.453903, Val Loss = 0.423264, Test Loss =0.445628
-Epoch 17: Train Loss = 0.451104, Val Loss = 0.420488, Test Loss =0.442101
-Epoch 18: Train Loss = 0.449014, Val Loss = 0.418626, Test Loss =0.439951
-Epoch 19: Train Loss = 0.447515, Val Loss = 0.417349, Test Loss =0.438552
-Epoch 20: Train Loss = 0.446445, Val Loss = 0.416368, Test Loss =0.437236
-Epoch 21: Train Loss = 0.445592, Val Loss = 0.415569, Test Loss =0.435598
-Epoch 22: Train Loss = 0.445009, Val Loss = 0.415087, Test Loss =0.434952
-Epoch 23: Train Loss = 0.444477, Val Loss = 0.414666, Test Loss =0.434393
-Epoch 24: Train Loss = 0.444015, Val Loss = 0.414415, Test Loss =0.433769
-Epoch 25: Train Loss = 0.443658, Val Loss = 0.414125, Test Loss =0.433301
-Epoch 26: Train Loss = 0.443381, Val Loss = 0.413985, Test Loss =0.433224
-Epoch 27: Train Loss = 0.443058, Val Loss = 0.413774, Test Loss =0.432344
-Epoch 28: Train Loss = 0.442842, Val Loss = 0.413623, Test Loss =0.432132
-Epoch 29: Train Loss = 0.442649, Val Loss = 0.413481, Test Loss =0.431725
-Epoch 30: Train Loss = 0.442428, Val Loss = 0.413351, Test Loss =0.431718
-Epoch 31: Train Loss = 0.442206, Val Loss = 0.413275, Test Loss =0.431601
-Epoch 32: Train Loss = 0.442030, Val Loss = 0.413135, Test Loss =0.431086
-Epoch 33: Train Loss = 0.441877, Val Loss = 0.413062, Test Loss =0.431043
-Epoch 34: Train Loss = 0.441739, Val Loss = 0.412960, Test Loss =0.430832
-Epoch 35: Train Loss = 0.441565, Val Loss = 0.412854, Test Loss =0.430776
-Epoch 36: Train Loss = 0.441431, Val Loss = 0.412810, Test Loss =0.430579
-Epoch 37: Train Loss = 0.441317, Val Loss = 0.412773, Test Loss =0.430329
-Epoch 38: Train Loss = 0.441188, Val Loss = 0.412712, Test Loss =0.430437
-Epoch 39: Train Loss = 0.441030, Val Loss = 0.412634, Test Loss =0.430372
-Epoch 40: Train Loss = 0.440926, Val Loss = 0.412563, Test Loss =0.429981
-Epoch 41: Train Loss = 0.440837, Val Loss = 0.412491, Test Loss =0.429994
-Epoch 42: Train Loss = 0.440725, Val Loss = 0.412500, Test Loss =0.429584
-Epoch 43: Train Loss = 0.440661, Val Loss = 0.412376, Test Loss =0.429637
-Epoch 44: Train Loss = 0.440580, Val Loss = 0.412315, Test Loss =0.429742
-Epoch 45: Train Loss = 0.440441, Val Loss = 0.412249, Test Loss =0.429467
-Epoch 46: Train Loss = 0.440370, Val Loss = 0.412226, Test Loss =0.429467
-Epoch 47: Train Loss = 0.440291, Val Loss = 0.412193, Test Loss =0.429277
-Epoch 48: Train Loss = 0.440231, Val Loss = 0.412135, Test Loss =0.429220
-Epoch 49: Train Loss = 0.440097, Val Loss = 0.412049, Test Loss =0.429457
-Epoch 50: Train Loss = 0.440063, Val Loss = 0.412031, Test Loss =0.429100
-Epoch 51: Train Loss = 0.439971, Val Loss = 0.411985, Test Loss =0.429010
-Epoch 52: Train Loss = 0.439952, Val Loss = 0.412027, Test Loss =0.428758
-Epoch 53: Train Loss = 0.439849, Val Loss = 0.411954, Test Loss =0.429227
-Epoch 54: Train Loss = 0.439789, Val Loss = 0.411876, Test Loss =0.428948
-Epoch 55: Train Loss = 0.439729, Val Loss = 0.411864, Test Loss =0.428895
-Epoch 56: Train Loss = 0.439665, Val Loss = 0.411817, Test Loss =0.429057
-Epoch 57: Train Loss = 0.439588, Val Loss = 0.411809, Test Loss =0.428662
-Epoch 58: Train Loss = 0.439544, Val Loss = 0.411780, Test Loss =0.428817
-Epoch 59: Train Loss = 0.439504, Val Loss = 0.411711, Test Loss =0.428692
-Epoch 60: Train Loss = 0.439461, Val Loss = 0.411692, Test Loss =0.428555
-Epoch 61: Train Loss = 0.439420, Val Loss = 0.411701, Test Loss =0.428633
-Epoch 62: Train Loss = 0.439362, Val Loss = 0.411611, Test Loss =0.428721
-Epoch 63: Train Loss = 0.439321, Val Loss = 0.411614, Test Loss =0.428427
-Epoch 64: Train Loss = 0.439270, Val Loss = 0.411578, Test Loss =0.428254
-Epoch 65: Train Loss = 0.439211, Val Loss = 0.411515, Test Loss =0.428443
-Epoch 66: Train Loss = 0.439162, Val Loss = 0.411523, Test Loss =0.428442
-Epoch 67: Train Loss = 0.439065, Val Loss = 0.411560, Test Loss =0.428756
-==================================================
-
-==================================================
-Symbolic Formula:
---------------------
-[1.22361838817596*cos(-0.851368843453536*sqrt(1 - 0.662251630009774*x_5) + 0.185827265746752*(-0.815441048106966*x_4 - 1)**2 - 0.268997129331378*sin(1.24455988407135*x_9 - 3.37647986412048) + 0.266587874954386*cos(0.783919870853424*x_2 - 1.99223983287811) + 5.74748304176656 + 0.000379461184295651*exp(-8.53855991363525*x_7) - 0.00151385039541359*exp(-9.99890041351318*x_6) - 0.00119608494465387*exp(-8.76752090454102*x_14) - 1.68723081339054e-5/(-0.00512000359594822*x_12 - 0.000640000798739493) - 2.53756970639731e-11/(0.280015414927755 - x_3)**2 + 0.00317277803462246/(0.151999861001968 - 1.000039935112*x_13) + 3.57168868710184e-9/(0.126586545905368 - x_10)**2 + 0.000655259925130297/(0.00384000455960631 - 0.0570401065051556*x_11)) - 0.412690967321396]
-[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
-==================================================
-
-==================================================
-Configuration: width=[18, 1, 1], grid=4, k=3
-Total Parameters: 502
-Maximum Memory Consumed: 0.017150976 GB
-Final Validation Loss: 0.4118671524855826
-Epoch-wise Training Statistics:
-Epoch 1: Train Loss = 0.914287, Val Loss = 0.841982, Test Loss =0.852226
-Epoch 2: Train Loss = 0.801830, Val Loss = 0.722887, Test Loss =0.746208
-Epoch 3: Train Loss = 0.706158, Val Loss = 0.632608, Test Loss =0.664147
-Epoch 4: Train Loss = 0.636998, Val Loss = 0.572857, Test Loss =0.607431
-Epoch 5: Train Loss = 0.591076, Val Loss = 0.535471, Test Loss =0.568837
-Epoch 6: Train Loss = 0.560287, Val Loss = 0.510291, Test Loss =0.541609
-Epoch 7: Train Loss = 0.537554, Val Loss = 0.491127, Test Loss =0.519399
-Epoch 8: Train Loss = 0.518670, Val Loss = 0.474658, Test Loss =0.499877
-Epoch 9: Train Loss = 0.502147, Val Loss = 0.460494, Test Loss =0.483493
-Epoch 10: Train Loss = 0.488047, Val Loss = 0.448612, Test Loss =0.470188
-Epoch 11: Train Loss = 0.476453, Val Loss = 0.439082, Test Loss =0.459750
-Epoch 12: Train Loss = 0.467406, Val Loss = 0.431924, Test Loss =0.451916
-Epoch 13: Train Loss = 0.460531, Val Loss = 0.426422, Test Loss =0.446077
-Epoch 14: Train Loss = 0.455419, Val Loss = 0.422360, Test Loss =0.441957
-Epoch 15: Train Loss = 0.451612, Val Loss = 0.419351, Test Loss =0.438824
-Epoch 16: Train Loss = 0.448926, Val Loss = 0.417377, Test Loss =0.437028
-Epoch 17: Train Loss = 0.447016, Val Loss = 0.415849, Test Loss =0.435499
-Epoch 18: Train Loss = 0.445618, Val Loss = 0.414919, Test Loss =0.434642
-Epoch 19: Train Loss = 0.444634, Val Loss = 0.414143, Test Loss =0.433908
-Epoch 20: Train Loss = 0.443902, Val Loss = 0.413694, Test Loss =0.433152
-Epoch 21: Train Loss = 0.443371, Val Loss = 0.413381, Test Loss =0.432888
-Epoch 22: Train Loss = 0.442871, Val Loss = 0.413106, Test Loss =0.432346
-Epoch 23: Train Loss = 0.442558, Val Loss = 0.412935, Test Loss =0.432259
-Epoch 24: Train Loss = 0.442249, Val Loss = 0.412769, Test Loss =0.431880
-Epoch 25: Train Loss = 0.442014, Val Loss = 0.412650, Test Loss =0.431681
-Epoch 26: Train Loss = 0.441785, Val Loss = 0.412583, Test Loss =0.431472
-Epoch 27: Train Loss = 0.441605, Val Loss = 0.412550, Test Loss =0.431160
-Epoch 28: Train Loss = 0.441461, Val Loss = 0.412435, Test Loss =0.431161
-Epoch 29: Train Loss = 0.441249, Val Loss = 0.412451, Test Loss =0.431455
-Epoch 30: Train Loss = 0.441091, Val Loss = 0.412382, Test Loss =0.430705
-Epoch 31: Train Loss = 0.440986, Val Loss = 0.412344, Test Loss =0.430753
-Epoch 32: Train Loss = 0.440817, Val Loss = 0.412344, Test Loss =0.430357
-Epoch 33: Train Loss = 0.440815, Val Loss = 0.412256, Test Loss =0.430442
-Epoch 34: Train Loss = 0.440642, Val Loss = 0.412216, Test Loss =0.430499
-Epoch 35: Train Loss = 0.440566, Val Loss = 0.412214, Test Loss =0.430444
-Epoch 36: Train Loss = 0.440425, Val Loss = 0.412153, Test Loss =0.430049
-Epoch 37: Train Loss = 0.440384, Val Loss = 0.412093, Test Loss =0.430091
-Epoch 38: Train Loss = 0.440326, Val Loss = 0.412057, Test Loss =0.430059
-Epoch 39: Train Loss = 0.440230, Val Loss = 0.412062, Test Loss =0.430011
-Epoch 40: Train Loss = 0.440125, Val Loss = 0.412013, Test Loss =0.429800
-Epoch 41: Train Loss = 0.440084, Val Loss = 0.412002, Test Loss =0.429896
-Epoch 42: Train Loss = 0.439946, Val Loss = 0.411975, Test Loss =0.429620
-Epoch 43: Train Loss = 0.439904, Val Loss = 0.411953, Test Loss =0.429485
-Epoch 44: Train Loss = 0.439885, Val Loss = 0.411867, Test Loss =0.429541
-Epoch 45: Train Loss = 0.439812, Val Loss = 0.411925, Test Loss =0.429447
-Epoch 46: Train Loss = 0.439693, Val Loss = 0.411957, Test Loss =0.429085
-Epoch 47: Train Loss = 0.439669, Val Loss = 0.411920, Test Loss =0.429170
-Epoch 48: Train Loss = 0.439632, Val Loss = 0.411824, Test Loss =0.429404
-Epoch 49: Train Loss = 0.439566, Val Loss = 0.411803, Test Loss =0.429473
-==================================================
-
-==================================================
-Symbolic Formula:
---------------------
-[-1.23549520969391*sin(-0.7833737925579*sqrt(1 - 0.700128798337173*x_5) + 9.15931769276296e-12*exp(9.59632015228271*x_6) + 0.245297729314764*cos(0.858719885349274*x_2 - 1.97983980178833) + 0.295618174310341*cos(1.10095989704132*x_4 - 1.90927982330322) - 0.264169283440729*cos(1.20823991298676*x_9 + 7.60943984985352) + 4.34770479260986 + 9.27704803489271e-11/(-x_3 - 0.311491105229899)**2 - 1.14203232529161e-9/(-x_14 - 0.298628166796962)**2 + 3.08499134769707e-8/(-0.133279904723167*x_12 - 0.0524799674749374) + 0.000606270716174175/(-0.0520801097154617*x_11 - 0.00375999649986625) + 5.65985396202673e-12/(0.434403796821689 - x_7)**2 + 0.001514945139066/(0.147119864821434 - 0.803999841213226*x_13) - 5.52817830563783e-10/(0.126502231432538 - x_10)**2) - 0.423980176448822]
-[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
-==================================================
-
-==================================================
-Configuration: width=[18, 1, 1], grid=3, k=3
-Total Parameters: 464
-Maximum Memory Consumed: 0.017145344 GB
-Final Validation Loss: 0.41161989282678674
-Epoch-wise Training Statistics:
-Epoch 1: Train Loss = 0.939153, Val Loss = 0.881034, Test Loss =0.894082
-Epoch 2: Train Loss = 0.841134, Val Loss = 0.756547, Test Loss =0.779560
-Epoch 3: Train Loss = 0.721224, Val Loss = 0.631351, Test Loss =0.664535
-Epoch 4: Train Loss = 0.624902, Val Loss = 0.550335, Test Loss =0.587423
-Epoch 5: Train Loss = 0.566512, Val Loss = 0.505260, Test Loss =0.541808
-Epoch 6: Train Loss = 0.532974, Val Loss = 0.479184, Test Loss =0.513495
-Epoch 7: Train Loss = 0.511648, Val Loss = 0.462002, Test Loss =0.494060
-Epoch 8: Train Loss = 0.496118, Val Loss = 0.449075, Test Loss =0.479083
-Epoch 9: Train Loss = 0.484096, Val Loss = 0.439174, Test Loss =0.467380
-Epoch 10: Train Loss = 0.474719, Val Loss = 0.431655, Test Loss =0.458435
-Epoch 11: Train Loss = 0.467394, Val Loss = 0.426233, Test Loss =0.451644
-Epoch 12: Train Loss = 0.461709, Val Loss = 0.422099, Test Loss =0.446483
-Epoch 13: Train Loss = 0.457459, Val Loss = 0.419317, Test Loss =0.442753
-Epoch 14: Train Loss = 0.454296, Val Loss = 0.417457, Test Loss =0.440209
-Epoch 15: Train Loss = 0.451950, Val Loss = 0.416100, Test Loss =0.438093
-Epoch 16: Train Loss = 0.450170, Val Loss = 0.415270, Test Loss =0.436814
-Epoch 17: Train Loss = 0.448794, Val Loss = 0.414689, Test Loss =0.435854
-Epoch 18: Train Loss = 0.447780, Val Loss = 0.414289, Test Loss =0.435125
-Epoch 19: Train Loss = 0.446943, Val Loss = 0.413948, Test Loss =0.434408
-Epoch 20: Train Loss = 0.446278, Val Loss = 0.413804, Test Loss =0.434012
-Epoch 21: Train Loss = 0.445684, Val Loss = 0.413556, Test Loss =0.433301
-Epoch 22: Train Loss = 0.445264, Val Loss = 0.413486, Test Loss =0.433082
-Epoch 23: Train Loss = 0.444849, Val Loss = 0.413341, Test Loss =0.432669
-Epoch 24: Train Loss = 0.444516, Val Loss = 0.413275, Test Loss =0.432506
-Epoch 25: Train Loss = 0.444203, Val Loss = 0.413218, Test Loss =0.432293
-Epoch 26: Train Loss = 0.443894, Val Loss = 0.413076, Test Loss =0.431782
-Epoch 27: Train Loss = 0.443684, Val Loss = 0.413050, Test Loss =0.431636
-Epoch 28: Train Loss = 0.443407, Val Loss = 0.412996, Test Loss =0.431451
-Epoch 29: Train Loss = 0.443178, Val Loss = 0.412914, Test Loss =0.431170
-Epoch 30: Train Loss = 0.443059, Val Loss = 0.412869, Test Loss =0.431011
-Epoch 31: Train Loss = 0.442871, Val Loss = 0.412775, Test Loss =0.430898
-Epoch 32: Train Loss = 0.442662, Val Loss = 0.412749, Test Loss =0.430603
-Epoch 33: Train Loss = 0.442483, Val Loss = 0.412692, Test Loss =0.430579
-Epoch 34: Train Loss = 0.442374, Val Loss = 0.412621, Test Loss =0.430251
-Epoch 35: Train Loss = 0.442239, Val Loss = 0.412552, Test Loss =0.430162
-Epoch 36: Train Loss = 0.442093, Val Loss = 0.412529, Test Loss =0.430081
-Epoch 37: Train Loss = 0.441995, Val Loss = 0.412457, Test Loss =0.429870
-Epoch 38: Train Loss = 0.441833, Val Loss = 0.412387, Test Loss =0.429679
-Epoch 39: Train Loss = 0.441754, Val Loss = 0.412378, Test Loss =0.429688
-Epoch 40: Train Loss = 0.441609, Val Loss = 0.412327, Test Loss =0.429598
-Epoch 41: Train Loss = 0.441526, Val Loss = 0.412239, Test Loss =0.429279
-Epoch 42: Train Loss = 0.441422, Val Loss = 0.412261, Test Loss =0.429430
-Epoch 43: Train Loss = 0.441314, Val Loss = 0.412159, Test Loss =0.429072
-Epoch 44: Train Loss = 0.441184, Val Loss = 0.412133, Test Loss =0.429188
-Epoch 45: Train Loss = 0.441119, Val Loss = 0.412191, Test Loss =0.429130
-Epoch 46: Train Loss = 0.441029, Val Loss = 0.412038, Test Loss =0.428871
-Epoch 47: Train Loss = 0.440975, Val Loss = 0.412004, Test Loss =0.428719
-Epoch 48: Train Loss = 0.440821, Val Loss = 0.411969, Test Loss =0.428466
-Epoch 49: Train Loss = 0.440808, Val Loss = 0.411932, Test Loss =0.428510
-Epoch 50: Train Loss = 0.440743, Val Loss = 0.411902, Test Loss =0.428405
-Epoch 51: Train Loss = 0.440609, Val Loss = 0.411942, Test Loss =0.428620
-Epoch 52: Train Loss = 0.440586, Val Loss = 0.411830, Test Loss =0.428244
-Epoch 53: Train Loss = 0.440471, Val Loss = 0.411791, Test Loss =0.428211
-Epoch 54: Train Loss = 0.440436, Val Loss = 0.411758, Test Loss =0.428274
-Epoch 55: Train Loss = 0.440353, Val Loss = 0.411727, Test Loss =0.428218
-Epoch 56: Train Loss = 0.440325, Val Loss = 0.411744, Test Loss =0.428230
-Epoch 57: Train Loss = 0.440214, Val Loss = 0.411898, Test Loss =0.428568
-Epoch 58: Train Loss = 0.440231, Val Loss = 0.411654, Test Loss =0.427873
-Epoch 59: Train Loss = 0.440141, Val Loss = 0.411620, Test Loss =0.427849
-Epoch 60: Train Loss = 0.440035, Val Loss = 0.411649, Test Loss =0.428008
-Epoch 61: Train Loss = 0.439994, Val Loss = 0.411605, Test Loss =0.427650
-Epoch 62: Train Loss = 0.439974, Val Loss = 0.411576, Test Loss =0.427750
-Epoch 63: Train Loss = 0.439915, Val Loss = 0.411543, Test Loss =0.427763
-Epoch 64: Train Loss = 0.439863, Val Loss = 0.411525, Test Loss =0.427631
-==================================================
-
-==================================================
-Symbolic Formula:
---------------------
-[-1.34312915802002*cos(-0.0132271288647632*x_6 - 0.0291567409495945*(0.442167439227887 - x_11)**2 - 0.169368358890347*(-0.837455057082088*x_4 - 1)**2 + 3.81163785809021e-9*exp(3.89256000518799*x_14) + 0.00478059595453308*exp(2.20823979377747*x_3) - 0.708945802888914*exp(0.377039849758148*x_5) + 0.29544051964433*cos(0.651199817657471*x_2 + 1.02903985977173) + 0.2417206175449*cos(1.18295979499817*x_9 + 7.58544015884399) + 0.000267254344656687*tan(8.09367942810059*x_13 + 8.9878396987915) + 5.20440482312345 + 0.000522763149518775*exp(-3.86680006980896*x_12) - 0.000372801094189597*exp(-7.60400009155273*x_10) + 1.08488379492368e-6/(-0.0265599861741066*x_7 - 0.0113599989563227)) - 0.496474742889404]
-[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
-==================================================
-
-==================================================
-Configuration: width=[18, 1, 1], grid=7, k=5
-Total Parameters: 730
-Maximum Memory Consumed: 0.017219072 GB
-Final Validation Loss: 0.41111024027621307
-Epoch-wise Training Statistics:
-Epoch 1: Train Loss = 1.056389, Val Loss = 1.012261, Test Loss =1.027683
-Epoch 2: Train Loss = 0.996706, Val Loss = 0.970059, Test Loss =0.983239
-Epoch 3: Train Loss = 0.957693, Val Loss = 0.928011, Test Loss =0.937966
-Epoch 4: Train Loss = 0.903892, Val Loss = 0.868156, Test Loss =0.867630
-Epoch 5: Train Loss = 0.840357, Val Loss = 0.807975, Test Loss =0.803590
-Epoch 6: Train Loss = 0.783864, Val Loss = 0.752494, Test Loss =0.749987
-Epoch 7: Train Loss = 0.732240, Val Loss = 0.699047, Test Loss =0.700313
-Epoch 8: Train Loss = 0.682653, Val Loss = 0.645566, Test Loss =0.652078
-Epoch 9: Train Loss = 0.634758, Val Loss = 0.593202, Test Loss =0.604404
-Epoch 10: Train Loss = 0.590808, Val Loss = 0.547252, Test Loss =0.561922
-Epoch 11: Train Loss = 0.553199, Val Loss = 0.509559, Test Loss =0.525708
-Epoch 12: Train Loss = 0.523233, Val Loss = 0.481353, Test Loss =0.498845
-Epoch 13: Train Loss = 0.500630, Val Loss = 0.460381, Test Loss =0.478617
-Epoch 14: Train Loss = 0.484031, Val Loss = 0.445641, Test Loss =0.464764
-Epoch 15: Train Loss = 0.472208, Val Loss = 0.435017, Test Loss =0.453917
-Epoch 16: Train Loss = 0.463802, Val Loss = 0.427952, Test Loss =0.446687
-Epoch 17: Train Loss = 0.457864, Val Loss = 0.423187, Test Loss =0.441492
-Epoch 18: Train Loss = 0.453755, Val Loss = 0.420291, Test Loss =0.438755
-Epoch 19: Train Loss = 0.450783, Val Loss = 0.418224, Test Loss =0.435942
-Epoch 20: Train Loss = 0.448679, Val Loss = 0.416862, Test Loss =0.434298
-Epoch 21: Train Loss = 0.447123, Val Loss = 0.415933, Test Loss =0.432906
-Epoch 22: Train Loss = 0.445976, Val Loss = 0.415369, Test Loss =0.432364
-Epoch 23: Train Loss = 0.445023, Val Loss = 0.414912, Test Loss =0.432027
-Epoch 24: Train Loss = 0.444335, Val Loss = 0.414569, Test Loss =0.431204
-Epoch 25: Train Loss = 0.443699, Val Loss = 0.414405, Test Loss =0.431098
-Epoch 26: Train Loss = 0.443260, Val Loss = 0.414192, Test Loss =0.430834
-Epoch 27: Train Loss = 0.442745, Val Loss = 0.413896, Test Loss =0.429997
-Epoch 28: Train Loss = 0.442399, Val Loss = 0.413811, Test Loss =0.430124
-Epoch 29: Train Loss = 0.442122, Val Loss = 0.413689, Test Loss =0.429984
-Epoch 30: Train Loss = 0.441824, Val Loss = 0.413561, Test Loss =0.429708
-Epoch 31: Train Loss = 0.441562, Val Loss = 0.413552, Test Loss =0.429715
-Epoch 32: Train Loss = 0.441376, Val Loss = 0.413373, Test Loss =0.429354
-Epoch 33: Train Loss = 0.441127, Val Loss = 0.413355, Test Loss =0.429300
-Epoch 34: Train Loss = 0.440927, Val Loss = 0.413193, Test Loss =0.429143
-Epoch 35: Train Loss = 0.440756, Val Loss = 0.413134, Test Loss =0.429083
-Epoch 36: Train Loss = 0.440599, Val Loss = 0.413073, Test Loss =0.429042
-Epoch 37: Train Loss = 0.440420, Val Loss = 0.413010, Test Loss =0.429133
-Epoch 38: Train Loss = 0.440307, Val Loss = 0.412781, Test Loss =0.428764
-Epoch 39: Train Loss = 0.440220, Val Loss = 0.412757, Test Loss =0.428564
-Epoch 40: Train Loss = 0.440022, Val Loss = 0.412587, Test Loss =0.428506
-Epoch 41: Train Loss = 0.439878, Val Loss = 0.412557, Test Loss =0.428445
-Epoch 42: Train Loss = 0.439695, Val Loss = 0.412619, Test Loss =0.429148
-Epoch 43: Train Loss = 0.439684, Val Loss = 0.412480, Test Loss =0.428470
-Epoch 44: Train Loss = 0.439558, Val Loss = 0.412382, Test Loss =0.428257
-Epoch 45: Train Loss = 0.439470, Val Loss = 0.412339, Test Loss =0.428153
-Epoch 46: Train Loss = 0.439474, Val Loss = 0.412227, Test Loss =0.428360
-Epoch 47: Train Loss = 0.439273, Val Loss = 0.412118, Test Loss =0.428150
-Epoch 48: Train Loss = 0.439157, Val Loss = 0.412145, Test Loss =0.428563
-Epoch 49: Train Loss = 0.439145, Val Loss = 0.412022, Test Loss =0.428377
-Epoch 50: Train Loss = 0.439077, Val Loss = 0.412000, Test Loss =0.428088
-Epoch 51: Train Loss = 0.438998, Val Loss = 0.411843, Test Loss =0.428278
-Epoch 52: Train Loss = 0.438931, Val Loss = 0.411833, Test Loss =0.428235
-Epoch 53: Train Loss = 0.438874, Val Loss = 0.411786, Test Loss =0.428575
-Epoch 54: Train Loss = 0.438734, Val Loss = 0.411775, Test Loss =0.428385
-Epoch 55: Train Loss = 0.438726, Val Loss = 0.411663, Test Loss =0.428594
-Epoch 56: Train Loss = 0.438662, Val Loss = 0.411609, Test Loss =0.428531
-Epoch 57: Train Loss = 0.438646, Val Loss = 0.411510, Test Loss =0.427940
-Epoch 58: Train Loss = 0.438527, Val Loss = 0.411489, Test Loss =0.428235
-Epoch 59: Train Loss = 0.438500, Val Loss = 0.411369, Test Loss =0.427981
-Epoch 60: Train Loss = 0.438387, Val Loss = 0.411384, Test Loss =0.428204
-Epoch 61: Train Loss = 0.438340, Val Loss = 0.411252, Test Loss =0.428279
-Epoch 62: Train Loss = 0.438329, Val Loss = 0.411227, Test Loss =0.428084
-Epoch 63: Train Loss = 0.438317, Val Loss = 0.411251, Test Loss =0.427986
-Epoch 64: Train Loss = 0.438218, Val Loss = 0.411203, Test Loss =0.428244
-Epoch 65: Train Loss = 0.438207, Val Loss = 0.411110, Test Loss =0.428009
-Epoch 66: Train Loss = 0.438113, Val Loss = 0.411096, Test Loss =0.428063
-Epoch 67: Train Loss = 0.438073, Val Loss = 0.411057, Test Loss =0.428000
-Epoch 68: Train Loss = 0.438018, Val Loss = 0.411095, Test Loss =0.428262
-Epoch 69: Train Loss = 0.437966, Val Loss = 0.411092, Test Loss =0.428218
-Epoch 70: Train Loss = 0.437934, Val Loss = 0.411057, Test Loss =0.427813
-==================================================
-
-==================================================
-Symbolic Formula:
---------------------
-[1.10493814945221*sin(-0.108999790737755*(0.0552686686146576 - x_11)**2 + 1.052949688448*sqrt(1 - 0.607872575924933*x_5) - 0.216714505953245*(-0.72537035226445*x_4 - 1)**2 + 0.00784809991637021*exp(3.40903997421265*x_3) + 0.306811772284217*sin(1.23927986621857*x_9 + 9.20983982086182) + 0.310040278538121*cos(0.785919845104218*x_2 + 7.39727973937988) + 1.99862607957784 - 0.000312725681462068*exp(-9.19567966461182*x_7) + 0.0045598609174599*exp(-3.38287973403931*x_6) + 0.00992063918641063*exp(-3.69711995124817*x_10) + 1.32667596028157e-12/(-x_14 - 0.298285758502662)**2 - 0.00131511912946457/(-0.156240031123161*x_13 - 0.00367999635636806) - 9.07494219220438e-10/(0.0490741061591796 - x_12)**2) - 0.357609987258911]
-[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
-==================================================
-
-==================================================
 Configuration: width=[18, 1, 1], grid=2, k=1
 Total Parameters: 312
-Maximum Memory Consumed: 0.017126912 GB
+Maximum Memory Consumed: 0.017281536 GB
 Final Validation Loss: 0.4153582177780293
 Epoch-wise Training Statistics:
-Epoch 1: Train Loss = 1.060549, Val Loss = 1.001490, Test Loss =1.018600
-Epoch 2: Train Loss = 0.971749, Val Loss = 0.924931, Test Loss =0.940270
-Epoch 3: Train Loss = 0.898213, Val Loss = 0.844520, Test Loss =0.862504
-Epoch 4: Train Loss = 0.812888, Val Loss = 0.743460, Test Loss =0.767916
-Epoch 5: Train Loss = 0.713837, Val Loss = 0.637945, Test Loss =0.669753
-Epoch 6: Train Loss = 0.629201, Val Loss = 0.567542, Test Loss =0.601817
-Epoch 7: Train Loss = 0.579744, Val Loss = 0.529911, Test Loss =0.563056
-Epoch 8: Train Loss = 0.549750, Val Loss = 0.504378, Test Loss =0.535538
-Epoch 9: Train Loss = 0.528048, Val Loss = 0.485672, Test Loss =0.514768
-Epoch 10: Train Loss = 0.510547, Val Loss = 0.470535, Test Loss =0.497076
-Epoch 11: Train Loss = 0.495997, Val Loss = 0.458200, Test Loss =0.481983
-Epoch 12: Train Loss = 0.484409, Val Loss = 0.448784, Test Loss =0.470410
-Epoch 13: Train Loss = 0.475507, Val Loss = 0.441494, Test Loss =0.461759
-Epoch 14: Train Loss = 0.468835, Val Loss = 0.436008, Test Loss =0.455302
-Epoch 15: Train Loss = 0.463816, Val Loss = 0.431990, Test Loss =0.449967
-Epoch 16: Train Loss = 0.460190, Val Loss = 0.429166, Test Loss =0.446606
-Epoch 17: Train Loss = 0.457366, Val Loss = 0.427084, Test Loss =0.444180
-Epoch 18: Train Loss = 0.455306, Val Loss = 0.425603, Test Loss =0.442459
-Epoch 19: Train Loss = 0.453670, Val Loss = 0.424504, Test Loss =0.440939
-Epoch 20: Train Loss = 0.452490, Val Loss = 0.423951, Test Loss =0.440234
-Epoch 21: Train Loss = 0.451534, Val Loss = 0.423177, Test Loss =0.439009
-Epoch 22: Train Loss = 0.450821, Val Loss = 0.422803, Test Loss =0.438614
-Epoch 23: Train Loss = 0.450221, Val Loss = 0.422531, Test Loss =0.438261
-Epoch 24: Train Loss = 0.449717, Val Loss = 0.422348, Test Loss =0.437948
-Epoch 25: Train Loss = 0.449327, Val Loss = 0.422003, Test Loss =0.437488
-Epoch 26: Train Loss = 0.448970, Val Loss = 0.421781, Test Loss =0.437108
-Epoch 27: Train Loss = 0.448608, Val Loss = 0.421458, Test Loss =0.436378
-Epoch 28: Train Loss = 0.448439, Val Loss = 0.421366, Test Loss =0.436520
-Epoch 29: Train Loss = 0.448161, Val Loss = 0.421165, Test Loss =0.436277
-Epoch 30: Train Loss = 0.447968, Val Loss = 0.421158, Test Loss =0.436301
-Epoch 31: Train Loss = 0.447734, Val Loss = 0.420870, Test Loss =0.435773
-Epoch 32: Train Loss = 0.447571, Val Loss = 0.420719, Test Loss =0.435548
-Epoch 33: Train Loss = 0.447345, Val Loss = 0.420605, Test Loss =0.435274
-Epoch 34: Train Loss = 0.447226, Val Loss = 0.420517, Test Loss =0.435388
-Epoch 35: Train Loss = 0.447024, Val Loss = 0.420384, Test Loss =0.435048
-Epoch 36: Train Loss = 0.446888, Val Loss = 0.420237, Test Loss =0.434905
-Epoch 37: Train Loss = 0.446708, Val Loss = 0.420098, Test Loss =0.434724
-Epoch 38: Train Loss = 0.446585, Val Loss = 0.419985, Test Loss =0.434651
-Epoch 39: Train Loss = 0.446430, Val Loss = 0.419842, Test Loss =0.434472
-Epoch 40: Train Loss = 0.446341, Val Loss = 0.419738, Test Loss =0.434336
-Epoch 41: Train Loss = 0.446183, Val Loss = 0.419649, Test Loss =0.434367
-Epoch 42: Train Loss = 0.446062, Val Loss = 0.419517, Test Loss =0.434229
-Epoch 43: Train Loss = 0.445939, Val Loss = 0.419397, Test Loss =0.434087
-Epoch 44: Train Loss = 0.445799, Val Loss = 0.419418, Test Loss =0.434296
-Epoch 45: Train Loss = 0.445714, Val Loss = 0.419246, Test Loss =0.433794
-Epoch 46: Train Loss = 0.445565, Val Loss = 0.419153, Test Loss =0.433669
-Epoch 47: Train Loss = 0.445471, Val Loss = 0.419043, Test Loss =0.433573
-Epoch 48: Train Loss = 0.445314, Val Loss = 0.419140, Test Loss =0.434061
-Epoch 49: Train Loss = 0.445362, Val Loss = 0.418902, Test Loss =0.433601
-Epoch 50: Train Loss = 0.445174, Val Loss = 0.418785, Test Loss =0.433233
-Epoch 51: Train Loss = 0.445055, Val Loss = 0.418852, Test Loss =0.433731
-Epoch 52: Train Loss = 0.445027, Val Loss = 0.418654, Test Loss =0.432912
-Epoch 53: Train Loss = 0.444967, Val Loss = 0.418619, Test Loss =0.432878
-Epoch 54: Train Loss = 0.444820, Val Loss = 0.418541, Test Loss =0.432725
-Epoch 55: Train Loss = 0.444777, Val Loss = 0.418451, Test Loss =0.432702
-Epoch 56: Train Loss = 0.444674, Val Loss = 0.418464, Test Loss =0.433050
-Epoch 57: Train Loss = 0.444565, Val Loss = 0.418358, Test Loss =0.432899
-Epoch 58: Train Loss = 0.444542, Val Loss = 0.418241, Test Loss =0.432493
-Epoch 59: Train Loss = 0.444453, Val Loss = 0.418170, Test Loss =0.432687
-Epoch 60: Train Loss = 0.444393, Val Loss = 0.418118, Test Loss =0.432674
-Epoch 61: Train Loss = 0.444326, Val Loss = 0.418037, Test Loss =0.432516
-Epoch 62: Train Loss = 0.444297, Val Loss = 0.418003, Test Loss =0.432699
-Epoch 63: Train Loss = 0.444173, Val Loss = 0.417912, Test Loss =0.432427
-Epoch 64: Train Loss = 0.444143, Val Loss = 0.417823, Test Loss =0.432188
-Epoch 65: Train Loss = 0.444048, Val Loss = 0.417824, Test Loss =0.432545
-Epoch 66: Train Loss = 0.443950, Val Loss = 0.417667, Test Loss =0.432023
-Epoch 67: Train Loss = 0.443914, Val Loss = 0.417600, Test Loss =0.432226
-Epoch 68: Train Loss = 0.443864, Val Loss = 0.417560, Test Loss =0.431768
-Epoch 69: Train Loss = 0.443799, Val Loss = 0.417491, Test Loss =0.431962
-Epoch 70: Train Loss = 0.443768, Val Loss = 0.417465, Test Loss =0.432273
-Epoch 71: Train Loss = 0.443758, Val Loss = 0.417405, Test Loss =0.432143
-Epoch 72: Train Loss = 0.443615, Val Loss = 0.417260, Test Loss =0.431552
-Epoch 73: Train Loss = 0.443602, Val Loss = 0.417189, Test Loss =0.431790
-Epoch 74: Train Loss = 0.443560, Val Loss = 0.417132, Test Loss =0.432023
-Epoch 75: Train Loss = 0.443512, Val Loss = 0.416972, Test Loss =0.431541
-Epoch 76: Train Loss = 0.443452, Val Loss = 0.416966, Test Loss =0.431887
-Epoch 77: Train Loss = 0.443389, Val Loss = 0.416781, Test Loss =0.431339
-Epoch 78: Train Loss = 0.443319, Val Loss = 0.416758, Test Loss =0.431334
-Epoch 79: Train Loss = 0.443293, Val Loss = 0.416740, Test Loss =0.431462
-Epoch 80: Train Loss = 0.443230, Val Loss = 0.416648, Test Loss =0.431357
-Epoch 81: Train Loss = 0.443164, Val Loss = 0.416547, Test Loss =0.430966
-Epoch 82: Train Loss = 0.443123, Val Loss = 0.416538, Test Loss =0.431320
-Epoch 83: Train Loss = 0.443076, Val Loss = 0.416419, Test Loss =0.430643
-Epoch 84: Train Loss = 0.443046, Val Loss = 0.416370, Test Loss =0.430797
-Epoch 85: Train Loss = 0.442956, Val Loss = 0.416281, Test Loss =0.430609
-Epoch 86: Train Loss = 0.442942, Val Loss = 0.416249, Test Loss =0.430697
-Epoch 87: Train Loss = 0.442841, Val Loss = 0.416166, Test Loss =0.430504
-Epoch 88: Train Loss = 0.442855, Val Loss = 0.416077, Test Loss =0.430349
-Epoch 89: Train Loss = 0.442808, Val Loss = 0.416019, Test Loss =0.430419
-Epoch 90: Train Loss = 0.442737, Val Loss = 0.416001, Test Loss =0.430442
-Epoch 91: Train Loss = 0.442682, Val Loss = 0.415926, Test Loss =0.430457
-Epoch 92: Train Loss = 0.442594, Val Loss = 0.415797, Test Loss =0.430036
-Epoch 93: Train Loss = 0.442626, Val Loss = 0.415749, Test Loss =0.430288
-Epoch 94: Train Loss = 0.442504, Val Loss = 0.415632, Test Loss =0.430222
-Epoch 95: Train Loss = 0.442466, Val Loss = 0.415589, Test Loss =0.429939
-Epoch 96: Train Loss = 0.442450, Val Loss = 0.415576, Test Loss =0.430135
-Epoch 97: Train Loss = 0.442402, Val Loss = 0.415528, Test Loss =0.430113
-Epoch 98: Train Loss = 0.442321, Val Loss = 0.415502, Test Loss =0.430222
-Epoch 99: Train Loss = 0.442325, Val Loss = 0.415436, Test Loss =0.429653
-Epoch 100: Train Loss = 0.442241, Val Loss = 0.415358, Test Loss =0.430041
+Epoch 1: Train Loss = 1.060549, Val Loss = 1.001490, Test Loss =1.018600,Val R2 = -0.048241, Val RMSE = 0.997861, Val MAE = 0.898588
+Epoch 2: Train Loss = 0.971749, Val Loss = 0.924931, Test Loss =0.940270,Val R2 = 0.032274, Val RMSE = 0.958804, Val MAE = 0.859814
+Epoch 3: Train Loss = 0.898213, Val Loss = 0.844520, Test Loss =0.862504,Val R2 = 0.117018, Val RMSE = 0.915787, Val MAE = 0.816681
+Epoch 4: Train Loss = 0.812888, Val Loss = 0.743460, Test Loss =0.767916,Val R2 = 0.223532, Val RMSE = 0.858416, Val MAE = 0.758639
+Epoch 5: Train Loss = 0.713837, Val Loss = 0.637945, Test Loss =0.669753,Val R2 = 0.334428, Val RMSE = 0.793647, Val MAE = 0.683694
+Epoch 6: Train Loss = 0.629201, Val Loss = 0.567542, Test Loss =0.601817,Val R2 = 0.407831, Val RMSE = 0.747085, Val MAE = 0.617450
+Epoch 7: Train Loss = 0.579744, Val Loss = 0.529911, Test Loss =0.563056,Val R2 = 0.446790, Val RMSE = 0.721043, Val MAE = 0.578128
+Epoch 8: Train Loss = 0.549750, Val Loss = 0.504378, Test Loss =0.535538,Val R2 = 0.473190, Val RMSE = 0.702928, Val MAE = 0.551203
+Epoch 9: Train Loss = 0.528048, Val Loss = 0.485672, Test Loss =0.514768,Val R2 = 0.492525, Val RMSE = 0.689500, Val MAE = 0.532337
+Epoch 10: Train Loss = 0.510547, Val Loss = 0.470535, Test Loss =0.497076,Val R2 = 0.508111, Val RMSE = 0.678519, Val MAE = 0.518277
+Epoch 11: Train Loss = 0.495997, Val Loss = 0.458200, Test Loss =0.481983,Val R2 = 0.520765, Val RMSE = 0.669505, Val MAE = 0.507894
+Epoch 12: Train Loss = 0.484409, Val Loss = 0.448784, Test Loss =0.470410,Val R2 = 0.530386, Val RMSE = 0.662615, Val MAE = 0.500161
+Epoch 13: Train Loss = 0.475507, Val Loss = 0.441494, Test Loss =0.461759,Val R2 = 0.537734, Val RMSE = 0.657197, Val MAE = 0.494072
+Epoch 14: Train Loss = 0.468835, Val Loss = 0.436008, Test Loss =0.455302,Val R2 = 0.543235, Val RMSE = 0.653050, Val MAE = 0.490418
+Epoch 15: Train Loss = 0.463816, Val Loss = 0.431990, Test Loss =0.449967,Val R2 = 0.547270, Val RMSE = 0.649918, Val MAE = 0.487971
+Epoch 16: Train Loss = 0.460190, Val Loss = 0.429166, Test Loss =0.446606,Val R2 = 0.550017, Val RMSE = 0.647773, Val MAE = 0.486584
+Epoch 17: Train Loss = 0.457366, Val Loss = 0.427084, Test Loss =0.444180,Val R2 = 0.551986, Val RMSE = 0.646175, Val MAE = 0.485064
+Epoch 18: Train Loss = 0.455306, Val Loss = 0.425603, Test Loss =0.442459,Val R2 = 0.553388, Val RMSE = 0.645051, Val MAE = 0.484504
+Epoch 19: Train Loss = 0.453670, Val Loss = 0.424504, Test Loss =0.440939,Val R2 = 0.554433, Val RMSE = 0.644163, Val MAE = 0.484111
+Epoch 20: Train Loss = 0.452490, Val Loss = 0.423951, Test Loss =0.440234,Val R2 = 0.554895, Val RMSE = 0.643756, Val MAE = 0.483925
+Epoch 21: Train Loss = 0.451534, Val Loss = 0.423177, Test Loss =0.439009,Val R2 = 0.555666, Val RMSE = 0.643057, Val MAE = 0.483834
+Epoch 22: Train Loss = 0.450821, Val Loss = 0.422803, Test Loss =0.438614,Val R2 = 0.555982, Val RMSE = 0.642765, Val MAE = 0.483520
+Epoch 23: Train Loss = 0.450221, Val Loss = 0.422531, Test Loss =0.438261,Val R2 = 0.556238, Val RMSE = 0.642577, Val MAE = 0.483977
+Epoch 24: Train Loss = 0.449717, Val Loss = 0.422348, Test Loss =0.437948,Val R2 = 0.556342, Val RMSE = 0.642412, Val MAE = 0.482920
+Epoch 25: Train Loss = 0.449327, Val Loss = 0.422003, Test Loss =0.437488,Val R2 = 0.556701, Val RMSE = 0.642114, Val MAE = 0.482944
+Epoch 26: Train Loss = 0.448970, Val Loss = 0.421781, Test Loss =0.437108,Val R2 = 0.556961, Val RMSE = 0.641955, Val MAE = 0.483483
+Epoch 27: Train Loss = 0.448608, Val Loss = 0.421458, Test Loss =0.436378,Val R2 = 0.557320, Val RMSE = 0.641613, Val MAE = 0.483685
+Epoch 28: Train Loss = 0.448439, Val Loss = 0.421366, Test Loss =0.436520,Val R2 = 0.557338, Val RMSE = 0.641585, Val MAE = 0.482661
+Epoch 29: Train Loss = 0.448161, Val Loss = 0.421165, Test Loss =0.436277,Val R2 = 0.557552, Val RMSE = 0.641424, Val MAE = 0.482712
+Epoch 30: Train Loss = 0.447968, Val Loss = 0.421158, Test Loss =0.436301,Val R2 = 0.557538, Val RMSE = 0.641465, Val MAE = 0.482815
+Epoch 31: Train Loss = 0.447734, Val Loss = 0.420870, Test Loss =0.435773,Val R2 = 0.557860, Val RMSE = 0.641176, Val MAE = 0.482873
+Epoch 32: Train Loss = 0.447571, Val Loss = 0.420719, Test Loss =0.435548,Val R2 = 0.558044, Val RMSE = 0.641075, Val MAE = 0.483050
+Epoch 33: Train Loss = 0.447345, Val Loss = 0.420605, Test Loss =0.435274,Val R2 = 0.558138, Val RMSE = 0.640948, Val MAE = 0.482723
+Epoch 34: Train Loss = 0.447226, Val Loss = 0.420517, Test Loss =0.435388,Val R2 = 0.558223, Val RMSE = 0.640935, Val MAE = 0.482757
+Epoch 35: Train Loss = 0.447024, Val Loss = 0.420384, Test Loss =0.435048,Val R2 = 0.558370, Val RMSE = 0.640819, Val MAE = 0.482832
+Epoch 36: Train Loss = 0.446888, Val Loss = 0.420237, Test Loss =0.434905,Val R2 = 0.558481, Val RMSE = 0.640687, Val MAE = 0.482260
+Epoch 37: Train Loss = 0.446708, Val Loss = 0.420098, Test Loss =0.434724,Val R2 = 0.558596, Val RMSE = 0.640580, Val MAE = 0.481725
+Epoch 38: Train Loss = 0.446585, Val Loss = 0.419985, Test Loss =0.434651,Val R2 = 0.558727, Val RMSE = 0.640526, Val MAE = 0.481833
+Epoch 39: Train Loss = 0.446430, Val Loss = 0.419842, Test Loss =0.434472,Val R2 = 0.558917, Val RMSE = 0.640424, Val MAE = 0.482281
+Epoch 40: Train Loss = 0.446341, Val Loss = 0.419738, Test Loss =0.434336,Val R2 = 0.558994, Val RMSE = 0.640321, Val MAE = 0.481855
+Epoch 41: Train Loss = 0.446183, Val Loss = 0.419649, Test Loss =0.434367,Val R2 = 0.559071, Val RMSE = 0.640280, Val MAE = 0.481608
+Epoch 42: Train Loss = 0.446062, Val Loss = 0.419517, Test Loss =0.434229,Val R2 = 0.559282, Val RMSE = 0.640199, Val MAE = 0.482705
+Epoch 43: Train Loss = 0.445939, Val Loss = 0.419397, Test Loss =0.434087,Val R2 = 0.559408, Val RMSE = 0.640101, Val MAE = 0.482395
+Epoch 44: Train Loss = 0.445799, Val Loss = 0.419418, Test Loss =0.434296,Val R2 = 0.559316, Val RMSE = 0.640147, Val MAE = 0.481569
+Epoch 45: Train Loss = 0.445714, Val Loss = 0.419246, Test Loss =0.433794,Val R2 = 0.559525, Val RMSE = 0.639981, Val MAE = 0.481909
+Epoch 46: Train Loss = 0.445565, Val Loss = 0.419153, Test Loss =0.433669,Val R2 = 0.559615, Val RMSE = 0.639907, Val MAE = 0.481654
+Epoch 47: Train Loss = 0.445471, Val Loss = 0.419043, Test Loss =0.433573,Val R2 = 0.559710, Val RMSE = 0.639818, Val MAE = 0.481241
+Epoch 48: Train Loss = 0.445314, Val Loss = 0.419140, Test Loss =0.434061,Val R2 = 0.559575, Val RMSE = 0.639973, Val MAE = 0.480985
+Epoch 49: Train Loss = 0.445362, Val Loss = 0.418902, Test Loss =0.433601,Val R2 = 0.559876, Val RMSE = 0.639752, Val MAE = 0.481628
+Epoch 50: Train Loss = 0.445174, Val Loss = 0.418785, Test Loss =0.433233,Val R2 = 0.559989, Val RMSE = 0.639611, Val MAE = 0.481577
+Epoch 51: Train Loss = 0.445055, Val Loss = 0.418852, Test Loss =0.433731,Val R2 = 0.559903, Val RMSE = 0.639750, Val MAE = 0.481392
+Epoch 52: Train Loss = 0.445027, Val Loss = 0.418654, Test Loss =0.432912,Val R2 = 0.560118, Val RMSE = 0.639481, Val MAE = 0.481475
+Epoch 53: Train Loss = 0.444967, Val Loss = 0.418619, Test Loss =0.432878,Val R2 = 0.560147, Val RMSE = 0.639473, Val MAE = 0.481532
+Epoch 54: Train Loss = 0.444820, Val Loss = 0.418541, Test Loss =0.432725,Val R2 = 0.560200, Val RMSE = 0.639375, Val MAE = 0.481282
+Epoch 55: Train Loss = 0.444777, Val Loss = 0.418451, Test Loss =0.432702,Val R2 = 0.560292, Val RMSE = 0.639308, Val MAE = 0.481129
+Epoch 56: Train Loss = 0.444674, Val Loss = 0.418464, Test Loss =0.433050,Val R2 = 0.560253, Val RMSE = 0.639413, Val MAE = 0.480723
+Epoch 57: Train Loss = 0.444565, Val Loss = 0.418358, Test Loss =0.432899,Val R2 = 0.560343, Val RMSE = 0.639311, Val MAE = 0.480420
+Epoch 58: Train Loss = 0.444542, Val Loss = 0.418241, Test Loss =0.432493,Val R2 = 0.560471, Val RMSE = 0.639147, Val MAE = 0.480566
+Epoch 59: Train Loss = 0.444453, Val Loss = 0.418170, Test Loss =0.432687,Val R2 = 0.560522, Val RMSE = 0.639133, Val MAE = 0.480159
+Epoch 60: Train Loss = 0.444393, Val Loss = 0.418118, Test Loss =0.432674,Val R2 = 0.560560, Val RMSE = 0.639093, Val MAE = 0.479964
+Epoch 61: Train Loss = 0.444326, Val Loss = 0.418037, Test Loss =0.432516,Val R2 = 0.560680, Val RMSE = 0.639034, Val MAE = 0.480519
+Epoch 62: Train Loss = 0.444297, Val Loss = 0.418003, Test Loss =0.432699,Val R2 = 0.560654, Val RMSE = 0.639006, Val MAE = 0.479503
+Epoch 63: Train Loss = 0.444173, Val Loss = 0.417912, Test Loss =0.432427,Val R2 = 0.560778, Val RMSE = 0.638932, Val MAE = 0.480052
+Epoch 64: Train Loss = 0.444143, Val Loss = 0.417823, Test Loss =0.432188,Val R2 = 0.560891, Val RMSE = 0.638837, Val MAE = 0.480206
+Epoch 65: Train Loss = 0.444048, Val Loss = 0.417824, Test Loss =0.432545,Val R2 = 0.560862, Val RMSE = 0.638901, Val MAE = 0.479893
+Epoch 66: Train Loss = 0.443950, Val Loss = 0.417667, Test Loss =0.432023,Val R2 = 0.561042, Val RMSE = 0.638721, Val MAE = 0.480248
+Epoch 67: Train Loss = 0.443914, Val Loss = 0.417600, Test Loss =0.432226,Val R2 = 0.561106, Val RMSE = 0.638705, Val MAE = 0.480144
+Epoch 68: Train Loss = 0.443864, Val Loss = 0.417560, Test Loss =0.431768,Val R2 = 0.561151, Val RMSE = 0.638604, Val MAE = 0.480348
+Epoch 69: Train Loss = 0.443799, Val Loss = 0.417491, Test Loss =0.431962,Val R2 = 0.561169, Val RMSE = 0.638593, Val MAE = 0.479543
+Epoch 70: Train Loss = 0.443768, Val Loss = 0.417465, Test Loss =0.432273,Val R2 = 0.561200, Val RMSE = 0.638624, Val MAE = 0.479509
+Epoch 71: Train Loss = 0.443758, Val Loss = 0.417405, Test Loss =0.432143,Val R2 = 0.561267, Val RMSE = 0.638570, Val MAE = 0.479682
+Epoch 72: Train Loss = 0.443615, Val Loss = 0.417260, Test Loss =0.431552,Val R2 = 0.561481, Val RMSE = 0.638374, Val MAE = 0.480514
+Epoch 73: Train Loss = 0.443602, Val Loss = 0.417189, Test Loss =0.431790,Val R2 = 0.561487, Val RMSE = 0.638370, Val MAE = 0.479374
+Epoch 74: Train Loss = 0.443560, Val Loss = 0.417132, Test Loss =0.432023,Val R2 = 0.561526, Val RMSE = 0.638356, Val MAE = 0.479031
+Epoch 75: Train Loss = 0.443512, Val Loss = 0.416972, Test Loss =0.431541,Val R2 = 0.561756, Val RMSE = 0.638191, Val MAE = 0.479748
+Epoch 76: Train Loss = 0.443452, Val Loss = 0.416966, Test Loss =0.431887,Val R2 = 0.561713, Val RMSE = 0.638226, Val MAE = 0.478978
+Epoch 77: Train Loss = 0.443389, Val Loss = 0.416781, Test Loss =0.431339,Val R2 = 0.561924, Val RMSE = 0.638017, Val MAE = 0.479152
+Epoch 78: Train Loss = 0.443319, Val Loss = 0.416758, Test Loss =0.431334,Val R2 = 0.561912, Val RMSE = 0.637993, Val MAE = 0.478815
+Epoch 79: Train Loss = 0.443293, Val Loss = 0.416740, Test Loss =0.431462,Val R2 = 0.561898, Val RMSE = 0.637993, Val MAE = 0.478300
+Epoch 80: Train Loss = 0.443230, Val Loss = 0.416648, Test Loss =0.431357,Val R2 = 0.562027, Val RMSE = 0.637943, Val MAE = 0.478871
+Epoch 81: Train Loss = 0.443164, Val Loss = 0.416547, Test Loss =0.430966,Val R2 = 0.562176, Val RMSE = 0.637828, Val MAE = 0.479449
+Epoch 82: Train Loss = 0.443123, Val Loss = 0.416538, Test Loss =0.431320,Val R2 = 0.562143, Val RMSE = 0.637880, Val MAE = 0.478691
+Epoch 83: Train Loss = 0.443076, Val Loss = 0.416419, Test Loss =0.430643,Val R2 = 0.562270, Val RMSE = 0.637681, Val MAE = 0.478819
+Epoch 84: Train Loss = 0.443046, Val Loss = 0.416370, Test Loss =0.430797,Val R2 = 0.562274, Val RMSE = 0.637687, Val MAE = 0.478233
+Epoch 85: Train Loss = 0.442956, Val Loss = 0.416281, Test Loss =0.430609,Val R2 = 0.562430, Val RMSE = 0.637601, Val MAE = 0.479071
+Epoch 86: Train Loss = 0.442942, Val Loss = 0.416249, Test Loss =0.430697,Val R2 = 0.562435, Val RMSE = 0.637585, Val MAE = 0.478453
+Epoch 87: Train Loss = 0.442841, Val Loss = 0.416166, Test Loss =0.430504,Val R2 = 0.562605, Val RMSE = 0.637520, Val MAE = 0.479859
+Epoch 88: Train Loss = 0.442855, Val Loss = 0.416077, Test Loss =0.430349,Val R2 = 0.562660, Val RMSE = 0.637420, Val MAE = 0.478937
+Epoch 89: Train Loss = 0.442808, Val Loss = 0.416019, Test Loss =0.430419,Val R2 = 0.562704, Val RMSE = 0.637425, Val MAE = 0.478797
+Epoch 90: Train Loss = 0.442737, Val Loss = 0.416001, Test Loss =0.430442,Val R2 = 0.562680, Val RMSE = 0.637406, Val MAE = 0.478259
+Epoch 91: Train Loss = 0.442682, Val Loss = 0.415926, Test Loss =0.430457,Val R2 = 0.562759, Val RMSE = 0.637364, Val MAE = 0.478199
+Epoch 92: Train Loss = 0.442594, Val Loss = 0.415797, Test Loss =0.430036,Val R2 = 0.562961, Val RMSE = 0.637200, Val MAE = 0.479261
+Epoch 93: Train Loss = 0.442626, Val Loss = 0.415749, Test Loss =0.430288,Val R2 = 0.562963, Val RMSE = 0.637206, Val MAE = 0.478512
+Epoch 94: Train Loss = 0.442504, Val Loss = 0.415632, Test Loss =0.430222,Val R2 = 0.563047, Val RMSE = 0.637091, Val MAE = 0.477917
+Epoch 95: Train Loss = 0.442466, Val Loss = 0.415589, Test Loss =0.429939,Val R2 = 0.563130, Val RMSE = 0.637053, Val MAE = 0.478498
+Epoch 96: Train Loss = 0.442450, Val Loss = 0.415576, Test Loss =0.430135,Val R2 = 0.563071, Val RMSE = 0.637050, Val MAE = 0.477325
+Epoch 97: Train Loss = 0.442402, Val Loss = 0.415528, Test Loss =0.430113,Val R2 = 0.563153, Val RMSE = 0.637036, Val MAE = 0.477840
+Epoch 98: Train Loss = 0.442321, Val Loss = 0.415502, Test Loss =0.430222,Val R2 = 0.563142, Val RMSE = 0.637026, Val MAE = 0.477332
+Epoch 99: Train Loss = 0.442325, Val Loss = 0.415436, Test Loss =0.429653,Val R2 = 0.563248, Val RMSE = 0.636908, Val MAE = 0.477856
+Epoch 100: Train Loss = 0.442241, Val Loss = 0.415358, Test Loss =0.430041,Val R2 = 0.563337, Val RMSE = 0.636922, Val MAE = 0.477801
 ==================================================
 
 ==================================================
@@ -511,88 +116,88 @@ Symbolic Formula:
 ==================================================
 Configuration: width=[18, 1, 1], grid=3, k=2
 Total Parameters: 407
-Maximum Memory Consumed: 0.017138176 GB
+Maximum Memory Consumed: 0.017260544 GB
 Final Validation Loss: 0.4120834825767411
 Epoch-wise Training Statistics:
-Epoch 1: Train Loss = 0.937319, Val Loss = 0.882074, Test Loss =0.895055
-Epoch 2: Train Loss = 0.846698, Val Loss = 0.767994, Test Loss =0.789665
-Epoch 3: Train Loss = 0.732520, Val Loss = 0.643130, Test Loss =0.674643
-Epoch 4: Train Loss = 0.632208, Val Loss = 0.555705, Test Loss =0.592174
-Epoch 5: Train Loss = 0.570097, Val Loss = 0.509030, Test Loss =0.545256
-Epoch 6: Train Loss = 0.536036, Val Loss = 0.482868, Test Loss =0.516999
-Epoch 7: Train Loss = 0.514664, Val Loss = 0.465527, Test Loss =0.497524
-Epoch 8: Train Loss = 0.498856, Val Loss = 0.452239, Test Loss =0.482237
-Epoch 9: Train Loss = 0.486450, Val Loss = 0.442013, Test Loss =0.470267
-Epoch 10: Train Loss = 0.476721, Val Loss = 0.434196, Test Loss =0.461053
-Epoch 11: Train Loss = 0.469085, Val Loss = 0.428511, Test Loss =0.454015
-Epoch 12: Train Loss = 0.463152, Val Loss = 0.424158, Test Loss =0.448637
-Epoch 13: Train Loss = 0.458717, Val Loss = 0.421242, Test Loss =0.444715
-Epoch 14: Train Loss = 0.455424, Val Loss = 0.419321, Test Loss =0.442043
-Epoch 15: Train Loss = 0.453003, Val Loss = 0.417912, Test Loss =0.439812
-Epoch 16: Train Loss = 0.451178, Val Loss = 0.417063, Test Loss =0.438429
-Epoch 17: Train Loss = 0.449782, Val Loss = 0.416487, Test Loss =0.437392
-Epoch 18: Train Loss = 0.448754, Val Loss = 0.416091, Test Loss =0.436607
-Epoch 19: Train Loss = 0.447909, Val Loss = 0.415749, Test Loss =0.435839
-Epoch 20: Train Loss = 0.447234, Val Loss = 0.415601, Test Loss =0.435381
-Epoch 21: Train Loss = 0.446633, Val Loss = 0.415341, Test Loss =0.434628
-Epoch 22: Train Loss = 0.446203, Val Loss = 0.415267, Test Loss =0.434371
-Epoch 23: Train Loss = 0.445782, Val Loss = 0.415106, Test Loss =0.433927
-Epoch 24: Train Loss = 0.445441, Val Loss = 0.415023, Test Loss =0.433728
-Epoch 25: Train Loss = 0.445119, Val Loss = 0.414935, Test Loss =0.433479
-Epoch 26: Train Loss = 0.444791, Val Loss = 0.414774, Test Loss =0.432929
-Epoch 27: Train Loss = 0.444573, Val Loss = 0.414722, Test Loss =0.432785
-Epoch 28: Train Loss = 0.444280, Val Loss = 0.414635, Test Loss =0.432559
-Epoch 29: Train Loss = 0.444039, Val Loss = 0.414525, Test Loss =0.432266
-Epoch 30: Train Loss = 0.443907, Val Loss = 0.414458, Test Loss =0.432105
-Epoch 31: Train Loss = 0.443701, Val Loss = 0.414328, Test Loss =0.431969
-Epoch 32: Train Loss = 0.443481, Val Loss = 0.414273, Test Loss =0.431651
-Epoch 33: Train Loss = 0.443287, Val Loss = 0.414191, Test Loss =0.431622
-Epoch 34: Train Loss = 0.443161, Val Loss = 0.414090, Test Loss =0.431269
-Epoch 35: Train Loss = 0.443015, Val Loss = 0.414005, Test Loss =0.431204
-Epoch 36: Train Loss = 0.442852, Val Loss = 0.413948, Test Loss =0.431110
-Epoch 37: Train Loss = 0.442743, Val Loss = 0.413855, Test Loss =0.430888
-Epoch 38: Train Loss = 0.442565, Val Loss = 0.413754, Test Loss =0.430693
-Epoch 39: Train Loss = 0.442476, Val Loss = 0.413712, Test Loss =0.430687
-Epoch 40: Train Loss = 0.442313, Val Loss = 0.413633, Test Loss =0.430613
-Epoch 41: Train Loss = 0.442219, Val Loss = 0.413538, Test Loss =0.430273
-Epoch 42: Train Loss = 0.442106, Val Loss = 0.413518, Test Loss =0.430431
-Epoch 43: Train Loss = 0.441986, Val Loss = 0.413403, Test Loss =0.430067
-Epoch 44: Train Loss = 0.441839, Val Loss = 0.413340, Test Loss =0.430175
-Epoch 45: Train Loss = 0.441763, Val Loss = 0.413375, Test Loss =0.430135
-Epoch 46: Train Loss = 0.441660, Val Loss = 0.413206, Test Loss =0.429880
-Epoch 47: Train Loss = 0.441601, Val Loss = 0.413158, Test Loss =0.429726
-Epoch 48: Train Loss = 0.441426, Val Loss = 0.413126, Test Loss =0.429450
-Epoch 49: Train Loss = 0.441408, Val Loss = 0.413059, Test Loss =0.429512
-Epoch 50: Train Loss = 0.441334, Val Loss = 0.413007, Test Loss =0.429395
-Epoch 51: Train Loss = 0.441182, Val Loss = 0.413002, Test Loss =0.429653
-Epoch 52: Train Loss = 0.441155, Val Loss = 0.412892, Test Loss =0.429238
-Epoch 53: Train Loss = 0.441029, Val Loss = 0.412823, Test Loss =0.429218
-Epoch 54: Train Loss = 0.440986, Val Loss = 0.412762, Test Loss =0.429295
-Epoch 55: Train Loss = 0.440896, Val Loss = 0.412718, Test Loss =0.429257
-Epoch 56: Train Loss = 0.440857, Val Loss = 0.412713, Test Loss =0.429269
-Epoch 57: Train Loss = 0.440734, Val Loss = 0.412824, Test Loss =0.429618
-Epoch 58: Train Loss = 0.440748, Val Loss = 0.412604, Test Loss =0.428891
-Epoch 59: Train Loss = 0.440643, Val Loss = 0.412552, Test Loss =0.428864
-Epoch 60: Train Loss = 0.440527, Val Loss = 0.412554, Test Loss =0.429074
-Epoch 61: Train Loss = 0.440478, Val Loss = 0.412527, Test Loss =0.428657
-Epoch 62: Train Loss = 0.440459, Val Loss = 0.412464, Test Loss =0.428776
-Epoch 63: Train Loss = 0.440388, Val Loss = 0.412418, Test Loss =0.428821
-Epoch 64: Train Loss = 0.440333, Val Loss = 0.412390, Test Loss =0.428701
-Epoch 65: Train Loss = 0.440280, Val Loss = 0.412418, Test Loss =0.428918
-Epoch 66: Train Loss = 0.440192, Val Loss = 0.412326, Test Loss =0.428528
-Epoch 67: Train Loss = 0.440169, Val Loss = 0.412286, Test Loss =0.428567
-Epoch 68: Train Loss = 0.440093, Val Loss = 0.412287, Test Loss =0.428762
-Epoch 69: Train Loss = 0.440091, Val Loss = 0.412222, Test Loss =0.428566
-Epoch 70: Train Loss = 0.440007, Val Loss = 0.412248, Test Loss =0.428433
-Epoch 71: Train Loss = 0.439975, Val Loss = 0.412143, Test Loss =0.428422
-Epoch 72: Train Loss = 0.439947, Val Loss = 0.412146, Test Loss =0.428221
-Epoch 73: Train Loss = 0.439902, Val Loss = 0.412123, Test Loss =0.428394
-Epoch 74: Train Loss = 0.439836, Val Loss = 0.412083, Test Loss =0.428263
-Epoch 75: Train Loss = 0.439793, Val Loss = 0.412070, Test Loss =0.428296
-Epoch 76: Train Loss = 0.439762, Val Loss = 0.412044, Test Loss =0.428141
-Epoch 77: Train Loss = 0.439714, Val Loss = 0.412011, Test Loss =0.428404
-Epoch 78: Train Loss = 0.439632, Val Loss = 0.412196, Test Loss =0.429009
-Epoch 79: Train Loss = 0.439681, Val Loss = 0.411990, Test Loss =0.428254
+Epoch 1: Train Loss = 0.937319, Val Loss = 0.882074, Test Loss =0.895055,Val R2 = 0.075644, Val RMSE = 0.936790, Val MAE = 0.834891
+Epoch 2: Train Loss = 0.846698, Val Loss = 0.767994, Test Loss =0.789665,Val R2 = 0.195519, Val RMSE = 0.873838, Val MAE = 0.775422
+Epoch 3: Train Loss = 0.732520, Val Loss = 0.643130, Test Loss =0.674643,Val R2 = 0.326621, Val RMSE = 0.798669, Val MAE = 0.694882
+Epoch 4: Train Loss = 0.632208, Val Loss = 0.555705, Test Loss =0.592174,Val R2 = 0.418014, Val RMSE = 0.740876, Val MAE = 0.618751
+Epoch 5: Train Loss = 0.570097, Val Loss = 0.509030, Test Loss =0.545256,Val R2 = 0.466595, Val RMSE = 0.707781, Val MAE = 0.567599
+Epoch 6: Train Loss = 0.536036, Val Loss = 0.482868, Test Loss =0.516999,Val R2 = 0.493859, Val RMSE = 0.688450, Val MAE = 0.538554
+Epoch 7: Train Loss = 0.514664, Val Loss = 0.465527, Test Loss =0.497524,Val R2 = 0.512022, Val RMSE = 0.675355, Val MAE = 0.520019
+Epoch 8: Train Loss = 0.498856, Val Loss = 0.452239, Test Loss =0.482237,Val R2 = 0.526012, Val RMSE = 0.665228, Val MAE = 0.508069
+Epoch 9: Train Loss = 0.486450, Val Loss = 0.442013, Test Loss =0.470267,Val R2 = 0.536790, Val RMSE = 0.657353, Val MAE = 0.499696
+Epoch 10: Train Loss = 0.476721, Val Loss = 0.434196, Test Loss =0.461053,Val R2 = 0.544957, Val RMSE = 0.651321, Val MAE = 0.492711
+Epoch 11: Train Loss = 0.469085, Val Loss = 0.428511, Test Loss =0.454015,Val R2 = 0.550874, Val RMSE = 0.646948, Val MAE = 0.488421
+Epoch 12: Train Loss = 0.463152, Val Loss = 0.424158, Test Loss =0.448637,Val R2 = 0.555329, Val RMSE = 0.643542, Val MAE = 0.484720
+Epoch 13: Train Loss = 0.458717, Val Loss = 0.421242, Test Loss =0.444715,Val R2 = 0.558286, Val RMSE = 0.641271, Val MAE = 0.482512
+Epoch 14: Train Loss = 0.455424, Val Loss = 0.419321, Test Loss =0.442043,Val R2 = 0.560162, Val RMSE = 0.639763, Val MAE = 0.480602
+Epoch 15: Train Loss = 0.453003, Val Loss = 0.417912, Test Loss =0.439812,Val R2 = 0.561584, Val RMSE = 0.638648, Val MAE = 0.480284
+Epoch 16: Train Loss = 0.451178, Val Loss = 0.417063, Test Loss =0.438429,Val R2 = 0.562398, Val RMSE = 0.637989, Val MAE = 0.480100
+Epoch 17: Train Loss = 0.449782, Val Loss = 0.416487, Test Loss =0.437392,Val R2 = 0.562891, Val RMSE = 0.637528, Val MAE = 0.478935
+Epoch 18: Train Loss = 0.448754, Val Loss = 0.416091, Test Loss =0.436607,Val R2 = 0.563240, Val RMSE = 0.637232, Val MAE = 0.478827
+Epoch 19: Train Loss = 0.447909, Val Loss = 0.415749, Test Loss =0.435839,Val R2 = 0.563546, Val RMSE = 0.636935, Val MAE = 0.478701
+Epoch 20: Train Loss = 0.447234, Val Loss = 0.415601, Test Loss =0.435381,Val R2 = 0.563650, Val RMSE = 0.636842, Val MAE = 0.478560
+Epoch 21: Train Loss = 0.446633, Val Loss = 0.415341, Test Loss =0.434628,Val R2 = 0.563916, Val RMSE = 0.636586, Val MAE = 0.479247
+Epoch 22: Train Loss = 0.446203, Val Loss = 0.415267, Test Loss =0.434371,Val R2 = 0.563929, Val RMSE = 0.636544, Val MAE = 0.478525
+Epoch 23: Train Loss = 0.445782, Val Loss = 0.415106, Test Loss =0.433927,Val R2 = 0.564082, Val RMSE = 0.636411, Val MAE = 0.478982
+Epoch 24: Train Loss = 0.445441, Val Loss = 0.415023, Test Loss =0.433728,Val R2 = 0.564089, Val RMSE = 0.636350, Val MAE = 0.478016
+Epoch 25: Train Loss = 0.445119, Val Loss = 0.414935, Test Loss =0.433479,Val R2 = 0.564149, Val RMSE = 0.636285, Val MAE = 0.477795
+Epoch 26: Train Loss = 0.444791, Val Loss = 0.414774, Test Loss =0.432929,Val R2 = 0.564351, Val RMSE = 0.636118, Val MAE = 0.478608
+Epoch 27: Train Loss = 0.444573, Val Loss = 0.414722, Test Loss =0.432785,Val R2 = 0.564368, Val RMSE = 0.636109, Val MAE = 0.478502
+Epoch 28: Train Loss = 0.444280, Val Loss = 0.414635, Test Loss =0.432559,Val R2 = 0.564454, Val RMSE = 0.636046, Val MAE = 0.478594
+Epoch 29: Train Loss = 0.444039, Val Loss = 0.414525, Test Loss =0.432266,Val R2 = 0.564584, Val RMSE = 0.635945, Val MAE = 0.478891
+Epoch 30: Train Loss = 0.443907, Val Loss = 0.414458, Test Loss =0.432105,Val R2 = 0.564570, Val RMSE = 0.635875, Val MAE = 0.477646
+Epoch 31: Train Loss = 0.443701, Val Loss = 0.414328, Test Loss =0.431969,Val R2 = 0.564718, Val RMSE = 0.635789, Val MAE = 0.477966
+Epoch 32: Train Loss = 0.443481, Val Loss = 0.414273, Test Loss =0.431651,Val R2 = 0.564776, Val RMSE = 0.635732, Val MAE = 0.478435
+Epoch 33: Train Loss = 0.443287, Val Loss = 0.414191, Test Loss =0.431622,Val R2 = 0.564819, Val RMSE = 0.635684, Val MAE = 0.477746
+Epoch 34: Train Loss = 0.443161, Val Loss = 0.414090, Test Loss =0.431269,Val R2 = 0.564948, Val RMSE = 0.635585, Val MAE = 0.478299
+Epoch 35: Train Loss = 0.443015, Val Loss = 0.414005, Test Loss =0.431204,Val R2 = 0.564997, Val RMSE = 0.635508, Val MAE = 0.477657
+Epoch 36: Train Loss = 0.442852, Val Loss = 0.413948, Test Loss =0.431110,Val R2 = 0.565064, Val RMSE = 0.635486, Val MAE = 0.478072
+Epoch 37: Train Loss = 0.442743, Val Loss = 0.413855, Test Loss =0.430888,Val R2 = 0.565094, Val RMSE = 0.635367, Val MAE = 0.477201
+Epoch 38: Train Loss = 0.442565, Val Loss = 0.413754, Test Loss =0.430693,Val R2 = 0.565226, Val RMSE = 0.635291, Val MAE = 0.477652
+Epoch 39: Train Loss = 0.442476, Val Loss = 0.413712, Test Loss =0.430687,Val R2 = 0.565229, Val RMSE = 0.635276, Val MAE = 0.477151
+Epoch 40: Train Loss = 0.442313, Val Loss = 0.413633, Test Loss =0.430613,Val R2 = 0.565296, Val RMSE = 0.635216, Val MAE = 0.477032
+Epoch 41: Train Loss = 0.442219, Val Loss = 0.413538, Test Loss =0.430273,Val R2 = 0.565404, Val RMSE = 0.635086, Val MAE = 0.477159
+Epoch 42: Train Loss = 0.442106, Val Loss = 0.413518, Test Loss =0.430431,Val R2 = 0.565382, Val RMSE = 0.635110, Val MAE = 0.476588
+Epoch 43: Train Loss = 0.441986, Val Loss = 0.413403, Test Loss =0.430067,Val R2 = 0.565538, Val RMSE = 0.634989, Val MAE = 0.477212
+Epoch 44: Train Loss = 0.441839, Val Loss = 0.413340, Test Loss =0.430175,Val R2 = 0.565567, Val RMSE = 0.634953, Val MAE = 0.476649
+Epoch 45: Train Loss = 0.441763, Val Loss = 0.413375, Test Loss =0.430135,Val R2 = 0.565469, Val RMSE = 0.634985, Val MAE = 0.475928
+Epoch 46: Train Loss = 0.441660, Val Loss = 0.413206, Test Loss =0.429880,Val R2 = 0.565728, Val RMSE = 0.634850, Val MAE = 0.477137
+Epoch 47: Train Loss = 0.441601, Val Loss = 0.413158, Test Loss =0.429726,Val R2 = 0.565721, Val RMSE = 0.634780, Val MAE = 0.476454
+Epoch 48: Train Loss = 0.441426, Val Loss = 0.413126, Test Loss =0.429450,Val R2 = 0.565759, Val RMSE = 0.634703, Val MAE = 0.476736
+Epoch 49: Train Loss = 0.441408, Val Loss = 0.413059, Test Loss =0.429512,Val R2 = 0.565802, Val RMSE = 0.634663, Val MAE = 0.476469
+Epoch 50: Train Loss = 0.441334, Val Loss = 0.413007, Test Loss =0.429395,Val R2 = 0.565844, Val RMSE = 0.634625, Val MAE = 0.476380
+Epoch 51: Train Loss = 0.441182, Val Loss = 0.413002, Test Loss =0.429653,Val R2 = 0.565819, Val RMSE = 0.634686, Val MAE = 0.475715
+Epoch 52: Train Loss = 0.441155, Val Loss = 0.412892, Test Loss =0.429238,Val R2 = 0.565995, Val RMSE = 0.634543, Val MAE = 0.476857
+Epoch 53: Train Loss = 0.441029, Val Loss = 0.412823, Test Loss =0.429218,Val R2 = 0.566043, Val RMSE = 0.634496, Val MAE = 0.476492
+Epoch 54: Train Loss = 0.440986, Val Loss = 0.412762, Test Loss =0.429295,Val R2 = 0.566116, Val RMSE = 0.634475, Val MAE = 0.476927
+Epoch 55: Train Loss = 0.440896, Val Loss = 0.412718, Test Loss =0.429257,Val R2 = 0.566079, Val RMSE = 0.634411, Val MAE = 0.475546
+Epoch 56: Train Loss = 0.440857, Val Loss = 0.412713, Test Loss =0.429269,Val R2 = 0.566055, Val RMSE = 0.634421, Val MAE = 0.475212
+Epoch 57: Train Loss = 0.440734, Val Loss = 0.412824, Test Loss =0.429618,Val R2 = 0.565917, Val RMSE = 0.634574, Val MAE = 0.474805
+Epoch 58: Train Loss = 0.440748, Val Loss = 0.412604, Test Loss =0.428891,Val R2 = 0.566199, Val RMSE = 0.634294, Val MAE = 0.475958
+Epoch 59: Train Loss = 0.440643, Val Loss = 0.412552, Test Loss =0.428864,Val R2 = 0.566263, Val RMSE = 0.634267, Val MAE = 0.476160
+Epoch 60: Train Loss = 0.440527, Val Loss = 0.412554, Test Loss =0.429074,Val R2 = 0.566231, Val RMSE = 0.634315, Val MAE = 0.475475
+Epoch 61: Train Loss = 0.440478, Val Loss = 0.412527, Test Loss =0.428657,Val R2 = 0.566247, Val RMSE = 0.634215, Val MAE = 0.475666
+Epoch 62: Train Loss = 0.440459, Val Loss = 0.412464, Test Loss =0.428776,Val R2 = 0.566328, Val RMSE = 0.634198, Val MAE = 0.475627
+Epoch 63: Train Loss = 0.440388, Val Loss = 0.412418, Test Loss =0.428821,Val R2 = 0.566353, Val RMSE = 0.634165, Val MAE = 0.475702
+Epoch 64: Train Loss = 0.440333, Val Loss = 0.412390, Test Loss =0.428701,Val R2 = 0.566372, Val RMSE = 0.634140, Val MAE = 0.475571
+Epoch 65: Train Loss = 0.440280, Val Loss = 0.412418, Test Loss =0.428918,Val R2 = 0.566295, Val RMSE = 0.634187, Val MAE = 0.475052
+Epoch 66: Train Loss = 0.440192, Val Loss = 0.412326, Test Loss =0.428528,Val R2 = 0.566447, Val RMSE = 0.634061, Val MAE = 0.476055
+Epoch 67: Train Loss = 0.440169, Val Loss = 0.412286, Test Loss =0.428567,Val R2 = 0.566474, Val RMSE = 0.634041, Val MAE = 0.475770
+Epoch 68: Train Loss = 0.440093, Val Loss = 0.412287, Test Loss =0.428762,Val R2 = 0.566432, Val RMSE = 0.634075, Val MAE = 0.475247
+Epoch 69: Train Loss = 0.440091, Val Loss = 0.412222, Test Loss =0.428566,Val R2 = 0.566495, Val RMSE = 0.633998, Val MAE = 0.475180
+Epoch 70: Train Loss = 0.440007, Val Loss = 0.412248, Test Loss =0.428433,Val R2 = 0.566443, Val RMSE = 0.633987, Val MAE = 0.475011
+Epoch 71: Train Loss = 0.439975, Val Loss = 0.412143, Test Loss =0.428422,Val R2 = 0.566550, Val RMSE = 0.633893, Val MAE = 0.474837
+Epoch 72: Train Loss = 0.439947, Val Loss = 0.412146, Test Loss =0.428221,Val R2 = 0.566556, Val RMSE = 0.633881, Val MAE = 0.475274
+Epoch 73: Train Loss = 0.439902, Val Loss = 0.412123, Test Loss =0.428394,Val R2 = 0.566507, Val RMSE = 0.633864, Val MAE = 0.474261
+Epoch 74: Train Loss = 0.439836, Val Loss = 0.412083, Test Loss =0.428263,Val R2 = 0.566564, Val RMSE = 0.633809, Val MAE = 0.474480
+Epoch 75: Train Loss = 0.439793, Val Loss = 0.412070, Test Loss =0.428296,Val R2 = 0.566647, Val RMSE = 0.633848, Val MAE = 0.475674
+Epoch 76: Train Loss = 0.439762, Val Loss = 0.412044, Test Loss =0.428141,Val R2 = 0.566639, Val RMSE = 0.633786, Val MAE = 0.475338
+Epoch 77: Train Loss = 0.439714, Val Loss = 0.412011, Test Loss =0.428404,Val R2 = 0.566648, Val RMSE = 0.633813, Val MAE = 0.474751
+Epoch 78: Train Loss = 0.439632, Val Loss = 0.412196, Test Loss =0.429009,Val R2 = 0.566384, Val RMSE = 0.634045, Val MAE = 0.473772
+Epoch 79: Train Loss = 0.439681, Val Loss = 0.411990, Test Loss =0.428254,Val R2 = 0.566694, Val RMSE = 0.633801, Val MAE = 0.475291
 ==================================================
 
 ==================================================
@@ -603,43 +208,353 @@ Symbolic Formula:
 ==================================================
 
 ==================================================
+Configuration: width=[18, 1, 1], grid=3, k=3
+Total Parameters: 464
+Maximum Memory Consumed: 0.017244672 GB
+Final Validation Loss: 0.41161989282678674
+Epoch-wise Training Statistics:
+Epoch 1: Train Loss = 0.939153, Val Loss = 0.881034, Test Loss =0.894082,Val R2 = 0.076701, Val RMSE = 0.936241, Val MAE = 0.834332
+Epoch 2: Train Loss = 0.841134, Val Loss = 0.756547, Test Loss =0.779560,Val R2 = 0.207555, Val RMSE = 0.867228, Val MAE = 0.768865
+Epoch 3: Train Loss = 0.721224, Val Loss = 0.631351, Test Loss =0.664535,Val R2 = 0.338920, Val RMSE = 0.791111, Val MAE = 0.685239
+Epoch 4: Train Loss = 0.624902, Val Loss = 0.550335, Test Loss =0.587423,Val R2 = 0.423551, Val RMSE = 0.737120, Val MAE = 0.613407
+Epoch 5: Train Loss = 0.566512, Val Loss = 0.505260, Test Loss =0.541808,Val R2 = 0.470468, Val RMSE = 0.705006, Val MAE = 0.564373
+Epoch 6: Train Loss = 0.532974, Val Loss = 0.479184, Test Loss =0.513495,Val R2 = 0.497631, Val RMSE = 0.685646, Val MAE = 0.535273
+Epoch 7: Train Loss = 0.511648, Val Loss = 0.462002, Test Loss =0.494060,Val R2 = 0.515607, Val RMSE = 0.672608, Val MAE = 0.516735
+Epoch 8: Train Loss = 0.496118, Val Loss = 0.449075, Test Loss =0.479083,Val R2 = 0.529198, Val RMSE = 0.662705, Val MAE = 0.505112
+Epoch 9: Train Loss = 0.484096, Val Loss = 0.439174, Test Loss =0.467380,Val R2 = 0.539613, Val RMSE = 0.655045, Val MAE = 0.496807
+Epoch 10: Train Loss = 0.474719, Val Loss = 0.431655, Test Loss =0.458435,Val R2 = 0.547459, Val RMSE = 0.649209, Val MAE = 0.489837
+Epoch 11: Train Loss = 0.467394, Val Loss = 0.426233, Test Loss =0.451644,Val R2 = 0.553111, Val RMSE = 0.645016, Val MAE = 0.485693
+Epoch 12: Train Loss = 0.461709, Val Loss = 0.422099, Test Loss =0.446483,Val R2 = 0.557350, Val RMSE = 0.641767, Val MAE = 0.482063
+Epoch 13: Train Loss = 0.457459, Val Loss = 0.419317, Test Loss =0.442753,Val R2 = 0.560187, Val RMSE = 0.639593, Val MAE = 0.480031
+Epoch 14: Train Loss = 0.454296, Val Loss = 0.417457, Test Loss =0.440209,Val R2 = 0.562023, Val RMSE = 0.638128, Val MAE = 0.478219
+Epoch 15: Train Loss = 0.451950, Val Loss = 0.416100, Test Loss =0.438093,Val R2 = 0.563408, Val RMSE = 0.637058, Val MAE = 0.478140
+Epoch 16: Train Loss = 0.450170, Val Loss = 0.415270, Test Loss =0.436814,Val R2 = 0.564218, Val RMSE = 0.636417, Val MAE = 0.478039
+Epoch 17: Train Loss = 0.448794, Val Loss = 0.414689, Test Loss =0.435854,Val R2 = 0.564727, Val RMSE = 0.635955, Val MAE = 0.476907
+Epoch 18: Train Loss = 0.447780, Val Loss = 0.414289, Test Loss =0.435125,Val R2 = 0.565089, Val RMSE = 0.635659, Val MAE = 0.476838
+Epoch 19: Train Loss = 0.446943, Val Loss = 0.413948, Test Loss =0.434408,Val R2 = 0.565403, Val RMSE = 0.635368, Val MAE = 0.476800
+Epoch 20: Train Loss = 0.446278, Val Loss = 0.413804, Test Loss =0.434012,Val R2 = 0.565506, Val RMSE = 0.635284, Val MAE = 0.476670
+Epoch 21: Train Loss = 0.445684, Val Loss = 0.413556, Test Loss =0.433301,Val R2 = 0.565766, Val RMSE = 0.635043, Val MAE = 0.477445
+Epoch 22: Train Loss = 0.445264, Val Loss = 0.413486, Test Loss =0.433082,Val R2 = 0.565778, Val RMSE = 0.635009, Val MAE = 0.476779
+Epoch 23: Train Loss = 0.444849, Val Loss = 0.413341, Test Loss =0.432669,Val R2 = 0.565920, Val RMSE = 0.634892, Val MAE = 0.477279
+Epoch 24: Train Loss = 0.444516, Val Loss = 0.413275, Test Loss =0.432506,Val R2 = 0.565908, Val RMSE = 0.634848, Val MAE = 0.476273
+Epoch 25: Train Loss = 0.444203, Val Loss = 0.413218, Test Loss =0.432293,Val R2 = 0.565936, Val RMSE = 0.634812, Val MAE = 0.476038
+Epoch 26: Train Loss = 0.443894, Val Loss = 0.413076, Test Loss =0.431782,Val R2 = 0.566120, Val RMSE = 0.634669, Val MAE = 0.476931
+Epoch 27: Train Loss = 0.443684, Val Loss = 0.413050, Test Loss =0.431636,Val R2 = 0.566114, Val RMSE = 0.634679, Val MAE = 0.476862
+Epoch 28: Train Loss = 0.443407, Val Loss = 0.412996, Test Loss =0.431451,Val R2 = 0.566162, Val RMSE = 0.634651, Val MAE = 0.476930
+Epoch 29: Train Loss = 0.443178, Val Loss = 0.412914, Test Loss =0.431170,Val R2 = 0.566264, Val RMSE = 0.634574, Val MAE = 0.477268
+Epoch 30: Train Loss = 0.443059, Val Loss = 0.412869, Test Loss =0.431011,Val R2 = 0.566225, Val RMSE = 0.634523, Val MAE = 0.475970
+Epoch 31: Train Loss = 0.442871, Val Loss = 0.412775, Test Loss =0.430898,Val R2 = 0.566339, Val RMSE = 0.634474, Val MAE = 0.476373
+Epoch 32: Train Loss = 0.442662, Val Loss = 0.412749, Test Loss =0.430603,Val R2 = 0.566370, Val RMSE = 0.634446, Val MAE = 0.476883
+Epoch 33: Train Loss = 0.442483, Val Loss = 0.412692, Test Loss =0.430579,Val R2 = 0.566385, Val RMSE = 0.634420, Val MAE = 0.476166
+Epoch 34: Train Loss = 0.442374, Val Loss = 0.412621, Test Loss =0.430251,Val R2 = 0.566485, Val RMSE = 0.634352, Val MAE = 0.476783
+Epoch 35: Train Loss = 0.442239, Val Loss = 0.412552, Test Loss =0.430162,Val R2 = 0.566516, Val RMSE = 0.634288, Val MAE = 0.476107
+Epoch 36: Train Loss = 0.442093, Val Loss = 0.412529, Test Loss =0.430081,Val R2 = 0.566549, Val RMSE = 0.634298, Val MAE = 0.476541
+Epoch 37: Train Loss = 0.441995, Val Loss = 0.412457, Test Loss =0.429870,Val R2 = 0.566557, Val RMSE = 0.634202, Val MAE = 0.475638
+Epoch 38: Train Loss = 0.441833, Val Loss = 0.412387, Test Loss =0.429679,Val R2 = 0.566660, Val RMSE = 0.634152, Val MAE = 0.476163
+Epoch 39: Train Loss = 0.441754, Val Loss = 0.412378, Test Loss =0.429688,Val R2 = 0.566628, Val RMSE = 0.634168, Val MAE = 0.475643
+Epoch 40: Train Loss = 0.441609, Val Loss = 0.412327, Test Loss =0.429598,Val R2 = 0.566667, Val RMSE = 0.634132, Val MAE = 0.475542
+Epoch 41: Train Loss = 0.441526, Val Loss = 0.412239, Test Loss =0.429279,Val R2 = 0.566769, Val RMSE = 0.634012, Val MAE = 0.475665
+Epoch 42: Train Loss = 0.441422, Val Loss = 0.412261, Test Loss =0.429430,Val R2 = 0.566703, Val RMSE = 0.634077, Val MAE = 0.475149
+Epoch 43: Train Loss = 0.441314, Val Loss = 0.412159, Test Loss =0.429072,Val R2 = 0.566849, Val RMSE = 0.633968, Val MAE = 0.475839
+Epoch 44: Train Loss = 0.441184, Val Loss = 0.412133, Test Loss =0.429188,Val R2 = 0.566839, Val RMSE = 0.633966, Val MAE = 0.475251
+Epoch 45: Train Loss = 0.441119, Val Loss = 0.412191, Test Loss =0.429130,Val R2 = 0.566716, Val RMSE = 0.634015, Val MAE = 0.474503
+Epoch 46: Train Loss = 0.441029, Val Loss = 0.412038, Test Loss =0.428871,Val R2 = 0.566961, Val RMSE = 0.633894, Val MAE = 0.475799
+Epoch 47: Train Loss = 0.440975, Val Loss = 0.412004, Test Loss =0.428719,Val R2 = 0.566940, Val RMSE = 0.633839, Val MAE = 0.475090
+Epoch 48: Train Loss = 0.440821, Val Loss = 0.411969, Test Loss =0.428466,Val R2 = 0.566981, Val RMSE = 0.633768, Val MAE = 0.475354
+Epoch 49: Train Loss = 0.440808, Val Loss = 0.411932, Test Loss =0.428510,Val R2 = 0.566997, Val RMSE = 0.633751, Val MAE = 0.475152
+Epoch 50: Train Loss = 0.440743, Val Loss = 0.411902, Test Loss =0.428405,Val R2 = 0.567016, Val RMSE = 0.633736, Val MAE = 0.475051
+Epoch 51: Train Loss = 0.440609, Val Loss = 0.411942, Test Loss =0.428620,Val R2 = 0.566946, Val RMSE = 0.633827, Val MAE = 0.474441
+Epoch 52: Train Loss = 0.440586, Val Loss = 0.411830, Test Loss =0.428244,Val R2 = 0.567123, Val RMSE = 0.633694, Val MAE = 0.475605
+Epoch 53: Train Loss = 0.440471, Val Loss = 0.411791, Test Loss =0.428211,Val R2 = 0.567141, Val RMSE = 0.633670, Val MAE = 0.475256
+Epoch 54: Train Loss = 0.440436, Val Loss = 0.411758, Test Loss =0.428274,Val R2 = 0.567189, Val RMSE = 0.633672, Val MAE = 0.475747
+Epoch 55: Train Loss = 0.440353, Val Loss = 0.411727, Test Loss =0.428218,Val R2 = 0.567135, Val RMSE = 0.633617, Val MAE = 0.474297
+Epoch 56: Train Loss = 0.440325, Val Loss = 0.411744, Test Loss =0.428230,Val R2 = 0.567090, Val RMSE = 0.633648, Val MAE = 0.473988
+Epoch 57: Train Loss = 0.440214, Val Loss = 0.411898, Test Loss =0.428568,Val R2 = 0.566907, Val RMSE = 0.633839, Val MAE = 0.473575
+Epoch 58: Train Loss = 0.440231, Val Loss = 0.411654, Test Loss =0.427873,Val R2 = 0.567221, Val RMSE = 0.633546, Val MAE = 0.474839
+Epoch 59: Train Loss = 0.440141, Val Loss = 0.411620, Test Loss =0.427849,Val R2 = 0.567266, Val RMSE = 0.633535, Val MAE = 0.475040
+Epoch 60: Train Loss = 0.440035, Val Loss = 0.411649, Test Loss =0.428008,Val R2 = 0.567203, Val RMSE = 0.633598, Val MAE = 0.474325
+Epoch 61: Train Loss = 0.439994, Val Loss = 0.411605, Test Loss =0.427650,Val R2 = 0.567242, Val RMSE = 0.633500, Val MAE = 0.474543
+Epoch 62: Train Loss = 0.439974, Val Loss = 0.411576, Test Loss =0.427750,Val R2 = 0.567285, Val RMSE = 0.633508, Val MAE = 0.474513
+Epoch 63: Train Loss = 0.439915, Val Loss = 0.411543, Test Loss =0.427763,Val R2 = 0.567301, Val RMSE = 0.633483, Val MAE = 0.474612
+Epoch 64: Train Loss = 0.439863, Val Loss = 0.411525, Test Loss =0.427631,Val R2 = 0.567310, Val RMSE = 0.633465, Val MAE = 0.474511
+==================================================
+
+==================================================
+Symbolic Formula:
+--------------------
+[-1.34312915802002*cos(-0.0132271288647632*x_6 - 0.0291567409495945*(0.442167439227887 - x_11)**2 - 0.169368358890347*(-0.837455057082088*x_4 - 1)**2 + 3.81163785809021e-9*exp(3.89256000518799*x_14) + 0.00478059595453308*exp(2.20823979377747*x_3) - 0.708945802888914*exp(0.377039849758148*x_5) + 0.29544051964433*cos(0.651199817657471*x_2 + 1.02903985977173) + 0.2417206175449*cos(1.18295979499817*x_9 + 7.58544015884399) + 0.000267254344656687*tan(8.09367942810059*x_13 + 8.9878396987915) + 5.20440482312345 + 0.000522763149518775*exp(-3.86680006980896*x_12) - 0.000372801094189597*exp(-7.60400009155273*x_10) + 1.08488379492368e-6/(-0.0265599861741066*x_7 - 0.0113599989563227)) - 0.496474742889404]
+[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
+==================================================
+
+==================================================
+Configuration: width=[18, 1, 1], grid=4, k=3
+Total Parameters: 502
+Maximum Memory Consumed: 0.017228288 GB
+Final Validation Loss: 0.4118671524855826
+Epoch-wise Training Statistics:
+Epoch 1: Train Loss = 0.914287, Val Loss = 0.841982, Test Loss =0.852226,Val R2 = 0.116345, Val RMSE = 0.915060, Val MAE = 0.813159
+Epoch 2: Train Loss = 0.801830, Val Loss = 0.722887, Test Loss =0.746208,Val R2 = 0.241342, Val RMSE = 0.847119, Val MAE = 0.743517
+Epoch 3: Train Loss = 0.706158, Val Loss = 0.632608, Test Loss =0.664147,Val R2 = 0.335897, Val RMSE = 0.791208, Val MAE = 0.676290
+Epoch 4: Train Loss = 0.636998, Val Loss = 0.572857, Test Loss =0.607431,Val R2 = 0.398337, Val RMSE = 0.751518, Val MAE = 0.621219
+Epoch 5: Train Loss = 0.591076, Val Loss = 0.535471, Test Loss =0.568837,Val R2 = 0.437389, Val RMSE = 0.725436, Val MAE = 0.582646
+Epoch 6: Train Loss = 0.560287, Val Loss = 0.510291, Test Loss =0.541609,Val R2 = 0.463539, Val RMSE = 0.707328, Val MAE = 0.554101
+Epoch 7: Train Loss = 0.537554, Val Loss = 0.491127, Test Loss =0.519399,Val R2 = 0.483543, Val RMSE = 0.693358, Val MAE = 0.534651
+Epoch 8: Train Loss = 0.518670, Val Loss = 0.474658, Test Loss =0.499877,Val R2 = 0.500826, Val RMSE = 0.681237, Val MAE = 0.520777
+Epoch 9: Train Loss = 0.502147, Val Loss = 0.460494, Test Loss =0.483493,Val R2 = 0.515698, Val RMSE = 0.670747, Val MAE = 0.509900
+Epoch 10: Train Loss = 0.488047, Val Loss = 0.448612, Test Loss =0.470188,Val R2 = 0.528158, Val RMSE = 0.661915, Val MAE = 0.501413
+Epoch 11: Train Loss = 0.476453, Val Loss = 0.439082, Test Loss =0.459750,Val R2 = 0.538121, Val RMSE = 0.654799, Val MAE = 0.494595
+Epoch 12: Train Loss = 0.467406, Val Loss = 0.431924, Test Loss =0.451916,Val R2 = 0.545596, Val RMSE = 0.649400, Val MAE = 0.489402
+Epoch 13: Train Loss = 0.460531, Val Loss = 0.426422, Test Loss =0.446077,Val R2 = 0.551382, Val RMSE = 0.645187, Val MAE = 0.485682
+Epoch 14: Train Loss = 0.455419, Val Loss = 0.422360, Test Loss =0.441957,Val R2 = 0.555663, Val RMSE = 0.642089, Val MAE = 0.482932
+Epoch 15: Train Loss = 0.451612, Val Loss = 0.419351, Test Loss =0.438824,Val R2 = 0.558894, Val RMSE = 0.639738, Val MAE = 0.481709
+Epoch 16: Train Loss = 0.448926, Val Loss = 0.417377, Test Loss =0.437028,Val R2 = 0.560960, Val RMSE = 0.638251, Val MAE = 0.480122
+Epoch 17: Train Loss = 0.447016, Val Loss = 0.415849, Test Loss =0.435499,Val R2 = 0.562587, Val RMSE = 0.637032, Val MAE = 0.479232
+Epoch 18: Train Loss = 0.445618, Val Loss = 0.414919, Test Loss =0.434642,Val R2 = 0.563569, Val RMSE = 0.636326, Val MAE = 0.478487
+Epoch 19: Train Loss = 0.444634, Val Loss = 0.414143, Test Loss =0.433908,Val R2 = 0.564358, Val RMSE = 0.635698, Val MAE = 0.477260
+Epoch 20: Train Loss = 0.443902, Val Loss = 0.413694, Test Loss =0.433152,Val R2 = 0.564903, Val RMSE = 0.635332, Val MAE = 0.478106
+Epoch 21: Train Loss = 0.443371, Val Loss = 0.413381, Test Loss =0.432888,Val R2 = 0.565170, Val RMSE = 0.635094, Val MAE = 0.476983
+Epoch 22: Train Loss = 0.442871, Val Loss = 0.413106, Test Loss =0.432346,Val R2 = 0.565504, Val RMSE = 0.634850, Val MAE = 0.477613
+Epoch 23: Train Loss = 0.442558, Val Loss = 0.412935, Test Loss =0.432259,Val R2 = 0.565678, Val RMSE = 0.634756, Val MAE = 0.477392
+Epoch 24: Train Loss = 0.442249, Val Loss = 0.412769, Test Loss =0.431880,Val R2 = 0.565885, Val RMSE = 0.634602, Val MAE = 0.477587
+Epoch 25: Train Loss = 0.442014, Val Loss = 0.412650, Test Loss =0.431681,Val R2 = 0.565955, Val RMSE = 0.634494, Val MAE = 0.476609
+Epoch 26: Train Loss = 0.441785, Val Loss = 0.412583, Test Loss =0.431472,Val R2 = 0.566015, Val RMSE = 0.634439, Val MAE = 0.476620
+Epoch 27: Train Loss = 0.441605, Val Loss = 0.412550, Test Loss =0.431160,Val R2 = 0.566101, Val RMSE = 0.634415, Val MAE = 0.477522
+Epoch 28: Train Loss = 0.441461, Val Loss = 0.412435, Test Loss =0.431161,Val R2 = 0.566177, Val RMSE = 0.634333, Val MAE = 0.476595
+Epoch 29: Train Loss = 0.441249, Val Loss = 0.412451, Test Loss =0.431455,Val R2 = 0.566105, Val RMSE = 0.634404, Val MAE = 0.475673
+Epoch 30: Train Loss = 0.441091, Val Loss = 0.412382, Test Loss =0.430705,Val R2 = 0.566203, Val RMSE = 0.634251, Val MAE = 0.476262
+Epoch 31: Train Loss = 0.440986, Val Loss = 0.412344, Test Loss =0.430753,Val R2 = 0.566220, Val RMSE = 0.634261, Val MAE = 0.475814
+Epoch 32: Train Loss = 0.440817, Val Loss = 0.412344, Test Loss =0.430357,Val R2 = 0.566271, Val RMSE = 0.634215, Val MAE = 0.476949
+Epoch 33: Train Loss = 0.440815, Val Loss = 0.412256, Test Loss =0.430442,Val R2 = 0.566333, Val RMSE = 0.634181, Val MAE = 0.476214
+Epoch 34: Train Loss = 0.440642, Val Loss = 0.412216, Test Loss =0.430499,Val R2 = 0.566336, Val RMSE = 0.634161, Val MAE = 0.475514
+Epoch 35: Train Loss = 0.440566, Val Loss = 0.412214, Test Loss =0.430444,Val R2 = 0.566326, Val RMSE = 0.634168, Val MAE = 0.475398
+Epoch 36: Train Loss = 0.440425, Val Loss = 0.412153, Test Loss =0.430049,Val R2 = 0.566444, Val RMSE = 0.634069, Val MAE = 0.476312
+Epoch 37: Train Loss = 0.440384, Val Loss = 0.412093, Test Loss =0.430091,Val R2 = 0.566493, Val RMSE = 0.634053, Val MAE = 0.476015
+Epoch 38: Train Loss = 0.440326, Val Loss = 0.412057, Test Loss =0.430059,Val R2 = 0.566528, Val RMSE = 0.634048, Val MAE = 0.475975
+Epoch 39: Train Loss = 0.440230, Val Loss = 0.412062, Test Loss =0.430011,Val R2 = 0.566517, Val RMSE = 0.634062, Val MAE = 0.475974
+Epoch 40: Train Loss = 0.440125, Val Loss = 0.412013, Test Loss =0.429800,Val R2 = 0.566543, Val RMSE = 0.633982, Val MAE = 0.475639
+Epoch 41: Train Loss = 0.440084, Val Loss = 0.412002, Test Loss =0.429896,Val R2 = 0.566534, Val RMSE = 0.634004, Val MAE = 0.475355
+Epoch 42: Train Loss = 0.439946, Val Loss = 0.411975, Test Loss =0.429620,Val R2 = 0.566523, Val RMSE = 0.633923, Val MAE = 0.474894
+Epoch 43: Train Loss = 0.439904, Val Loss = 0.411953, Test Loss =0.429485,Val R2 = 0.566572, Val RMSE = 0.633901, Val MAE = 0.475259
+Epoch 44: Train Loss = 0.439885, Val Loss = 0.411867, Test Loss =0.429541,Val R2 = 0.566684, Val RMSE = 0.633852, Val MAE = 0.475279
+Epoch 45: Train Loss = 0.439812, Val Loss = 0.411925, Test Loss =0.429447,Val R2 = 0.566567, Val RMSE = 0.633883, Val MAE = 0.474626
+Epoch 46: Train Loss = 0.439693, Val Loss = 0.411957, Test Loss =0.429085,Val R2 = 0.566580, Val RMSE = 0.633834, Val MAE = 0.475657
+Epoch 47: Train Loss = 0.439669, Val Loss = 0.411920, Test Loss =0.429170,Val R2 = 0.566651, Val RMSE = 0.633857, Val MAE = 0.475919
+Epoch 48: Train Loss = 0.439632, Val Loss = 0.411824, Test Loss =0.429404,Val R2 = 0.566687, Val RMSE = 0.633825, Val MAE = 0.474847
+Epoch 49: Train Loss = 0.439566, Val Loss = 0.411803, Test Loss =0.429473,Val R2 = 0.566699, Val RMSE = 0.633824, Val MAE = 0.474641
+==================================================
+
+==================================================
+Symbolic Formula:
+--------------------
+[-1.23549520969391*sin(-0.7833737925579*sqrt(1 - 0.700128798337173*x_5) + 9.15931769276296e-12*exp(9.59632015228271*x_6) + 0.245297729314764*cos(0.858719885349274*x_2 - 1.97983980178833) + 0.295618174310341*cos(1.10095989704132*x_4 - 1.90927982330322) - 0.264169283440729*cos(1.20823991298676*x_9 + 7.60943984985352) + 4.34770479260986 + 9.27704803489271e-11/(-x_3 - 0.311491105229899)**2 - 1.14203232529161e-9/(-x_14 - 0.298628166796962)**2 + 3.08499134769707e-8/(-0.133279904723167*x_12 - 0.0524799674749374) + 0.000606270716174175/(-0.0520801097154617*x_11 - 0.00375999649986625) + 5.65985396202673e-12/(0.434403796821689 - x_7)**2 + 0.001514945139066/(0.147119864821434 - 0.803999841213226*x_13) - 5.52817830563783e-10/(0.126502231432538 - x_10)**2) - 0.423980176448822]
+[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
+==================================================
+
+==================================================
+Configuration: width=[18, 1, 1], grid=5, k=3
+Total Parameters: 540
+Maximum Memory Consumed: 0.017267712 GB
+Final Validation Loss: 0.41161053793297875
+Epoch-wise Training Statistics:
+Epoch 1: Train Loss = 0.891731, Val Loss = 0.836997, Test Loss =0.858384,Val R2 = 0.121157, Val RMSE = 0.912474, Val MAE = 0.810626
+Epoch 2: Train Loss = 0.810844, Val Loss = 0.745588, Test Loss =0.778158,Val R2 = 0.217263, Val RMSE = 0.860547, Val MAE = 0.758050
+Epoch 3: Train Loss = 0.726045, Val Loss = 0.655847, Test Loss =0.698254,Val R2 = 0.311390, Val RMSE = 0.805779, Val MAE = 0.692307
+Epoch 4: Train Loss = 0.656568, Val Loss = 0.598121, Test Loss =0.643771,Val R2 = 0.371751, Val RMSE = 0.768179, Val MAE = 0.637693
+Epoch 5: Train Loss = 0.612166, Val Loss = 0.562600, Test Loss =0.607216,Val R2 = 0.409005, Val RMSE = 0.744019, Val MAE = 0.600311
+Epoch 6: Train Loss = 0.582016, Val Loss = 0.536951, Test Loss =0.579966,Val R2 = 0.435921, Val RMSE = 0.725994, Val MAE = 0.572104
+Epoch 7: Train Loss = 0.559219, Val Loss = 0.516437, Test Loss =0.557126,Val R2 = 0.457502, Val RMSE = 0.711324, Val MAE = 0.552347
+Epoch 8: Train Loss = 0.539769, Val Loss = 0.498480, Test Loss =0.536066,Val R2 = 0.476405, Val RMSE = 0.698336, Val MAE = 0.536958
+Epoch 9: Train Loss = 0.522007, Val Loss = 0.482632, Test Loss =0.516250,Val R2 = 0.493134, Val RMSE = 0.686804, Val MAE = 0.524148
+Epoch 10: Train Loss = 0.505915, Val Loss = 0.468690, Test Loss =0.498761,Val R2 = 0.507892, Val RMSE = 0.676649, Val MAE = 0.514241
+Epoch 11: Train Loss = 0.491706, Val Loss = 0.456259, Test Loss =0.484232,Val R2 = 0.520910, Val RMSE = 0.667470, Val MAE = 0.504353
+Epoch 12: Train Loss = 0.479709, Val Loss = 0.446077, Test Loss =0.472392,Val R2 = 0.531459, Val RMSE = 0.659856, Val MAE = 0.496293
+Epoch 13: Train Loss = 0.470258, Val Loss = 0.437824, Test Loss =0.462667,Val R2 = 0.540013, Val RMSE = 0.653643, Val MAE = 0.491732
+Epoch 14: Train Loss = 0.463089, Val Loss = 0.431412, Test Loss =0.454977,Val R2 = 0.546686, Val RMSE = 0.648727, Val MAE = 0.487942
+Epoch 15: Train Loss = 0.457786, Val Loss = 0.426765, Test Loss =0.449643,Val R2 = 0.551453, Val RMSE = 0.645240, Val MAE = 0.484240
+Epoch 16: Train Loss = 0.453903, Val Loss = 0.423264, Test Loss =0.445628,Val R2 = 0.555078, Val RMSE = 0.642575, Val MAE = 0.482234
+Epoch 17: Train Loss = 0.451104, Val Loss = 0.420488, Test Loss =0.442101,Val R2 = 0.558025, Val RMSE = 0.640362, Val MAE = 0.481252
+Epoch 18: Train Loss = 0.449014, Val Loss = 0.418626, Test Loss =0.439951,Val R2 = 0.559974, Val RMSE = 0.638917, Val MAE = 0.480060
+Epoch 19: Train Loss = 0.447515, Val Loss = 0.417349, Test Loss =0.438552,Val R2 = 0.561307, Val RMSE = 0.637973, Val MAE = 0.479016
+Epoch 20: Train Loss = 0.446445, Val Loss = 0.416368, Test Loss =0.437236,Val R2 = 0.562339, Val RMSE = 0.637203, Val MAE = 0.478365
+Epoch 21: Train Loss = 0.445592, Val Loss = 0.415569, Test Loss =0.435598,Val R2 = 0.563226, Val RMSE = 0.636464, Val MAE = 0.478655
+Epoch 22: Train Loss = 0.445009, Val Loss = 0.415087, Test Loss =0.434952,Val R2 = 0.563727, Val RMSE = 0.636095, Val MAE = 0.478190
+Epoch 23: Train Loss = 0.444477, Val Loss = 0.414666, Test Loss =0.434393,Val R2 = 0.564157, Val RMSE = 0.635771, Val MAE = 0.477526
+Epoch 24: Train Loss = 0.444015, Val Loss = 0.414415, Test Loss =0.433769,Val R2 = 0.564422, Val RMSE = 0.635559, Val MAE = 0.477633
+Epoch 25: Train Loss = 0.443658, Val Loss = 0.414125, Test Loss =0.433301,Val R2 = 0.564750, Val RMSE = 0.635343, Val MAE = 0.477775
+Epoch 26: Train Loss = 0.443381, Val Loss = 0.413985, Test Loss =0.433224,Val R2 = 0.564864, Val RMSE = 0.635279, Val MAE = 0.476965
+Epoch 27: Train Loss = 0.443058, Val Loss = 0.413774, Test Loss =0.432344,Val R2 = 0.565100, Val RMSE = 0.635014, Val MAE = 0.477490
+Epoch 28: Train Loss = 0.442842, Val Loss = 0.413623, Test Loss =0.432132,Val R2 = 0.565227, Val RMSE = 0.634913, Val MAE = 0.476687
+Epoch 29: Train Loss = 0.442649, Val Loss = 0.413481, Test Loss =0.431725,Val R2 = 0.565423, Val RMSE = 0.634801, Val MAE = 0.477607
+Epoch 30: Train Loss = 0.442428, Val Loss = 0.413351, Test Loss =0.431718,Val R2 = 0.565539, Val RMSE = 0.634737, Val MAE = 0.477067
+Epoch 31: Train Loss = 0.442206, Val Loss = 0.413275, Test Loss =0.431601,Val R2 = 0.565580, Val RMSE = 0.634689, Val MAE = 0.476552
+Epoch 32: Train Loss = 0.442030, Val Loss = 0.413135, Test Loss =0.431086,Val R2 = 0.565740, Val RMSE = 0.634512, Val MAE = 0.476876
+Epoch 33: Train Loss = 0.441877, Val Loss = 0.413062, Test Loss =0.431043,Val R2 = 0.565753, Val RMSE = 0.634474, Val MAE = 0.475830
+Epoch 34: Train Loss = 0.441739, Val Loss = 0.412960, Test Loss =0.430832,Val R2 = 0.565886, Val RMSE = 0.634409, Val MAE = 0.476245
+Epoch 35: Train Loss = 0.441565, Val Loss = 0.412854, Test Loss =0.430776,Val R2 = 0.565970, Val RMSE = 0.634326, Val MAE = 0.475965
+Epoch 36: Train Loss = 0.441431, Val Loss = 0.412810, Test Loss =0.430579,Val R2 = 0.566001, Val RMSE = 0.634286, Val MAE = 0.475656
+Epoch 37: Train Loss = 0.441317, Val Loss = 0.412773, Test Loss =0.430329,Val R2 = 0.566023, Val RMSE = 0.634222, Val MAE = 0.475636
+Epoch 38: Train Loss = 0.441188, Val Loss = 0.412712, Test Loss =0.430437,Val R2 = 0.566063, Val RMSE = 0.634235, Val MAE = 0.475363
+Epoch 39: Train Loss = 0.441030, Val Loss = 0.412634, Test Loss =0.430372,Val R2 = 0.566154, Val RMSE = 0.634198, Val MAE = 0.475362
+Epoch 40: Train Loss = 0.440926, Val Loss = 0.412563, Test Loss =0.429981,Val R2 = 0.566242, Val RMSE = 0.634078, Val MAE = 0.475649
+Epoch 41: Train Loss = 0.440837, Val Loss = 0.412491, Test Loss =0.429994,Val R2 = 0.566293, Val RMSE = 0.634054, Val MAE = 0.475391
+Epoch 42: Train Loss = 0.440725, Val Loss = 0.412500, Test Loss =0.429584,Val R2 = 0.566293, Val RMSE = 0.634017, Val MAE = 0.475836
+Epoch 43: Train Loss = 0.440661, Val Loss = 0.412376, Test Loss =0.429637,Val R2 = 0.566406, Val RMSE = 0.633954, Val MAE = 0.475384
+Epoch 44: Train Loss = 0.440580, Val Loss = 0.412315, Test Loss =0.429742,Val R2 = 0.566456, Val RMSE = 0.633937, Val MAE = 0.475089
+Epoch 45: Train Loss = 0.440441, Val Loss = 0.412249, Test Loss =0.429467,Val R2 = 0.566526, Val RMSE = 0.633849, Val MAE = 0.475175
+Epoch 46: Train Loss = 0.440370, Val Loss = 0.412226, Test Loss =0.429467,Val R2 = 0.566564, Val RMSE = 0.633858, Val MAE = 0.475603
+Epoch 47: Train Loss = 0.440291, Val Loss = 0.412193, Test Loss =0.429277,Val R2 = 0.566602, Val RMSE = 0.633812, Val MAE = 0.475670
+Epoch 48: Train Loss = 0.440231, Val Loss = 0.412135, Test Loss =0.429220,Val R2 = 0.566589, Val RMSE = 0.633751, Val MAE = 0.474736
+Epoch 49: Train Loss = 0.440097, Val Loss = 0.412049, Test Loss =0.429457,Val R2 = 0.566714, Val RMSE = 0.633768, Val MAE = 0.474883
+Epoch 50: Train Loss = 0.440063, Val Loss = 0.412031, Test Loss =0.429100,Val R2 = 0.566755, Val RMSE = 0.633705, Val MAE = 0.475667
+Epoch 51: Train Loss = 0.439971, Val Loss = 0.411985, Test Loss =0.429010,Val R2 = 0.566756, Val RMSE = 0.633651, Val MAE = 0.474786
+Epoch 52: Train Loss = 0.439952, Val Loss = 0.412027, Test Loss =0.428758,Val R2 = 0.566711, Val RMSE = 0.633639, Val MAE = 0.475153
+Epoch 53: Train Loss = 0.439849, Val Loss = 0.411954, Test Loss =0.429227,Val R2 = 0.566753, Val RMSE = 0.633689, Val MAE = 0.474324
+Epoch 54: Train Loss = 0.439789, Val Loss = 0.411876, Test Loss =0.428948,Val R2 = 0.566869, Val RMSE = 0.633596, Val MAE = 0.475043
+Epoch 55: Train Loss = 0.439729, Val Loss = 0.411864, Test Loss =0.428895,Val R2 = 0.566862, Val RMSE = 0.633585, Val MAE = 0.474504
+Epoch 56: Train Loss = 0.439665, Val Loss = 0.411817, Test Loss =0.429057,Val R2 = 0.566923, Val RMSE = 0.633578, Val MAE = 0.474527
+Epoch 57: Train Loss = 0.439588, Val Loss = 0.411809, Test Loss =0.428662,Val R2 = 0.566919, Val RMSE = 0.633515, Val MAE = 0.474688
+Epoch 58: Train Loss = 0.439544, Val Loss = 0.411780, Test Loss =0.428818,Val R2 = 0.566911, Val RMSE = 0.633516, Val MAE = 0.474174
+Epoch 59: Train Loss = 0.439504, Val Loss = 0.411711, Test Loss =0.428692,Val R2 = 0.567016, Val RMSE = 0.633461, Val MAE = 0.474704
+Epoch 60: Train Loss = 0.439461, Val Loss = 0.411692, Test Loss =0.428555,Val R2 = 0.567017, Val RMSE = 0.633413, Val MAE = 0.474634
+Epoch 61: Train Loss = 0.439420, Val Loss = 0.411701, Test Loss =0.428633,Val R2 = 0.566990, Val RMSE = 0.633454, Val MAE = 0.474264
+Epoch 62: Train Loss = 0.439362, Val Loss = 0.411611, Test Loss =0.428721,Val R2 = 0.567074, Val RMSE = 0.633394, Val MAE = 0.474137
+Epoch 63: Train Loss = 0.439321, Val Loss = 0.411614, Test Loss =0.428427,Val R2 = 0.567088, Val RMSE = 0.633352, Val MAE = 0.474524
+Epoch 64: Train Loss = 0.439270, Val Loss = 0.411578, Test Loss =0.428254,Val R2 = 0.567107, Val RMSE = 0.633299, Val MAE = 0.474126
+Epoch 65: Train Loss = 0.439211, Val Loss = 0.411515, Test Loss =0.428443,Val R2 = 0.567168, Val RMSE = 0.633283, Val MAE = 0.473925
+Epoch 66: Train Loss = 0.439162, Val Loss = 0.411523, Test Loss =0.428442,Val R2 = 0.567160, Val RMSE = 0.633299, Val MAE = 0.474078
+Epoch 67: Train Loss = 0.439065, Val Loss = 0.411560, Test Loss =0.428756,Val R2 = 0.567062, Val RMSE = 0.633362, Val MAE = 0.473122
+==================================================
+
+==================================================
+Symbolic Formula:
+--------------------
+[1.22431445121765*sin(-0.851235543502373*sqrt(1 - 0.661790084940191*x_5) + 0.18566676206089*(-0.815181968523426*x_4 - 1)**2 + 1.11486217022057e-7*exp(5.30431985855103*x_14) + 0.26621255307982*cos(0.784239888191223*x_2 - 1.9916797876358) - 0.268701997918773*cos(1.24479985237122*x_9 + 7.61952018737793) - 5.2828293003227 + 0.000521695672433424*exp(-7.78848028182983*x_7) - 0.0284541203072168*exp(-0.947839915752411*x_6) + 2.26376670391066e-8/(-0.126799911260605*x_3 - 0.039519976824522) - 0.000656726046353279/(0.0571998544037342*x_11 - 0.00383999664336443) + 0.00316957290434494/(0.151999861001968 - 0.99999988079071*x_13) + 4.70675382883764e-10/(0.126339343568978 - x_10)**2 - 6.56333056608316e-7/(0.00416000420227647 - 0.0849599391222*x_12)) - 0.412386804819107]
+[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
+==================================================
+
+==================================================
+Configuration: width=[18, 1, 1], grid=5, k=4
+Total Parameters: 597
+Maximum Memory Consumed: 0.017290752 GB
+Final Validation Loss: 0.4112518002037649
+Epoch-wise Training Statistics:
+Epoch 1: Train Loss = 0.887753, Val Loss = 0.831430, Test Loss =0.854126,Val R2 = 0.127026, Val RMSE = 0.909410, Val MAE = 0.807658
+Epoch 2: Train Loss = 0.807200, Val Loss = 0.744870, Test Loss =0.777115,Val R2 = 0.218034, Val RMSE = 0.860140, Val MAE = 0.757897
+Epoch 3: Train Loss = 0.726660, Val Loss = 0.656140, Test Loss =0.697936,Val R2 = 0.311066, Val RMSE = 0.805990, Val MAE = 0.694226
+Epoch 4: Train Loss = 0.651668, Val Loss = 0.590025, Test Loss =0.636330,Val R2 = 0.380134, Val RMSE = 0.762624, Val MAE = 0.628216
+Epoch 5: Train Loss = 0.604071, Val Loss = 0.555215, Test Loss =0.599191,Val R2 = 0.416621, Val RMSE = 0.738752, Val MAE = 0.589850
+Epoch 6: Train Loss = 0.574950, Val Loss = 0.531522, Test Loss =0.572969,Val R2 = 0.441464, Val RMSE = 0.722020, Val MAE = 0.563680
+Epoch 7: Train Loss = 0.553278, Val Loss = 0.512259, Test Loss =0.550785,Val R2 = 0.461730, Val RMSE = 0.708242, Val MAE = 0.546041
+Epoch 8: Train Loss = 0.534482, Val Loss = 0.495040, Test Loss =0.530037,Val R2 = 0.479858, Val RMSE = 0.695808, Val MAE = 0.531797
+Epoch 9: Train Loss = 0.517316, Val Loss = 0.479631, Test Loss =0.510834,Val R2 = 0.496138, Val RMSE = 0.684571, Val MAE = 0.519831
+Epoch 10: Train Loss = 0.502057, Val Loss = 0.466082, Test Loss =0.494302,Val R2 = 0.510474, Val RMSE = 0.674677, Val MAE = 0.510722
+Epoch 11: Train Loss = 0.488716, Val Loss = 0.454109, Test Loss =0.480708,Val R2 = 0.522980, Val RMSE = 0.665819, Val MAE = 0.501147
+Epoch 12: Train Loss = 0.477473, Val Loss = 0.444458, Test Loss =0.469748,Val R2 = 0.532963, Val RMSE = 0.658592, Val MAE = 0.493971
+Epoch 13: Train Loss = 0.468595, Val Loss = 0.436687, Test Loss =0.460681,Val R2 = 0.541013, Val RMSE = 0.652759, Val MAE = 0.489960
+Epoch 14: Train Loss = 0.461793, Val Loss = 0.430635, Test Loss =0.453451,Val R2 = 0.547297, Val RMSE = 0.648148, Val MAE = 0.486698
+Epoch 15: Train Loss = 0.456677, Val Loss = 0.426189, Test Loss =0.448429,Val R2 = 0.551844, Val RMSE = 0.644830, Val MAE = 0.483165
+Epoch 16: Train Loss = 0.452890, Val Loss = 0.422795, Test Loss =0.444588,Val R2 = 0.555354, Val RMSE = 0.642259, Val MAE = 0.481333
+Epoch 17: Train Loss = 0.450145, Val Loss = 0.420128, Test Loss =0.441214,Val R2 = 0.558175, Val RMSE = 0.640156, Val MAE = 0.480600
+Epoch 18: Train Loss = 0.448109, Val Loss = 0.418312, Test Loss =0.439075,Val R2 = 0.560072, Val RMSE = 0.638749, Val MAE = 0.479486
+Epoch 19: Train Loss = 0.446647, Val Loss = 0.417033, Test Loss =0.437645,Val R2 = 0.561406, Val RMSE = 0.637801, Val MAE = 0.478425
+Epoch 20: Train Loss = 0.445592, Val Loss = 0.416054, Test Loss =0.436367,Val R2 = 0.562432, Val RMSE = 0.637037, Val MAE = 0.477739
+Epoch 21: Train Loss = 0.444761, Val Loss = 0.415245, Test Loss =0.434780,Val R2 = 0.563336, Val RMSE = 0.636314, Val MAE = 0.478314
+Epoch 22: Train Loss = 0.444186, Val Loss = 0.414739, Test Loss =0.434126,Val R2 = 0.563865, Val RMSE = 0.635927, Val MAE = 0.477788
+Epoch 23: Train Loss = 0.443674, Val Loss = 0.414302, Test Loss =0.433542,Val R2 = 0.564318, Val RMSE = 0.635588, Val MAE = 0.477076
+Epoch 24: Train Loss = 0.443235, Val Loss = 0.414045, Test Loss =0.432940,Val R2 = 0.564596, Val RMSE = 0.635372, Val MAE = 0.477190
+Epoch 25: Train Loss = 0.442908, Val Loss = 0.413755, Test Loss =0.432483,Val R2 = 0.564928, Val RMSE = 0.635157, Val MAE = 0.477347
+Epoch 26: Train Loss = 0.442658, Val Loss = 0.413619, Test Loss =0.432401,Val R2 = 0.565040, Val RMSE = 0.635091, Val MAE = 0.476395
+Epoch 27: Train Loss = 0.442368, Val Loss = 0.413416, Test Loss =0.431569,Val R2 = 0.565276, Val RMSE = 0.634848, Val MAE = 0.477106
+Epoch 28: Train Loss = 0.442174, Val Loss = 0.413277, Test Loss =0.431344,Val R2 = 0.565391, Val RMSE = 0.634747, Val MAE = 0.476207
+Epoch 29: Train Loss = 0.442005, Val Loss = 0.413142, Test Loss =0.430966,Val R2 = 0.565590, Val RMSE = 0.634649, Val MAE = 0.477268
+Epoch 30: Train Loss = 0.441821, Val Loss = 0.413014, Test Loss =0.430940,Val R2 = 0.565706, Val RMSE = 0.634576, Val MAE = 0.476626
+Epoch 31: Train Loss = 0.441619, Val Loss = 0.412939, Test Loss =0.430816,Val R2 = 0.565754, Val RMSE = 0.634526, Val MAE = 0.476132
+Epoch 32: Train Loss = 0.441471, Val Loss = 0.412815, Test Loss =0.430350,Val R2 = 0.565896, Val RMSE = 0.634371, Val MAE = 0.476467
+Epoch 33: Train Loss = 0.441337, Val Loss = 0.412749, Test Loss =0.430292,Val R2 = 0.565902, Val RMSE = 0.634331, Val MAE = 0.475308
+Epoch 34: Train Loss = 0.441216, Val Loss = 0.412654, Test Loss =0.430097,Val R2 = 0.566033, Val RMSE = 0.634275, Val MAE = 0.475783
+Epoch 35: Train Loss = 0.441068, Val Loss = 0.412553, Test Loss =0.430045,Val R2 = 0.566118, Val RMSE = 0.634194, Val MAE = 0.475546
+Epoch 36: Train Loss = 0.440952, Val Loss = 0.412515, Test Loss =0.429868,Val R2 = 0.566145, Val RMSE = 0.634160, Val MAE = 0.475223
+Epoch 37: Train Loss = 0.440852, Val Loss = 0.412482, Test Loss =0.429629,Val R2 = 0.566167, Val RMSE = 0.634101, Val MAE = 0.475264
+Epoch 38: Train Loss = 0.440743, Val Loss = 0.412430, Test Loss =0.429734,Val R2 = 0.566198, Val RMSE = 0.634112, Val MAE = 0.474873
+Epoch 39: Train Loss = 0.440603, Val Loss = 0.412356, Test Loss =0.429661,Val R2 = 0.566293, Val RMSE = 0.634076, Val MAE = 0.474958
+Epoch 40: Train Loss = 0.440506, Val Loss = 0.412281, Test Loss =0.429305,Val R2 = 0.566389, Val RMSE = 0.633961, Val MAE = 0.475296
+Epoch 41: Train Loss = 0.440435, Val Loss = 0.412219, Test Loss =0.429311,Val R2 = 0.566432, Val RMSE = 0.633940, Val MAE = 0.475018
+Epoch 42: Train Loss = 0.440335, Val Loss = 0.412221, Test Loss =0.428958,Val R2 = 0.566439, Val RMSE = 0.633906, Val MAE = 0.475451
+Epoch 43: Train Loss = 0.440277, Val Loss = 0.412103, Test Loss =0.428998,Val R2 = 0.566550, Val RMSE = 0.633841, Val MAE = 0.474990
+Epoch 44: Train Loss = 0.440206, Val Loss = 0.412053, Test Loss =0.429097,Val R2 = 0.566592, Val RMSE = 0.633829, Val MAE = 0.474707
+Epoch 45: Train Loss = 0.440084, Val Loss = 0.411985, Test Loss =0.428845,Val R2 = 0.566669, Val RMSE = 0.633744, Val MAE = 0.474856
+Epoch 46: Train Loss = 0.440021, Val Loss = 0.411963, Test Loss =0.428856,Val R2 = 0.566710, Val RMSE = 0.633754, Val MAE = 0.475290
+Epoch 47: Train Loss = 0.439947, Val Loss = 0.411934, Test Loss =0.428678,Val R2 = 0.566745, Val RMSE = 0.633710, Val MAE = 0.475374
+Epoch 48: Train Loss = 0.439898, Val Loss = 0.411881, Test Loss =0.428614,Val R2 = 0.566723, Val RMSE = 0.633650, Val MAE = 0.474310
+Epoch 49: Train Loss = 0.439776, Val Loss = 0.411796, Test Loss =0.428852,Val R2 = 0.566853, Val RMSE = 0.633664, Val MAE = 0.474487
+Epoch 50: Train Loss = 0.439748, Val Loss = 0.411776, Test Loss =0.428526,Val R2 = 0.566902, Val RMSE = 0.633607, Val MAE = 0.475372
+Epoch 51: Train Loss = 0.439663, Val Loss = 0.411731, Test Loss =0.428425,Val R2 = 0.566898, Val RMSE = 0.633546, Val MAE = 0.474380
+Epoch 52: Train Loss = 0.439649, Val Loss = 0.411761, Test Loss =0.428196,Val R2 = 0.566870, Val RMSE = 0.633531, Val MAE = 0.474813
+Epoch 53: Train Loss = 0.439550, Val Loss = 0.411701, Test Loss =0.428632,Val R2 = 0.566898, Val RMSE = 0.633580, Val MAE = 0.473878
+Epoch 54: Train Loss = 0.439499, Val Loss = 0.411619, Test Loss =0.428392,Val R2 = 0.567023, Val RMSE = 0.633489, Val MAE = 0.474651
+Epoch 55: Train Loss = 0.439442, Val Loss = 0.411604, Test Loss =0.428333,Val R2 = 0.567020, Val RMSE = 0.633475, Val MAE = 0.474133
+Epoch 56: Train Loss = 0.439385, Val Loss = 0.411560, Test Loss =0.428479,Val R2 = 0.567082, Val RMSE = 0.633466, Val MAE = 0.474188
+Epoch 57: Train Loss = 0.439316, Val Loss = 0.411549, Test Loss =0.428137,Val R2 = 0.567081, Val RMSE = 0.633407, Val MAE = 0.474339
+Epoch 58: Train Loss = 0.439274, Val Loss = 0.411526, Test Loss =0.428265,Val R2 = 0.567065, Val RMSE = 0.633403, Val MAE = 0.473725
+Epoch 59: Train Loss = 0.439241, Val Loss = 0.411453, Test Loss =0.428159,Val R2 = 0.567181, Val RMSE = 0.633348, Val MAE = 0.474352
+Epoch 60: Train Loss = 0.439197, Val Loss = 0.411432, Test Loss =0.428023,Val R2 = 0.567184, Val RMSE = 0.633297, Val MAE = 0.474281
+Epoch 61: Train Loss = 0.439163, Val Loss = 0.411439, Test Loss =0.428096,Val R2 = 0.567160, Val RMSE = 0.633331, Val MAE = 0.473867
+Epoch 62: Train Loss = 0.439108, Val Loss = 0.411353, Test Loss =0.428194,Val R2 = 0.567244, Val RMSE = 0.633278, Val MAE = 0.473759
+Epoch 63: Train Loss = 0.439071, Val Loss = 0.411352, Test Loss =0.427933,Val R2 = 0.567264, Val RMSE = 0.633239, Val MAE = 0.474203
+Epoch 64: Train Loss = 0.439021, Val Loss = 0.411315, Test Loss =0.427764,Val R2 = 0.567281, Val RMSE = 0.633181, Val MAE = 0.473746
+Epoch 65: Train Loss = 0.438965, Val Loss = 0.411252, Test Loss =0.427954,Val R2 = 0.567344, Val RMSE = 0.633164, Val MAE = 0.473542
+Epoch 66: Train Loss = 0.438922, Val Loss = 0.411258, Test Loss =0.427945,Val R2 = 0.567344, Val RMSE = 0.633175, Val MAE = 0.473745
+Epoch 67: Train Loss = 0.438832, Val Loss = 0.411295, Test Loss =0.428223,Val R2 = 0.567243, Val RMSE = 0.633229, Val MAE = 0.472678
+Epoch 68: Train Loss = 0.438875, Val Loss = 0.411235, Test Loss =0.427811,Val R2 = 0.567346, Val RMSE = 0.633136, Val MAE = 0.473789
+Epoch 69: Train Loss = 0.438842, Val Loss = 0.411175, Test Loss =0.427984,Val R2 = 0.567413, Val RMSE = 0.633131, Val MAE = 0.473421
+Epoch 70: Train Loss = 0.438786, Val Loss = 0.411165, Test Loss =0.427756,Val R2 = 0.567419, Val RMSE = 0.633071, Val MAE = 0.473591
+==================================================
+
+==================================================
+Symbolic Formula:
+--------------------
+[1.27580893039703*cos(0.864744898696587*sqrt(1 - 0.620107848807929*x_5) - 0.176592061761555*(-0.800012817588172*x_4 - 1)**2 - 1.01827430128223e-11*exp(9.52095985412598*x_6) + 0.256245386431651*sin(0.789359867572784*x_2 + 8.99792003631592) + 0.25524108525822*sin(1.20831990242004*x_9 - 3.3887197971344) + 6.80025659180605 + 0.00132741888172455*exp(-7.69200038909912*x_14) + 0.000121960238657044*exp(-9.83199977874756*x_10) + 2.98855204461649e-7/(-0.127119913697243*x_3 - 0.039679978042841) - 0.000574789780063598/(-x_13 - 0.0083836316408679)**3 + 3.20594718879343e-6/(-0.00623999955132604*x_12 - 0.00224000262096524) - 0.000656059822764489/(-0.0600001029670238*x_11 - 0.00367999635636806) + 5.13974801050965e-8/(0.432089324129237 - x_7)**2) - 0.446016192436218]
+[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
+==================================================
+
+==================================================
 Configuration: width=[18, 1, 1], grid=8, k=6
 Total Parameters: 825
-Maximum Memory Consumed: 0.017246208 GB
+Maximum Memory Consumed: 0.017297408 GB
 Final Validation Loss: 0.41879524538914364
 Epoch-wise Training Statistics:
-Epoch 1: Train Loss = 1.001066, Val Loss = 0.988044, Test Loss =0.986788
-Epoch 2: Train Loss = 0.982066, Val Loss = 0.969803, Test Loss =0.966862
-Epoch 3: Train Loss = 0.955714, Val Loss = 0.930801, Test Loss =0.930105
-Epoch 4: Train Loss = 0.911080, Val Loss = 0.872853, Test Loss =0.878221
-Epoch 5: Train Loss = 0.855954, Val Loss = 0.808797, Test Loss =0.820622
-Epoch 6: Train Loss = 0.796751, Val Loss = 0.742870, Test Loss =0.758959
-Epoch 7: Train Loss = 0.736765, Val Loss = 0.679252, Test Loss =0.697116
-Epoch 8: Train Loss = 0.679377, Val Loss = 0.621973, Test Loss =0.640956
-Epoch 9: Train Loss = 0.627901, Val Loss = 0.574026, Test Loss =0.592548
-Epoch 10: Train Loss = 0.585099, Val Loss = 0.536308, Test Loss =0.554272
-Epoch 11: Train Loss = 0.551488, Val Loss = 0.507082, Test Loss =0.525153
-Epoch 12: Train Loss = 0.525626, Val Loss = 0.484754, Test Loss =0.503198
-Epoch 13: Train Loss = 0.505936, Val Loss = 0.467084, Test Loss =0.485581
-Epoch 14: Train Loss = 0.490949, Val Loss = 0.454156, Test Loss =0.473105
-Epoch 15: Train Loss = 0.479466, Val Loss = 0.444103, Test Loss =0.462668
-Epoch 16: Train Loss = 0.470823, Val Loss = 0.436997, Test Loss =0.455937
-Epoch 17: Train Loss = 0.464278, Val Loss = 0.431402, Test Loss =0.449899
-Epoch 18: Train Loss = 0.459305, Val Loss = 0.427505, Test Loss =0.445889
-Epoch 19: Train Loss = 0.455579, Val Loss = 0.424515, Test Loss =0.442043
-Epoch 20: Train Loss = 0.452842, Val Loss = 0.422609, Test Loss =0.439848
-Epoch 21: Train Loss = 0.450748, Val Loss = 0.421333, Test Loss =0.438361
-Epoch 22: Train Loss = 0.449236, Val Loss = 0.420451, Test Loss =0.437195
-Epoch 23: Train Loss = 0.448113, Val Loss = 0.419983, Test Loss =0.436024
-Epoch 24: Train Loss = 0.447212, Val Loss = 0.419456, Test Loss =0.435228
-Epoch 25: Train Loss = 0.446498, Val Loss = 0.419100, Test Loss =0.434484
-Epoch 26: Train Loss = 0.446004, Val Loss = 0.418905, Test Loss =0.434047
-Epoch 27: Train Loss = 0.445495, Val Loss = 0.418795, Test Loss =0.433731
-Epoch 28: Train Loss = 0.445127, Val Loss = 0.418817, Test Loss =0.433538
-Epoch 29: Train Loss = 0.444844, Val Loss = 0.418872, Test Loss =0.433476
-Epoch 30: Train Loss = 0.444648, Val Loss = 0.418811, Test Loss =0.432969
-Epoch 31: Train Loss = 0.444381, Val Loss = 0.418730, Test Loss =0.432799
-Epoch 32: Train Loss = 0.444238, Val Loss = 0.418857, Test Loss =0.432625
+Epoch 1: Train Loss = 1.001066, Val Loss = 0.988044, Test Loss =0.986788,Val R2 = -0.035935, Val RMSE = 0.991756, Val MAE = 0.891860
+Epoch 2: Train Loss = 0.982066, Val Loss = 0.969803, Test Loss =0.966862,Val R2 = -0.016751, Val RMSE = 0.982564, Val MAE = 0.883783
+Epoch 3: Train Loss = 0.955714, Val Loss = 0.930801, Test Loss =0.930105,Val R2 = 0.024920, Val RMSE = 0.962419, Val MAE = 0.864182
+Epoch 4: Train Loss = 0.911080, Val Loss = 0.872853, Test Loss =0.878221,Val R2 = 0.086530, Val RMSE = 0.931644, Val MAE = 0.833077
+Epoch 5: Train Loss = 0.855954, Val Loss = 0.808797, Test Loss =0.820622,Val R2 = 0.154393, Val RMSE = 0.896352, Val MAE = 0.797719
+Epoch 6: Train Loss = 0.796751, Val Loss = 0.742870, Test Loss =0.758959,Val R2 = 0.224202, Val RMSE = 0.858537, Val MAE = 0.759624
+Epoch 7: Train Loss = 0.736765, Val Loss = 0.679252, Test Loss =0.697116,Val R2 = 0.291369, Val RMSE = 0.820495, Val MAE = 0.721912
+Epoch 8: Train Loss = 0.679377, Val Loss = 0.621973, Test Loss =0.640956,Val R2 = 0.351521, Val RMSE = 0.784621, Val MAE = 0.684805
+Epoch 9: Train Loss = 0.627901, Val Loss = 0.574026, Test Loss =0.592548,Val R2 = 0.401461, Val RMSE = 0.753209, Val MAE = 0.651417
+Epoch 10: Train Loss = 0.585099, Val Loss = 0.536308, Test Loss =0.554272,Val R2 = 0.440508, Val RMSE = 0.727475, Val MAE = 0.623926
+Epoch 11: Train Loss = 0.551488, Val Loss = 0.507082, Test Loss =0.525153,Val R2 = 0.470607, Val RMSE = 0.706785, Val MAE = 0.600665
+Epoch 12: Train Loss = 0.525626, Val Loss = 0.484754, Test Loss =0.503198,Val R2 = 0.493482, Val RMSE = 0.690466, Val MAE = 0.580974
+Epoch 13: Train Loss = 0.505936, Val Loss = 0.467084, Test Loss =0.485581,Val R2 = 0.511571, Val RMSE = 0.677070, Val MAE = 0.563093
+Epoch 14: Train Loss = 0.490949, Val Loss = 0.454156, Test Loss =0.473105,Val R2 = 0.524656, Val RMSE = 0.667104, Val MAE = 0.548593
+Epoch 15: Train Loss = 0.479466, Val Loss = 0.444103, Test Loss =0.462668,Val R2 = 0.534815, Val RMSE = 0.659095, Val MAE = 0.535337
+Epoch 16: Train Loss = 0.470823, Val Loss = 0.436997, Test Loss =0.455937,Val R2 = 0.541885, Val RMSE = 0.653474, Val MAE = 0.524680
+Epoch 17: Train Loss = 0.464278, Val Loss = 0.431402, Test Loss =0.449899,Val R2 = 0.547449, Val RMSE = 0.648857, Val MAE = 0.514796
+Epoch 18: Train Loss = 0.459305, Val Loss = 0.427505, Test Loss =0.445889,Val R2 = 0.551232, Val RMSE = 0.645672, Val MAE = 0.506498
+Epoch 19: Train Loss = 0.455579, Val Loss = 0.424515, Test Loss =0.442043,Val R2 = 0.554221, Val RMSE = 0.643073, Val MAE = 0.499727
+Epoch 20: Train Loss = 0.452842, Val Loss = 0.422609, Test Loss =0.439848,Val R2 = 0.556005, Val RMSE = 0.641518, Val MAE = 0.494098
+Epoch 21: Train Loss = 0.450748, Val Loss = 0.421333, Test Loss =0.438361,Val R2 = 0.557208, Val RMSE = 0.640495, Val MAE = 0.489984
+Epoch 22: Train Loss = 0.449236, Val Loss = 0.420451, Test Loss =0.437195,Val R2 = 0.558039, Val RMSE = 0.639778, Val MAE = 0.486861
+Epoch 23: Train Loss = 0.448113, Val Loss = 0.419983, Test Loss =0.436024,Val R2 = 0.558500, Val RMSE = 0.639406, Val MAE = 0.484954
+Epoch 24: Train Loss = 0.447212, Val Loss = 0.419456, Test Loss =0.435228,Val R2 = 0.558984, Val RMSE = 0.638932, Val MAE = 0.483153
+Epoch 25: Train Loss = 0.446498, Val Loss = 0.419100, Test Loss =0.434484,Val R2 = 0.559341, Val RMSE = 0.638578, Val MAE = 0.481790
+Epoch 26: Train Loss = 0.446004, Val Loss = 0.418905, Test Loss =0.434047,Val R2 = 0.559528, Val RMSE = 0.638454, Val MAE = 0.480634
+Epoch 27: Train Loss = 0.445495, Val Loss = 0.418795, Test Loss =0.433731,Val R2 = 0.559617, Val RMSE = 0.638378, Val MAE = 0.479990
+Epoch 28: Train Loss = 0.445127, Val Loss = 0.418817, Test Loss =0.433538,Val R2 = 0.559591, Val RMSE = 0.638417, Val MAE = 0.479386
+Epoch 29: Train Loss = 0.444844, Val Loss = 0.418872, Test Loss =0.433476,Val R2 = 0.559494, Val RMSE = 0.638500, Val MAE = 0.478389
+Epoch 30: Train Loss = 0.444648, Val Loss = 0.418811, Test Loss =0.432969,Val R2 = 0.559552, Val RMSE = 0.638373, Val MAE = 0.477764
+Epoch 31: Train Loss = 0.444381, Val Loss = 0.418730, Test Loss =0.432799,Val R2 = 0.559686, Val RMSE = 0.638341, Val MAE = 0.478513
+Epoch 32: Train Loss = 0.444238, Val Loss = 0.418857, Test Loss =0.432625,Val R2 = 0.559512, Val RMSE = 0.638418, Val MAE = 0.477875
 ==================================================
 
 ==================================================
@@ -652,76 +567,579 @@ Symbolic Formula:
 ==================================================
 Configuration: width=[18, 1, 1], grid=10, k=7
 Total Parameters: 958
-Maximum Memory Consumed: 0.017286144 GB
+Maximum Memory Consumed: 0.017381888 GB
 Final Validation Loss: 0.4096969230859368
 Epoch-wise Training Statistics:
-Epoch 1: Train Loss = 0.995237, Val Loss = 0.966495, Test Loss =0.963038
-Epoch 2: Train Loss = 0.941027, Val Loss = 0.895919, Test Loss =0.889688
-Epoch 3: Train Loss = 0.858994, Val Loss = 0.806542, Test Loss =0.798186
-Epoch 4: Train Loss = 0.780338, Val Loss = 0.734584, Test Loss =0.726252
-Epoch 5: Train Loss = 0.718457, Val Loss = 0.675691, Test Loss =0.670226
-Epoch 6: Train Loss = 0.666890, Val Loss = 0.625098, Test Loss =0.623266
-Epoch 7: Train Loss = 0.622607, Val Loss = 0.582528, Test Loss =0.583928
-Epoch 8: Train Loss = 0.585018, Val Loss = 0.547355, Test Loss =0.550921
-Epoch 9: Train Loss = 0.554082, Val Loss = 0.519182, Test Loss =0.524696
-Epoch 10: Train Loss = 0.529023, Val Loss = 0.496369, Test Loss =0.503262
-Epoch 11: Train Loss = 0.509000, Val Loss = 0.478431, Test Loss =0.486585
-Epoch 12: Train Loss = 0.492990, Val Loss = 0.463771, Test Loss =0.472547
-Epoch 13: Train Loss = 0.480412, Val Loss = 0.452121, Test Loss =0.461756
-Epoch 14: Train Loss = 0.470446, Val Loss = 0.442826, Test Loss =0.453319
-Epoch 15: Train Loss = 0.462761, Val Loss = 0.435446, Test Loss =0.447120
-Epoch 16: Train Loss = 0.456793, Val Loss = 0.429811, Test Loss =0.442194
-Epoch 17: Train Loss = 0.452363, Val Loss = 0.425508, Test Loss =0.438754
-Epoch 18: Train Loss = 0.449090, Val Loss = 0.422214, Test Loss =0.435982
-Epoch 19: Train Loss = 0.446669, Val Loss = 0.419635, Test Loss =0.434034
-Epoch 20: Train Loss = 0.444803, Val Loss = 0.417717, Test Loss =0.432616
-Epoch 21: Train Loss = 0.443482, Val Loss = 0.416185, Test Loss =0.431622
-Epoch 22: Train Loss = 0.442453, Val Loss = 0.415020, Test Loss =0.431103
-Epoch 23: Train Loss = 0.441682, Val Loss = 0.414172, Test Loss =0.430642
-Epoch 24: Train Loss = 0.441107, Val Loss = 0.413410, Test Loss =0.430235
-Epoch 25: Train Loss = 0.440636, Val Loss = 0.412971, Test Loss =0.430342
-Epoch 26: Train Loss = 0.440360, Val Loss = 0.412520, Test Loss =0.429766
-Epoch 27: Train Loss = 0.440031, Val Loss = 0.412185, Test Loss =0.429418
-Epoch 28: Train Loss = 0.439805, Val Loss = 0.411886, Test Loss =0.429353
-Epoch 29: Train Loss = 0.439580, Val Loss = 0.411736, Test Loss =0.429482
-Epoch 30: Train Loss = 0.439505, Val Loss = 0.411502, Test Loss =0.429103
-Epoch 31: Train Loss = 0.439265, Val Loss = 0.411332, Test Loss =0.428723
-Epoch 32: Train Loss = 0.439093, Val Loss = 0.411308, Test Loss =0.429241
-Epoch 33: Train Loss = 0.439064, Val Loss = 0.411093, Test Loss =0.428380
-Epoch 34: Train Loss = 0.438915, Val Loss = 0.411002, Test Loss =0.428247
-Epoch 35: Train Loss = 0.438735, Val Loss = 0.410927, Test Loss =0.428045
-Epoch 36: Train Loss = 0.438657, Val Loss = 0.410803, Test Loss =0.428069
-Epoch 37: Train Loss = 0.438515, Val Loss = 0.410768, Test Loss =0.428420
-Epoch 38: Train Loss = 0.438388, Val Loss = 0.410647, Test Loss =0.428190
-Epoch 39: Train Loss = 0.438351, Val Loss = 0.410548, Test Loss =0.427802
-Epoch 40: Train Loss = 0.438242, Val Loss = 0.410450, Test Loss =0.427932
-Epoch 41: Train Loss = 0.438160, Val Loss = 0.410378, Test Loss =0.427892
-Epoch 42: Train Loss = 0.438074, Val Loss = 0.410346, Test Loss =0.427893
-Epoch 43: Train Loss = 0.438041, Val Loss = 0.410260, Test Loss =0.428071
-Epoch 44: Train Loss = 0.437886, Val Loss = 0.410218, Test Loss =0.427846
-Epoch 45: Train Loss = 0.437857, Val Loss = 0.410163, Test Loss =0.427543
-Epoch 46: Train Loss = 0.437768, Val Loss = 0.410138, Test Loss =0.427938
-Epoch 47: Train Loss = 0.437647, Val Loss = 0.410050, Test Loss =0.427484
-Epoch 48: Train Loss = 0.437604, Val Loss = 0.409993, Test Loss =0.427740
-Epoch 49: Train Loss = 0.437546, Val Loss = 0.410008, Test Loss =0.427266
-Epoch 50: Train Loss = 0.437477, Val Loss = 0.409927, Test Loss =0.427527
-Epoch 51: Train Loss = 0.437451, Val Loss = 0.409943, Test Loss =0.427887
-Epoch 52: Train Loss = 0.437431, Val Loss = 0.409906, Test Loss =0.427836
-Epoch 53: Train Loss = 0.437316, Val Loss = 0.409817, Test Loss =0.427289
-Epoch 54: Train Loss = 0.437268, Val Loss = 0.409808, Test Loss =0.427606
-Epoch 55: Train Loss = 0.437222, Val Loss = 0.409781, Test Loss =0.427848
-Epoch 56: Train Loss = 0.437192, Val Loss = 0.409697, Test Loss =0.427552
-Epoch 57: Train Loss = 0.437127, Val Loss = 0.409713, Test Loss =0.427926
-Epoch 58: Train Loss = 0.437079, Val Loss = 0.409629, Test Loss =0.427480
-Epoch 59: Train Loss = 0.437003, Val Loss = 0.409655, Test Loss =0.427457
-Epoch 60: Train Loss = 0.436984, Val Loss = 0.409658, Test Loss =0.427679
-Epoch 61: Train Loss = 0.436951, Val Loss = 0.409664, Test Loss =0.427752
+Epoch 1: Train Loss = 0.995237, Val Loss = 0.966495, Test Loss =0.963038,Val R2 = -0.013358, Val RMSE = 0.980797, Val MAE = 0.879586
+Epoch 2: Train Loss = 0.941027, Val Loss = 0.895919, Test Loss =0.889688,Val R2 = 0.060644, Val RMSE = 0.944055, Val MAE = 0.840213
+Epoch 3: Train Loss = 0.858994, Val Loss = 0.806542, Test Loss =0.798186,Val R2 = 0.153716, Val RMSE = 0.895336, Val MAE = 0.786357
+Epoch 4: Train Loss = 0.780338, Val Loss = 0.734584, Test Loss =0.726252,Val R2 = 0.228597, Val RMSE = 0.853931, Val MAE = 0.741833
+Epoch 5: Train Loss = 0.718457, Val Loss = 0.675691, Test Loss =0.670226,Val R2 = 0.290258, Val RMSE = 0.818385, Val MAE = 0.705550
+Epoch 6: Train Loss = 0.666890, Val Loss = 0.625098, Test Loss =0.623266,Val R2 = 0.343518, Val RMSE = 0.786516, Val MAE = 0.673357
+Epoch 7: Train Loss = 0.622607, Val Loss = 0.582528, Test Loss =0.583928,Val R2 = 0.388353, Val RMSE = 0.758667, Val MAE = 0.645887
+Epoch 8: Train Loss = 0.585018, Val Loss = 0.547355, Test Loss =0.550921,Val R2 = 0.425276, Val RMSE = 0.734792, Val MAE = 0.621462
+Epoch 9: Train Loss = 0.554082, Val Loss = 0.519182, Test Loss =0.524696,Val R2 = 0.454805, Val RMSE = 0.715186, Val MAE = 0.601581
+Epoch 10: Train Loss = 0.529023, Val Loss = 0.496369, Test Loss =0.503262,Val R2 = 0.478648, Val RMSE = 0.698811, Val MAE = 0.583432
+Epoch 11: Train Loss = 0.509000, Val Loss = 0.478431, Test Loss =0.486585,Val R2 = 0.497367, Val RMSE = 0.685670, Val MAE = 0.567935
+Epoch 12: Train Loss = 0.492990, Val Loss = 0.463771, Test Loss =0.472547,Val R2 = 0.512614, Val RMSE = 0.674548, Val MAE = 0.552826
+Epoch 13: Train Loss = 0.480412, Val Loss = 0.452121, Test Loss =0.461756,Val R2 = 0.524737, Val RMSE = 0.665596, Val MAE = 0.539759
+Epoch 14: Train Loss = 0.470446, Val Loss = 0.442826, Test Loss =0.453319,Val R2 = 0.534359, Val RMSE = 0.658332, Val MAE = 0.527623
+Epoch 15: Train Loss = 0.462761, Val Loss = 0.435446, Test Loss =0.447120,Val R2 = 0.542000, Val RMSE = 0.652566, Val MAE = 0.516943
+Epoch 16: Train Loss = 0.456793, Val Loss = 0.429811, Test Loss =0.442194,Val R2 = 0.547844, Val RMSE = 0.648070, Val MAE = 0.507549
+Epoch 17: Train Loss = 0.452363, Val Loss = 0.425508, Test Loss =0.438754,Val R2 = 0.552272, Val RMSE = 0.644620, Val MAE = 0.499356
+Epoch 18: Train Loss = 0.449090, Val Loss = 0.422214, Test Loss =0.435982,Val R2 = 0.555716, Val RMSE = 0.641974, Val MAE = 0.492866
+Epoch 19: Train Loss = 0.446669, Val Loss = 0.419635, Test Loss =0.434034,Val R2 = 0.558455, Val RMSE = 0.639934, Val MAE = 0.487922
+Epoch 20: Train Loss = 0.444803, Val Loss = 0.417717, Test Loss =0.432616,Val R2 = 0.560513, Val RMSE = 0.638416, Val MAE = 0.484283
+Epoch 21: Train Loss = 0.443482, Val Loss = 0.416185, Test Loss =0.431622,Val R2 = 0.562158, Val RMSE = 0.637205, Val MAE = 0.481268
+Epoch 22: Train Loss = 0.442453, Val Loss = 0.415020, Test Loss =0.431103,Val R2 = 0.563412, Val RMSE = 0.636328, Val MAE = 0.479057
+Epoch 23: Train Loss = 0.441682, Val Loss = 0.414172, Test Loss =0.430642,Val R2 = 0.564369, Val RMSE = 0.635692, Val MAE = 0.477851
+Epoch 24: Train Loss = 0.441107, Val Loss = 0.413410, Test Loss =0.430235,Val R2 = 0.565217, Val RMSE = 0.635090, Val MAE = 0.476527
+Epoch 25: Train Loss = 0.440636, Val Loss = 0.412971, Test Loss =0.430342,Val R2 = 0.565662, Val RMSE = 0.634793, Val MAE = 0.475298
+Epoch 26: Train Loss = 0.440360, Val Loss = 0.412520, Test Loss =0.429766,Val R2 = 0.566163, Val RMSE = 0.634411, Val MAE = 0.474756
+Epoch 27: Train Loss = 0.440031, Val Loss = 0.412185, Test Loss =0.429418,Val R2 = 0.566539, Val RMSE = 0.634128, Val MAE = 0.474147
+Epoch 28: Train Loss = 0.439805, Val Loss = 0.411886, Test Loss =0.429353,Val R2 = 0.566859, Val RMSE = 0.633908, Val MAE = 0.473528
+Epoch 29: Train Loss = 0.439580, Val Loss = 0.411736, Test Loss =0.429482,Val R2 = 0.567009, Val RMSE = 0.633838, Val MAE = 0.473147
+Epoch 30: Train Loss = 0.439505, Val Loss = 0.411502, Test Loss =0.429103,Val R2 = 0.567287, Val RMSE = 0.633622, Val MAE = 0.473213
+Epoch 31: Train Loss = 0.439265, Val Loss = 0.411332, Test Loss =0.428723,Val R2 = 0.567466, Val RMSE = 0.633440, Val MAE = 0.473096
+Epoch 32: Train Loss = 0.439093, Val Loss = 0.411308, Test Loss =0.429241,Val R2 = 0.567481, Val RMSE = 0.633520, Val MAE = 0.472772
+Epoch 33: Train Loss = 0.439064, Val Loss = 0.411093, Test Loss =0.428380,Val R2 = 0.567713, Val RMSE = 0.633228, Val MAE = 0.472695
+Epoch 34: Train Loss = 0.438915, Val Loss = 0.411002, Test Loss =0.428247,Val R2 = 0.567807, Val RMSE = 0.633156, Val MAE = 0.472672
+Epoch 35: Train Loss = 0.438735, Val Loss = 0.410927, Test Loss =0.428045,Val R2 = 0.567859, Val RMSE = 0.633055, Val MAE = 0.472434
+Epoch 36: Train Loss = 0.438657, Val Loss = 0.410803, Test Loss =0.428069,Val R2 = 0.567993, Val RMSE = 0.632966, Val MAE = 0.472236
+Epoch 37: Train Loss = 0.438515, Val Loss = 0.410768, Test Loss =0.428420,Val R2 = 0.568014, Val RMSE = 0.633051, Val MAE = 0.472031
+Epoch 38: Train Loss = 0.438388, Val Loss = 0.410647, Test Loss =0.428190,Val R2 = 0.568136, Val RMSE = 0.632923, Val MAE = 0.471905
+Epoch 39: Train Loss = 0.438351, Val Loss = 0.410548, Test Loss =0.427802,Val R2 = 0.568252, Val RMSE = 0.632768, Val MAE = 0.472036
+Epoch 40: Train Loss = 0.438242, Val Loss = 0.410450, Test Loss =0.427932,Val R2 = 0.568341, Val RMSE = 0.632722, Val MAE = 0.471748
+Epoch 41: Train Loss = 0.438160, Val Loss = 0.410378, Test Loss =0.427892,Val R2 = 0.568397, Val RMSE = 0.632650, Val MAE = 0.471495
+Epoch 42: Train Loss = 0.438074, Val Loss = 0.410346, Test Loss =0.427893,Val R2 = 0.568444, Val RMSE = 0.632649, Val MAE = 0.471772
+Epoch 43: Train Loss = 0.438041, Val Loss = 0.410260, Test Loss =0.428071,Val R2 = 0.568508, Val RMSE = 0.632575, Val MAE = 0.471197
+Epoch 44: Train Loss = 0.437886, Val Loss = 0.410218, Test Loss =0.427846,Val R2 = 0.568563, Val RMSE = 0.632531, Val MAE = 0.471476
+Epoch 45: Train Loss = 0.437857, Val Loss = 0.410163, Test Loss =0.427543,Val R2 = 0.568637, Val RMSE = 0.632453, Val MAE = 0.471692
+Epoch 46: Train Loss = 0.437768, Val Loss = 0.410138, Test Loss =0.427938,Val R2 = 0.568652, Val RMSE = 0.632499, Val MAE = 0.471557
+Epoch 47: Train Loss = 0.437647, Val Loss = 0.410050, Test Loss =0.427484,Val R2 = 0.568745, Val RMSE = 0.632366, Val MAE = 0.471661
+Epoch 48: Train Loss = 0.437604, Val Loss = 0.409993, Test Loss =0.427740,Val R2 = 0.568796, Val RMSE = 0.632360, Val MAE = 0.471540
+Epoch 49: Train Loss = 0.437546, Val Loss = 0.410008, Test Loss =0.427266,Val R2 = 0.568758, Val RMSE = 0.632278, Val MAE = 0.471555
+Epoch 50: Train Loss = 0.437477, Val Loss = 0.409927, Test Loss =0.427527,Val R2 = 0.568816, Val RMSE = 0.632268, Val MAE = 0.471165
+Epoch 51: Train Loss = 0.437451, Val Loss = 0.409943, Test Loss =0.427887,Val R2 = 0.568809, Val RMSE = 0.632340, Val MAE = 0.471196
+Epoch 52: Train Loss = 0.437431, Val Loss = 0.409906, Test Loss =0.427836,Val R2 = 0.568848, Val RMSE = 0.632312, Val MAE = 0.471369
+Epoch 53: Train Loss = 0.437316, Val Loss = 0.409817, Test Loss =0.427289,Val R2 = 0.568973, Val RMSE = 0.632158, Val MAE = 0.471908
+Epoch 54: Train Loss = 0.437268, Val Loss = 0.409808, Test Loss =0.427606,Val R2 = 0.568946, Val RMSE = 0.632202, Val MAE = 0.471324
+Epoch 55: Train Loss = 0.437222, Val Loss = 0.409781, Test Loss =0.427848,Val R2 = 0.568957, Val RMSE = 0.632201, Val MAE = 0.470996
+Epoch 56: Train Loss = 0.437192, Val Loss = 0.409697, Test Loss =0.427552,Val R2 = 0.569080, Val RMSE = 0.632105, Val MAE = 0.471446
+Epoch 57: Train Loss = 0.437127, Val Loss = 0.409713, Test Loss =0.427926,Val R2 = 0.569049, Val RMSE = 0.632164, Val MAE = 0.471184
+Epoch 58: Train Loss = 0.437079, Val Loss = 0.409629, Test Loss =0.427480,Val R2 = 0.569128, Val RMSE = 0.632032, Val MAE = 0.471107
+Epoch 59: Train Loss = 0.437003, Val Loss = 0.409655, Test Loss =0.427457,Val R2 = 0.569070, Val RMSE = 0.632032, Val MAE = 0.471011
+Epoch 60: Train Loss = 0.436984, Val Loss = 0.409658, Test Loss =0.427679,Val R2 = 0.569019, Val RMSE = 0.632047, Val MAE = 0.470394
+Epoch 61: Train Loss = 0.436951, Val Loss = 0.409664, Test Loss =0.427752,Val R2 = 0.569042, Val RMSE = 0.632094, Val MAE = 0.470928
 ==================================================
 
 ==================================================
 Symbolic Formula:
 --------------------
 [0.127375573513869*(0.0449876807883798 - x_11)**2 - 0.894295555205891*sqrt(1 - 0.659192939364531*x_5) + 5.92789419962303e-10*exp(7.51200008392334*x_6) - 0.379204722949449*cos(0.651999831199646*x_2 - 5.3569598197937) + 0.523595477900382 - 0.000977499162496425*exp(-9.70695972442627*x_12) - 0.00256705115046451*exp(-8.38527965545654*x_10) + 2.70423028289881e-11/(-x_14 - 0.298146730177717)**2 + 0.315918609031024/(1 - 0.426211709954254*x_4)**2 - 5.34071290203964e-9/(0.280418271949046 - x_3)**2 - 5.14123869587997e-6/(0.0662399530410767 - 0.151999890804291*x_7)]
+[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
+==================================================
+
+==================================================
+Configuration: width=[18, 1, 1], grid=15, k=10
+Total Parameters: 1319
+Maximum Memory Consumed: 0.017499648 GB
+Final Validation Loss: 0.4108641478750441
+Epoch-wise Training Statistics:
+Epoch 1: Train Loss = 1.077889, Val Loss = 1.025344, Test Loss =1.023439,Val R2 = -0.076071, Val RMSE = 1.010166, Val MAE = 0.909848
+Epoch 2: Train Loss = 1.007323, Val Loss = 0.979862, Test Loss =0.977849,Val R2 = -0.028362, Val RMSE = 0.987445, Val MAE = 0.888499
+Epoch 3: Train Loss = 0.974507, Val Loss = 0.950980, Test Loss =0.947271,Val R2 = 0.001683, Val RMSE = 0.972680, Val MAE = 0.871937
+Epoch 4: Train Loss = 0.929751, Val Loss = 0.866914, Test Loss =0.861988,Val R2 = 0.090634, Val RMSE = 0.928132, Val MAE = 0.820311
+Epoch 5: Train Loss = 0.825653, Val Loss = 0.761439, Test Loss =0.764887,Val R2 = 0.202098, Val RMSE = 0.869100, Val MAE = 0.755592
+Epoch 6: Train Loss = 0.749040, Val Loss = 0.697744, Test Loss =0.703438,Val R2 = 0.268959, Val RMSE = 0.831586, Val MAE = 0.716602
+Epoch 7: Train Loss = 0.693575, Val Loss = 0.647755, Test Loss =0.653667,Val R2 = 0.321628, Val RMSE = 0.800860, Val MAE = 0.685770
+Epoch 8: Train Loss = 0.646294, Val Loss = 0.605041, Test Loss =0.610983,Val R2 = 0.366404, Val RMSE = 0.773595, Val MAE = 0.658234
+Epoch 9: Train Loss = 0.607264, Val Loss = 0.569664, Test Loss =0.577756,Val R2 = 0.403341, Val RMSE = 0.750274, Val MAE = 0.635389
+Epoch 10: Train Loss = 0.575681, Val Loss = 0.541036, Test Loss =0.551491,Val R2 = 0.433141, Val RMSE = 0.730804, Val MAE = 0.616083
+Epoch 11: Train Loss = 0.550128, Val Loss = 0.517566, Test Loss =0.529355,Val R2 = 0.457451, Val RMSE = 0.714314, Val MAE = 0.598117
+Epoch 12: Train Loss = 0.529254, Val Loss = 0.498563, Test Loss =0.511677,Val R2 = 0.477075, Val RMSE = 0.700635, Val MAE = 0.582373
+Epoch 13: Train Loss = 0.512110, Val Loss = 0.482827, Test Loss =0.496530,Val R2 = 0.493281, Val RMSE = 0.688985, Val MAE = 0.567091
+Epoch 14: Train Loss = 0.498004, Val Loss = 0.470245, Test Loss =0.484734,Val R2 = 0.506184, Val RMSE = 0.679519, Val MAE = 0.553710
+Epoch 15: Train Loss = 0.486550, Val Loss = 0.459620, Test Loss =0.474342,Val R2 = 0.517103, Val RMSE = 0.671334, Val MAE = 0.540815
+Epoch 16: Train Loss = 0.477042, Val Loss = 0.451095, Test Loss =0.465896,Val R2 = 0.525865, Val RMSE = 0.664707, Val MAE = 0.529354
+Epoch 17: Train Loss = 0.469228, Val Loss = 0.444037, Test Loss =0.458953,Val R2 = 0.533166, Val RMSE = 0.659177, Val MAE = 0.519010
+Epoch 18: Train Loss = 0.462782, Val Loss = 0.438025, Test Loss =0.453560,Val R2 = 0.539462, Val RMSE = 0.654476, Val MAE = 0.510051
+Epoch 19: Train Loss = 0.457639, Val Loss = 0.432644, Test Loss =0.448240,Val R2 = 0.545147, Val RMSE = 0.650176, Val MAE = 0.501754
+Epoch 20: Train Loss = 0.453414, Val Loss = 0.428190, Test Loss =0.443877,Val R2 = 0.549878, Val RMSE = 0.646641, Val MAE = 0.494988
+Epoch 21: Train Loss = 0.449746, Val Loss = 0.424120, Test Loss =0.440803,Val R2 = 0.554216, Val RMSE = 0.643472, Val MAE = 0.489471
+Epoch 22: Train Loss = 0.447076, Val Loss = 0.421434, Test Loss =0.437884,Val R2 = 0.557161, Val RMSE = 0.641335, Val MAE = 0.486019
+Epoch 23: Train Loss = 0.445107, Val Loss = 0.419572, Test Loss =0.436667,Val R2 = 0.559093, Val RMSE = 0.639963, Val MAE = 0.482965
+Epoch 24: Train Loss = 0.443792, Val Loss = 0.418236, Test Loss =0.434545,Val R2 = 0.560453, Val RMSE = 0.638815, Val MAE = 0.480661
+Epoch 25: Train Loss = 0.442757, Val Loss = 0.417230, Test Loss =0.433015,Val R2 = 0.561568, Val RMSE = 0.637954, Val MAE = 0.479147
+Epoch 26: Train Loss = 0.442042, Val Loss = 0.416538, Test Loss =0.432039,Val R2 = 0.562244, Val RMSE = 0.637399, Val MAE = 0.477574
+Epoch 27: Train Loss = 0.441584, Val Loss = 0.415917, Test Loss =0.431678,Val R2 = 0.562846, Val RMSE = 0.636958, Val MAE = 0.476401
+Epoch 28: Train Loss = 0.440934, Val Loss = 0.415412, Test Loss =0.430801,Val R2 = 0.563416, Val RMSE = 0.636515, Val MAE = 0.476016
+Epoch 29: Train Loss = 0.440504, Val Loss = 0.415212, Test Loss =0.431050,Val R2 = 0.563580, Val RMSE = 0.636477, Val MAE = 0.475390
+Epoch 30: Train Loss = 0.440259, Val Loss = 0.414779, Test Loss =0.430370,Val R2 = 0.564054, Val RMSE = 0.636107, Val MAE = 0.475281
+Epoch 31: Train Loss = 0.439951, Val Loss = 0.414500, Test Loss =0.429860,Val R2 = 0.564362, Val RMSE = 0.635849, Val MAE = 0.474609
+Epoch 32: Train Loss = 0.439689, Val Loss = 0.414152, Test Loss =0.429667,Val R2 = 0.564722, Val RMSE = 0.635585, Val MAE = 0.474527
+Epoch 33: Train Loss = 0.439431, Val Loss = 0.414036, Test Loss =0.429435,Val R2 = 0.564845, Val RMSE = 0.635497, Val MAE = 0.474452
+Epoch 34: Train Loss = 0.439251, Val Loss = 0.413875, Test Loss =0.429829,Val R2 = 0.564970, Val RMSE = 0.635444, Val MAE = 0.473942
+Epoch 35: Train Loss = 0.438954, Val Loss = 0.413740, Test Loss =0.429461,Val R2 = 0.565076, Val RMSE = 0.635310, Val MAE = 0.473213
+Epoch 36: Train Loss = 0.438849, Val Loss = 0.413488, Test Loss =0.429670,Val R2 = 0.565373, Val RMSE = 0.635185, Val MAE = 0.473777
+Epoch 37: Train Loss = 0.438677, Val Loss = 0.413339, Test Loss =0.429550,Val R2 = 0.565481, Val RMSE = 0.635048, Val MAE = 0.473278
+Epoch 38: Train Loss = 0.438587, Val Loss = 0.413104, Test Loss =0.428533,Val R2 = 0.565739, Val RMSE = 0.634723, Val MAE = 0.473239
+Epoch 39: Train Loss = 0.438341, Val Loss = 0.413007, Test Loss =0.429030,Val R2 = 0.565764, Val RMSE = 0.634714, Val MAE = 0.472160
+Epoch 40: Train Loss = 0.438251, Val Loss = 0.412741, Test Loss =0.428412,Val R2 = 0.566108, Val RMSE = 0.634431, Val MAE = 0.473010
+Epoch 41: Train Loss = 0.438064, Val Loss = 0.412720, Test Loss =0.428805,Val R2 = 0.566064, Val RMSE = 0.634498, Val MAE = 0.472515
+Epoch 42: Train Loss = 0.437936, Val Loss = 0.412447, Test Loss =0.428832,Val R2 = 0.566374, Val RMSE = 0.634310, Val MAE = 0.472600
+Epoch 43: Train Loss = 0.437862, Val Loss = 0.412379, Test Loss =0.428366,Val R2 = 0.566426, Val RMSE = 0.634181, Val MAE = 0.472446
+Epoch 44: Train Loss = 0.437806, Val Loss = 0.412399, Test Loss =0.428422,Val R2 = 0.566404, Val RMSE = 0.634211, Val MAE = 0.472388
+Epoch 45: Train Loss = 0.437636, Val Loss = 0.412236, Test Loss =0.428639,Val R2 = 0.566519, Val RMSE = 0.634096, Val MAE = 0.471772
+Epoch 46: Train Loss = 0.437586, Val Loss = 0.412125, Test Loss =0.428249,Val R2 = 0.566727, Val RMSE = 0.634001, Val MAE = 0.472683
+Epoch 47: Train Loss = 0.437419, Val Loss = 0.412093, Test Loss =0.428453,Val R2 = 0.566766, Val RMSE = 0.634025, Val MAE = 0.472615
+Epoch 48: Train Loss = 0.437333, Val Loss = 0.412005, Test Loss =0.428253,Val R2 = 0.566834, Val RMSE = 0.633898, Val MAE = 0.472549
+Epoch 49: Train Loss = 0.437229, Val Loss = 0.411982, Test Loss =0.428610,Val R2 = 0.566768, Val RMSE = 0.633934, Val MAE = 0.471574
+Epoch 50: Train Loss = 0.437149, Val Loss = 0.411952, Test Loss =0.428419,Val R2 = 0.566830, Val RMSE = 0.633911, Val MAE = 0.472263
+Epoch 51: Train Loss = 0.437061, Val Loss = 0.411904, Test Loss =0.427955,Val R2 = 0.566897, Val RMSE = 0.633765, Val MAE = 0.472714
+Epoch 52: Train Loss = 0.436975, Val Loss = 0.411771, Test Loss =0.427856,Val R2 = 0.567025, Val RMSE = 0.633626, Val MAE = 0.472337
+Epoch 53: Train Loss = 0.436939, Val Loss = 0.411778, Test Loss =0.427992,Val R2 = 0.566968, Val RMSE = 0.633659, Val MAE = 0.471936
+Epoch 54: Train Loss = 0.436887, Val Loss = 0.411783, Test Loss =0.428447,Val R2 = 0.566961, Val RMSE = 0.633773, Val MAE = 0.471878
+Epoch 55: Train Loss = 0.436749, Val Loss = 0.411524, Test Loss =0.428081,Val R2 = 0.567243, Val RMSE = 0.633506, Val MAE = 0.471702
+Epoch 56: Train Loss = 0.436743, Val Loss = 0.411333, Test Loss =0.428117,Val R2 = 0.567486, Val RMSE = 0.633335, Val MAE = 0.471771
+Epoch 57: Train Loss = 0.436659, Val Loss = 0.411225, Test Loss =0.427858,Val R2 = 0.567571, Val RMSE = 0.633162, Val MAE = 0.471561
+Epoch 58: Train Loss = 0.436590, Val Loss = 0.411233, Test Loss =0.427953,Val R2 = 0.567553, Val RMSE = 0.633217, Val MAE = 0.471782
+Epoch 59: Train Loss = 0.436525, Val Loss = 0.411145, Test Loss =0.428332,Val R2 = 0.567630, Val RMSE = 0.633240, Val MAE = 0.471447
+Epoch 60: Train Loss = 0.436433, Val Loss = 0.411176, Test Loss =0.427817,Val R2 = 0.567624, Val RMSE = 0.633145, Val MAE = 0.471943
+Epoch 61: Train Loss = 0.436420, Val Loss = 0.411047, Test Loss =0.427891,Val R2 = 0.567757, Val RMSE = 0.633060, Val MAE = 0.471788
+Epoch 62: Train Loss = 0.436428, Val Loss = 0.410975, Test Loss =0.428268,Val R2 = 0.567824, Val RMSE = 0.633079, Val MAE = 0.471518
+Epoch 63: Train Loss = 0.436263, Val Loss = 0.410977, Test Loss =0.428414,Val R2 = 0.567783, Val RMSE = 0.633115, Val MAE = 0.471204
+Epoch 64: Train Loss = 0.436201, Val Loss = 0.410864, Test Loss =0.428061,Val R2 = 0.567894, Val RMSE = 0.632949, Val MAE = 0.471278
+Epoch 65: Train Loss = 0.436189, Val Loss = 0.410907, Test Loss =0.428620,Val R2 = 0.567872, Val RMSE = 0.633110, Val MAE = 0.471547
+Epoch 66: Train Loss = 0.436127, Val Loss = 0.410992, Test Loss =0.427690,Val R2 = 0.567810, Val RMSE = 0.632982, Val MAE = 0.472007
+Epoch 67: Train Loss = 0.436147, Val Loss = 0.410922, Test Loss =0.427596,Val R2 = 0.567841, Val RMSE = 0.632876, Val MAE = 0.471488
+Epoch 68: Train Loss = 0.436206, Val Loss = 0.410898, Test Loss =0.428166,Val R2 = 0.567857, Val RMSE = 0.633017, Val MAE = 0.471563
+Epoch 69: Train Loss = 0.436098, Val Loss = 0.410863, Test Loss =0.428581,Val R2 = 0.567889, Val RMSE = 0.633048, Val MAE = 0.471408
+==================================================
+
+==================================================
+Symbolic Formula:
+--------------------
+[-0.264378204631598*sqrt(0.395134292198132 - x_4) + 0.178195787032152*(-0.486673066449406*x_2 - 1)**2 + 0.430646024374359*(-0.373119041440682*x_5 - 1)**2 - 0.0426042090310838*exp(3.02471995353699*x_3) + 0.00100543789459879*exp(1.48431980609894*x_6) - 0.740872492922631 - 9.80891723690665e-8/(1 - 0.447465928944472*x_14)**2 - 0.000845498625663825/(0.448955026382105 - x_11)**2 - 3.01302506329461e-8/(0.433568554066478 - x_7)**2 + 2.94238223496597e-8/(0.126869252198833 - x_10)**2 + 2.67505350017368e-8/(0.0486292831103055 - x_12)**2]
+[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
+==================================================
+
+==================================================
+Configuration: width=[18, 1, 1], grid=45, k=20
+Total Parameters: 3029
+Maximum Memory Consumed: 0.018157568 GB
+Final Validation Loss: 0.4088156074285507
+Epoch-wise Training Statistics:
+Epoch 1: Train Loss = 0.953226, Val Loss = 0.917077, Test Loss =0.923736,Val R2 = 0.038994, Val RMSE = 0.955380, Val MAE = 0.858260
+Epoch 2: Train Loss = 0.896444, Val Loss = 0.854905, Test Loss =0.866483,Val R2 = 0.104360, Val RMSE = 0.922310, Val MAE = 0.826520
+Epoch 3: Train Loss = 0.839054, Val Loss = 0.793241, Test Loss =0.809626,Val R2 = 0.169228, Val RMSE = 0.888224, Val MAE = 0.792943
+Epoch 4: Train Loss = 0.782861, Val Loss = 0.733244, Test Loss =0.753037,Val R2 = 0.232332, Val RMSE = 0.853698, Val MAE = 0.758024
+Epoch 5: Train Loss = 0.728145, Val Loss = 0.674807, Test Loss =0.698064,Val R2 = 0.293870, Val RMSE = 0.818559, Val MAE = 0.722259
+Epoch 6: Train Loss = 0.675301, Val Loss = 0.619359, Test Loss =0.645238,Val R2 = 0.352314, Val RMSE = 0.783639, Val MAE = 0.686068
+Epoch 7: Train Loss = 0.625425, Val Loss = 0.569195, Test Loss =0.596690,Val R2 = 0.405218, Val RMSE = 0.750559, Val MAE = 0.650809
+Epoch 8: Train Loss = 0.580792, Val Loss = 0.526690, Test Loss =0.555510,Val R2 = 0.449932, Val RMSE = 0.721252, Val MAE = 0.617803
+Epoch 9: Train Loss = 0.543411, Val Loss = 0.492790, Test Loss =0.522137,Val R2 = 0.485483, Val RMSE = 0.696863, Val MAE = 0.588165
+Epoch 10: Train Loss = 0.513711, Val Loss = 0.466804, Test Loss =0.496493,Val R2 = 0.512585, Val RMSE = 0.677481, Val MAE = 0.562531
+Epoch 11: Train Loss = 0.491485, Val Loss = 0.447668, Test Loss =0.476893,Val R2 = 0.532420, Val RMSE = 0.662685, Val MAE = 0.539718
+Epoch 12: Train Loss = 0.475360, Val Loss = 0.434588, Test Loss =0.463031,Val R2 = 0.545821, Val RMSE = 0.652330, Val MAE = 0.521254
+Epoch 13: Train Loss = 0.464134, Val Loss = 0.425751, Test Loss =0.453576,Val R2 = 0.554720, Val RMSE = 0.645163, Val MAE = 0.506429
+Epoch 14: Train Loss = 0.456702, Val Loss = 0.420161, Test Loss =0.447514,Val R2 = 0.560198, Val RMSE = 0.640574, Val MAE = 0.495483
+Epoch 15: Train Loss = 0.451834, Val Loss = 0.416686, Test Loss =0.443534,Val R2 = 0.563518, Val RMSE = 0.637677, Val MAE = 0.487757
+Epoch 16: Train Loss = 0.448633, Val Loss = 0.414780, Test Loss =0.441296,Val R2 = 0.565223, Val RMSE = 0.636101, Val MAE = 0.482462
+Epoch 17: Train Loss = 0.446477, Val Loss = 0.413472, Test Loss =0.439099,Val R2 = 0.566399, Val RMSE = 0.634934, Val MAE = 0.478643
+Epoch 18: Train Loss = 0.445073, Val Loss = 0.412718, Test Loss =0.438093,Val R2 = 0.566997, Val RMSE = 0.634305, Val MAE = 0.476227
+Epoch 19: Train Loss = 0.443968, Val Loss = 0.412453, Test Loss =0.437670,Val R2 = 0.567132, Val RMSE = 0.634126, Val MAE = 0.474888
+Epoch 20: Train Loss = 0.443197, Val Loss = 0.411941, Test Loss =0.436811,Val R2 = 0.567577, Val RMSE = 0.633676, Val MAE = 0.473913
+Epoch 21: Train Loss = 0.442465, Val Loss = 0.411769, Test Loss =0.436446,Val R2 = 0.567695, Val RMSE = 0.633562, Val MAE = 0.473615
+Epoch 22: Train Loss = 0.441871, Val Loss = 0.411452, Test Loss =0.435903,Val R2 = 0.567961, Val RMSE = 0.633270, Val MAE = 0.473033
+Epoch 23: Train Loss = 0.441380, Val Loss = 0.411126, Test Loss =0.435277,Val R2 = 0.568250, Val RMSE = 0.632983, Val MAE = 0.472744
+Epoch 24: Train Loss = 0.440869, Val Loss = 0.410847, Test Loss =0.434719,Val R2 = 0.568502, Val RMSE = 0.632714, Val MAE = 0.472295
+Epoch 25: Train Loss = 0.440480, Val Loss = 0.410700, Test Loss =0.434520,Val R2 = 0.568630, Val RMSE = 0.632602, Val MAE = 0.472346
+Epoch 26: Train Loss = 0.440101, Val Loss = 0.410544, Test Loss =0.434168,Val R2 = 0.568764, Val RMSE = 0.632490, Val MAE = 0.472293
+Epoch 27: Train Loss = 0.439786, Val Loss = 0.410475, Test Loss =0.434151,Val R2 = 0.568815, Val RMSE = 0.632467, Val MAE = 0.472434
+Epoch 28: Train Loss = 0.439515, Val Loss = 0.410162, Test Loss =0.433629,Val R2 = 0.569120, Val RMSE = 0.632172, Val MAE = 0.472002
+Epoch 29: Train Loss = 0.439211, Val Loss = 0.410120, Test Loss =0.433640,Val R2 = 0.569115, Val RMSE = 0.632146, Val MAE = 0.471543
+Epoch 30: Train Loss = 0.438895, Val Loss = 0.409966, Test Loss =0.433286,Val R2 = 0.569291, Val RMSE = 0.632038, Val MAE = 0.471857
+Epoch 31: Train Loss = 0.438657, Val Loss = 0.409868, Test Loss =0.433067,Val R2 = 0.569373, Val RMSE = 0.631956, Val MAE = 0.471681
+Epoch 32: Train Loss = 0.438427, Val Loss = 0.409914, Test Loss =0.433323,Val R2 = 0.569299, Val RMSE = 0.632039, Val MAE = 0.471774
+Epoch 33: Train Loss = 0.438155, Val Loss = 0.409643, Test Loss =0.432658,Val R2 = 0.569597, Val RMSE = 0.631765, Val MAE = 0.471359
+Epoch 34: Train Loss = 0.437949, Val Loss = 0.409520, Test Loss =0.432357,Val R2 = 0.569698, Val RMSE = 0.631605, Val MAE = 0.471082
+Epoch 35: Train Loss = 0.437836, Val Loss = 0.409460, Test Loss =0.432539,Val R2 = 0.569735, Val RMSE = 0.631615, Val MAE = 0.471168
+Epoch 36: Train Loss = 0.437621, Val Loss = 0.409407, Test Loss =0.432391,Val R2 = 0.569775, Val RMSE = 0.631579, Val MAE = 0.471091
+Epoch 37: Train Loss = 0.437359, Val Loss = 0.409558, Test Loss =0.433063,Val R2 = 0.569580, Val RMSE = 0.631793, Val MAE = 0.471449
+Epoch 38: Train Loss = 0.437288, Val Loss = 0.409436, Test Loss =0.432730,Val R2 = 0.569705, Val RMSE = 0.631688, Val MAE = 0.471422
+Epoch 39: Train Loss = 0.437135, Val Loss = 0.409223, Test Loss =0.432352,Val R2 = 0.569919, Val RMSE = 0.631461, Val MAE = 0.470926
+Epoch 40: Train Loss = 0.436922, Val Loss = 0.409221, Test Loss =0.432265,Val R2 = 0.569904, Val RMSE = 0.631474, Val MAE = 0.470967
+Epoch 41: Train Loss = 0.436792, Val Loss = 0.409083, Test Loss =0.431754,Val R2 = 0.570051, Val RMSE = 0.631313, Val MAE = 0.470773
+Epoch 42: Train Loss = 0.436630, Val Loss = 0.409061, Test Loss =0.432077,Val R2 = 0.570022, Val RMSE = 0.631335, Val MAE = 0.470556
+Epoch 43: Train Loss = 0.436451, Val Loss = 0.408987, Test Loss =0.431943,Val R2 = 0.570107, Val RMSE = 0.631275, Val MAE = 0.470578
+Epoch 44: Train Loss = 0.436322, Val Loss = 0.409052, Test Loss =0.432251,Val R2 = 0.569999, Val RMSE = 0.631354, Val MAE = 0.470492
+Epoch 45: Train Loss = 0.436219, Val Loss = 0.408816, Test Loss =0.431663,Val R2 = 0.570245, Val RMSE = 0.631098, Val MAE = 0.470184
+Epoch 46: Train Loss = 0.436001, Val Loss = 0.409107, Test Loss =0.432444,Val R2 = 0.569891, Val RMSE = 0.631425, Val MAE = 0.470399
+Epoch 47: Train Loss = 0.435996, Val Loss = 0.408786, Test Loss =0.431890,Val R2 = 0.570232, Val RMSE = 0.631109, Val MAE = 0.470070
+Epoch 48: Train Loss = 0.435846, Val Loss = 0.408860, Test Loss =0.431940,Val R2 = 0.570141, Val RMSE = 0.631208, Val MAE = 0.470338
+Epoch 49: Train Loss = 0.435690, Val Loss = 0.408769, Test Loss =0.431896,Val R2 = 0.570232, Val RMSE = 0.631142, Val MAE = 0.470282
+Epoch 50: Train Loss = 0.435610, Val Loss = 0.408829, Test Loss =0.431832,Val R2 = 0.570161, Val RMSE = 0.631181, Val MAE = 0.470295
+==================================================
+
+==================================================
+Symbolic Formula:
+--------------------
+[0.17962266938651*x_2 + 0.275686614540106*(-x_11 - 0.0340339246037512)**4 - 0.00376000598409141*(-x_13 - 0.287588483856818)**2 + 1.46184497848924e-5*exp(1.53999984264374*x_14) + 0.821089293510213*exp(0.387999832630157*x_5) - 0.145764282632087*log(5.25031995773315 - 9.49007987976074*x_4) - 0.796686236960987 - 0.00395358004602637*exp(-7.09327983856201*x_10) - 6.10318570974651e-7/(-x_6 - 0.318335736889844)**2 - 4.61335807791743e-7/(-0.0639999583363533*x_3 - 0.0199999921023846) - 7.90064851528384e-8/(0.435950406225976 - x_7)**2 + 3.97782871871212e-5/(0.0769756900837917 - x_12)**2]
+[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
+==================================================
+
+==================================================
+Configuration: width=[18, 1, 1], grid=8, k=6
+Total Parameters: 825
+Maximum Memory Consumed: 0.017297408 GB
+Final Validation Loss: 0.41879524538914364
+Epoch-wise Training Statistics:
+Epoch 1: Train Loss = 1.001066, Val Loss = 0.988044, Test Loss =0.986788,Val R2 = -0.035935, Val RMSE = 0.991756, Val MAE = 0.891860
+Epoch 2: Train Loss = 0.982066, Val Loss = 0.969803, Test Loss =0.966862,Val R2 = -0.016751, Val RMSE = 0.982564, Val MAE = 0.883783
+Epoch 3: Train Loss = 0.955714, Val Loss = 0.930801, Test Loss =0.930105,Val R2 = 0.024920, Val RMSE = 0.962419, Val MAE = 0.864182
+Epoch 4: Train Loss = 0.911080, Val Loss = 0.872853, Test Loss =0.878221,Val R2 = 0.086530, Val RMSE = 0.931644, Val MAE = 0.833077
+Epoch 5: Train Loss = 0.855954, Val Loss = 0.808797, Test Loss =0.820622,Val R2 = 0.154393, Val RMSE = 0.896352, Val MAE = 0.797719
+Epoch 6: Train Loss = 0.796751, Val Loss = 0.742870, Test Loss =0.758959,Val R2 = 0.224202, Val RMSE = 0.858537, Val MAE = 0.759624
+Epoch 7: Train Loss = 0.736765, Val Loss = 0.679252, Test Loss =0.697116,Val R2 = 0.291369, Val RMSE = 0.820495, Val MAE = 0.721912
+Epoch 8: Train Loss = 0.679377, Val Loss = 0.621973, Test Loss =0.640956,Val R2 = 0.351521, Val RMSE = 0.784621, Val MAE = 0.684805
+Epoch 9: Train Loss = 0.627901, Val Loss = 0.574026, Test Loss =0.592548,Val R2 = 0.401461, Val RMSE = 0.753209, Val MAE = 0.651417
+Epoch 10: Train Loss = 0.585099, Val Loss = 0.536308, Test Loss =0.554272,Val R2 = 0.440508, Val RMSE = 0.727475, Val MAE = 0.623926
+Epoch 11: Train Loss = 0.551488, Val Loss = 0.507082, Test Loss =0.525153,Val R2 = 0.470607, Val RMSE = 0.706785, Val MAE = 0.600665
+Epoch 12: Train Loss = 0.525626, Val Loss = 0.484754, Test Loss =0.503198,Val R2 = 0.493482, Val RMSE = 0.690466, Val MAE = 0.580974
+Epoch 13: Train Loss = 0.505936, Val Loss = 0.467084, Test Loss =0.485581,Val R2 = 0.511571, Val RMSE = 0.677070, Val MAE = 0.563093
+Epoch 14: Train Loss = 0.490949, Val Loss = 0.454156, Test Loss =0.473105,Val R2 = 0.524656, Val RMSE = 0.667104, Val MAE = 0.548593
+Epoch 15: Train Loss = 0.479466, Val Loss = 0.444103, Test Loss =0.462668,Val R2 = 0.534815, Val RMSE = 0.659095, Val MAE = 0.535337
+Epoch 16: Train Loss = 0.470823, Val Loss = 0.436997, Test Loss =0.455937,Val R2 = 0.541885, Val RMSE = 0.653474, Val MAE = 0.524680
+Epoch 17: Train Loss = 0.464278, Val Loss = 0.431402, Test Loss =0.449899,Val R2 = 0.547449, Val RMSE = 0.648857, Val MAE = 0.514796
+Epoch 18: Train Loss = 0.459305, Val Loss = 0.427505, Test Loss =0.445889,Val R2 = 0.551232, Val RMSE = 0.645672, Val MAE = 0.506498
+Epoch 19: Train Loss = 0.455579, Val Loss = 0.424515, Test Loss =0.442043,Val R2 = 0.554221, Val RMSE = 0.643073, Val MAE = 0.499727
+Epoch 20: Train Loss = 0.452842, Val Loss = 0.422609, Test Loss =0.439848,Val R2 = 0.556005, Val RMSE = 0.641518, Val MAE = 0.494098
+Epoch 21: Train Loss = 0.450748, Val Loss = 0.421333, Test Loss =0.438361,Val R2 = 0.557208, Val RMSE = 0.640495, Val MAE = 0.489984
+Epoch 22: Train Loss = 0.449236, Val Loss = 0.420451, Test Loss =0.437195,Val R2 = 0.558039, Val RMSE = 0.639778, Val MAE = 0.486861
+Epoch 23: Train Loss = 0.448113, Val Loss = 0.419983, Test Loss =0.436024,Val R2 = 0.558500, Val RMSE = 0.639406, Val MAE = 0.484954
+Epoch 24: Train Loss = 0.447212, Val Loss = 0.419456, Test Loss =0.435228,Val R2 = 0.558984, Val RMSE = 0.638932, Val MAE = 0.483153
+Epoch 25: Train Loss = 0.446498, Val Loss = 0.419100, Test Loss =0.434484,Val R2 = 0.559341, Val RMSE = 0.638578, Val MAE = 0.481790
+Epoch 26: Train Loss = 0.446004, Val Loss = 0.418905, Test Loss =0.434047,Val R2 = 0.559528, Val RMSE = 0.638454, Val MAE = 0.480634
+Epoch 27: Train Loss = 0.445495, Val Loss = 0.418795, Test Loss =0.433731,Val R2 = 0.559617, Val RMSE = 0.638378, Val MAE = 0.479990
+Epoch 28: Train Loss = 0.445127, Val Loss = 0.418817, Test Loss =0.433538,Val R2 = 0.559591, Val RMSE = 0.638417, Val MAE = 0.479386
+Epoch 29: Train Loss = 0.444844, Val Loss = 0.418872, Test Loss =0.433476,Val R2 = 0.559494, Val RMSE = 0.638500, Val MAE = 0.478389
+Epoch 30: Train Loss = 0.444648, Val Loss = 0.418811, Test Loss =0.432969,Val R2 = 0.559552, Val RMSE = 0.638373, Val MAE = 0.477764
+Epoch 31: Train Loss = 0.444381, Val Loss = 0.418730, Test Loss =0.432799,Val R2 = 0.559686, Val RMSE = 0.638341, Val MAE = 0.478513
+Epoch 32: Train Loss = 0.444238, Val Loss = 0.418857, Test Loss =0.432625,Val R2 = 0.559512, Val RMSE = 0.638418, Val MAE = 0.477875
+==================================================
+
+==================================================
+Symbolic Formula:
+--------------------
+[-0.947226881980896*sin(-1.50290537168931*sqrt(1 - 0.54473389868717*x_5) + 0.117600510244883*(-x_11 - 0.0816496191822697)**4 + 4.94592559923353e-5*exp(2.81624007225037*x_6) - 0.378817382257743*sin(1.17983984947205*x_9 - 9.61615943908691) - 0.489736756266183*cos(0.680079817771912*x_2 + 7.23912000656128) - 2.11395573907171 + 0.000573000324502684*exp(-9.47999954223633*x_3) + 0.00567030928468944*exp(-7.01543998718262*x_14) + 2.67778327482136e-9/(-x_7 - 0.425379827222599)**2 + 1.8933378578655e-7/(-0.155679881572723*x_12 - 0.0612799599766731) - 4.20598641608079e-6/(-x_10 - 0.373128203654744)**2 + 0.806275041612651/sqrt(1 - 0.863344251088606*x_4)) - 0.250589549541473]
+[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
+==================================================
+
+==================================================
+Configuration: width=[18, 2, 1], grid=5, k=4
+Total Parameters: 938
+Maximum Memory Consumed: 0.017319936 GB
+Final Validation Loss: 0.40817826241254807
+Epoch-wise Training Statistics:
+Epoch 1: Train Loss = 0.978930, Val Loss = 0.933185, Test Loss =0.921742,Val R2 = 0.022557, Val RMSE = 0.963159, Val MAE = 0.857111
+Epoch 2: Train Loss = 0.881651, Val Loss = 0.827382, Test Loss =0.813058,Val R2 = 0.134066, Val RMSE = 0.906328, Val MAE = 0.798993
+Epoch 3: Train Loss = 0.771387, Val Loss = 0.713206, Test Loss =0.694888,Val R2 = 0.254138, Val RMSE = 0.840389, Val MAE = 0.728620
+Epoch 4: Train Loss = 0.673216, Val Loss = 0.626631, Test Loss =0.611224,Val R2 = 0.344926, Val RMSE = 0.786696, Val MAE = 0.674035
+Epoch 5: Train Loss = 0.604103, Val Loss = 0.565094, Test Loss =0.555481,Val R2 = 0.409302, Val RMSE = 0.746171, Val MAE = 0.633257
+Epoch 6: Train Loss = 0.555332, Val Loss = 0.520722, Test Loss =0.516707,Val R2 = 0.455560, Val RMSE = 0.715412, Val MAE = 0.600458
+Epoch 7: Train Loss = 0.520863, Val Loss = 0.488818, Test Loss =0.489650,Val R2 = 0.488678, Val RMSE = 0.692369, Val MAE = 0.572998
+Epoch 8: Train Loss = 0.496877, Val Loss = 0.466363, Test Loss =0.471191,Val R2 = 0.511885, Val RMSE = 0.675612, Val MAE = 0.550544
+Epoch 9: Train Loss = 0.480241, Val Loss = 0.450400, Test Loss =0.458411,Val R2 = 0.528265, Val RMSE = 0.663391, Val MAE = 0.532179
+Epoch 10: Train Loss = 0.468796, Val Loss = 0.439546, Test Loss =0.450399,Val R2 = 0.539353, Val RMSE = 0.655021, Val MAE = 0.517723
+Epoch 11: Train Loss = 0.461105, Val Loss = 0.431698, Test Loss =0.443638,Val R2 = 0.547259, Val RMSE = 0.648734, Val MAE = 0.505507
+Epoch 12: Train Loss = 0.455986, Val Loss = 0.426612, Test Loss =0.439837,Val R2 = 0.552393, Val RMSE = 0.644796, Val MAE = 0.497206
+Epoch 13: Train Loss = 0.452319, Val Loss = 0.422763, Test Loss =0.436506,Val R2 = 0.556256, Val RMSE = 0.641723, Val MAE = 0.491267
+Epoch 14: Train Loss = 0.449805, Val Loss = 0.420238, Test Loss =0.434701,Val R2 = 0.558789, Val RMSE = 0.639808, Val MAE = 0.487110
+Epoch 15: Train Loss = 0.447782, Val Loss = 0.418319, Test Loss =0.433237,Val R2 = 0.560670, Val RMSE = 0.638324, Val MAE = 0.483624
+Epoch 16: Train Loss = 0.446294, Val Loss = 0.416928, Test Loss =0.432204,Val R2 = 0.562052, Val RMSE = 0.637272, Val MAE = 0.481298
+Epoch 17: Train Loss = 0.445058, Val Loss = 0.415739, Test Loss =0.431117,Val R2 = 0.563239, Val RMSE = 0.636318, Val MAE = 0.479715
+Epoch 18: Train Loss = 0.444119, Val Loss = 0.414930, Test Loss =0.430674,Val R2 = 0.564048, Val RMSE = 0.635767, Val MAE = 0.478627
+Epoch 19: Train Loss = 0.443397, Val Loss = 0.414190, Test Loss =0.430104,Val R2 = 0.564785, Val RMSE = 0.635225, Val MAE = 0.477600
+Epoch 20: Train Loss = 0.442719, Val Loss = 0.413709, Test Loss =0.429839,Val R2 = 0.565267, Val RMSE = 0.634898, Val MAE = 0.476964
+Epoch 21: Train Loss = 0.442122, Val Loss = 0.413184, Test Loss =0.429225,Val R2 = 0.565750, Val RMSE = 0.634449, Val MAE = 0.475958
+Epoch 22: Train Loss = 0.441670, Val Loss = 0.412838, Test Loss =0.429210,Val R2 = 0.566100, Val RMSE = 0.634256, Val MAE = 0.475412
+Epoch 23: Train Loss = 0.441168, Val Loss = 0.412463, Test Loss =0.428640,Val R2 = 0.566433, Val RMSE = 0.633905, Val MAE = 0.474606
+Epoch 24: Train Loss = 0.440796, Val Loss = 0.412118, Test Loss =0.428352,Val R2 = 0.566823, Val RMSE = 0.633676, Val MAE = 0.474687
+Epoch 25: Train Loss = 0.440473, Val Loss = 0.411811, Test Loss =0.428258,Val R2 = 0.567156, Val RMSE = 0.633470, Val MAE = 0.474451
+Epoch 26: Train Loss = 0.440115, Val Loss = 0.411678, Test Loss =0.428059,Val R2 = 0.567258, Val RMSE = 0.633357, Val MAE = 0.473825
+Epoch 27: Train Loss = 0.439759, Val Loss = 0.411381, Test Loss =0.427492,Val R2 = 0.567564, Val RMSE = 0.633060, Val MAE = 0.473964
+Epoch 28: Train Loss = 0.439509, Val Loss = 0.411174, Test Loss =0.427595,Val R2 = 0.567838, Val RMSE = 0.632979, Val MAE = 0.474112
+Epoch 29: Train Loss = 0.439233, Val Loss = 0.411003, Test Loss =0.427862,Val R2 = 0.567996, Val RMSE = 0.632909, Val MAE = 0.473424
+Epoch 30: Train Loss = 0.438970, Val Loss = 0.410859, Test Loss =0.427775,Val R2 = 0.568117, Val RMSE = 0.632816, Val MAE = 0.472924
+Epoch 31: Train Loss = 0.438711, Val Loss = 0.410611, Test Loss =0.427428,Val R2 = 0.568380, Val RMSE = 0.632586, Val MAE = 0.472978
+Epoch 32: Train Loss = 0.438494, Val Loss = 0.410479, Test Loss =0.427292,Val R2 = 0.568488, Val RMSE = 0.632480, Val MAE = 0.472478
+Epoch 33: Train Loss = 0.438272, Val Loss = 0.410287, Test Loss =0.427171,Val R2 = 0.568715, Val RMSE = 0.632344, Val MAE = 0.472794
+Epoch 34: Train Loss = 0.438093, Val Loss = 0.410202, Test Loss =0.427070,Val R2 = 0.568775, Val RMSE = 0.632269, Val MAE = 0.472335
+Epoch 35: Train Loss = 0.437878, Val Loss = 0.410072, Test Loss =0.427048,Val R2 = 0.568888, Val RMSE = 0.632180, Val MAE = 0.472045
+Epoch 36: Train Loss = 0.437687, Val Loss = 0.409913, Test Loss =0.426933,Val R2 = 0.569073, Val RMSE = 0.632055, Val MAE = 0.471935
+Epoch 37: Train Loss = 0.437551, Val Loss = 0.409866, Test Loss =0.427008,Val R2 = 0.569125, Val RMSE = 0.632055, Val MAE = 0.471875
+Epoch 38: Train Loss = 0.437308, Val Loss = 0.409640, Test Loss =0.426892,Val R2 = 0.569351, Val RMSE = 0.631872, Val MAE = 0.471527
+Epoch 39: Train Loss = 0.437162, Val Loss = 0.409583, Test Loss =0.426916,Val R2 = 0.569350, Val RMSE = 0.631819, Val MAE = 0.470659
+Epoch 40: Train Loss = 0.437000, Val Loss = 0.409544, Test Loss =0.427053,Val R2 = 0.569464, Val RMSE = 0.631857, Val MAE = 0.471429
+Epoch 41: Train Loss = 0.436862, Val Loss = 0.409373, Test Loss =0.426604,Val R2 = 0.569663, Val RMSE = 0.631686, Val MAE = 0.471829
+Epoch 42: Train Loss = 0.436705, Val Loss = 0.409269, Test Loss =0.426579,Val R2 = 0.569730, Val RMSE = 0.631599, Val MAE = 0.471127
+Epoch 43: Train Loss = 0.436560, Val Loss = 0.409102, Test Loss =0.426357,Val R2 = 0.569942, Val RMSE = 0.631455, Val MAE = 0.471458
+Epoch 44: Train Loss = 0.436464, Val Loss = 0.409087, Test Loss =0.426478,Val R2 = 0.569926, Val RMSE = 0.631477, Val MAE = 0.471126
+Epoch 45: Train Loss = 0.436308, Val Loss = 0.408951, Test Loss =0.426300,Val R2 = 0.570084, Val RMSE = 0.631364, Val MAE = 0.471043
+Epoch 46: Train Loss = 0.436137, Val Loss = 0.408932, Test Loss =0.426209,Val R2 = 0.570091, Val RMSE = 0.631313, Val MAE = 0.471121
+Epoch 47: Train Loss = 0.436015, Val Loss = 0.408870, Test Loss =0.426500,Val R2 = 0.570122, Val RMSE = 0.631323, Val MAE = 0.470327
+Epoch 48: Train Loss = 0.435950, Val Loss = 0.408888, Test Loss =0.426494,Val R2 = 0.570076, Val RMSE = 0.631329, Val MAE = 0.470078
+Epoch 49: Train Loss = 0.435813, Val Loss = 0.408870, Test Loss =0.426443,Val R2 = 0.570126, Val RMSE = 0.631322, Val MAE = 0.470407
+Epoch 50: Train Loss = 0.435731, Val Loss = 0.408787, Test Loss =0.426519,Val R2 = 0.570170, Val RMSE = 0.631262, Val MAE = 0.469831
+Epoch 51: Train Loss = 0.435595, Val Loss = 0.408669, Test Loss =0.426393,Val R2 = 0.570304, Val RMSE = 0.631158, Val MAE = 0.469879
+Epoch 52: Train Loss = 0.435462, Val Loss = 0.408523, Test Loss =0.425971,Val R2 = 0.570489, Val RMSE = 0.631006, Val MAE = 0.470370
+Epoch 53: Train Loss = 0.435394, Val Loss = 0.408468, Test Loss =0.426315,Val R2 = 0.570520, Val RMSE = 0.631008, Val MAE = 0.469661
+Epoch 54: Train Loss = 0.435308, Val Loss = 0.408496, Test Loss =0.426413,Val R2 = 0.570498, Val RMSE = 0.631048, Val MAE = 0.469715
+Epoch 55: Train Loss = 0.435214, Val Loss = 0.408472, Test Loss =0.426433,Val R2 = 0.570527, Val RMSE = 0.631045, Val MAE = 0.469625
+Epoch 56: Train Loss = 0.435121, Val Loss = 0.408410, Test Loss =0.426472,Val R2 = 0.570621, Val RMSE = 0.631029, Val MAE = 0.469929
+Epoch 57: Train Loss = 0.435012, Val Loss = 0.408304, Test Loss =0.426109,Val R2 = 0.570755, Val RMSE = 0.630907, Val MAE = 0.470314
+Epoch 58: Train Loss = 0.434949, Val Loss = 0.408284, Test Loss =0.426073,Val R2 = 0.570722, Val RMSE = 0.630855, Val MAE = 0.469442
+Epoch 59: Train Loss = 0.434852, Val Loss = 0.408291, Test Loss =0.426071,Val R2 = 0.570689, Val RMSE = 0.630868, Val MAE = 0.469363
+Epoch 60: Train Loss = 0.434788, Val Loss = 0.408249, Test Loss =0.425997,Val R2 = 0.570752, Val RMSE = 0.630830, Val MAE = 0.469498
+Epoch 61: Train Loss = 0.434705, Val Loss = 0.408227, Test Loss =0.426024,Val R2 = 0.570777, Val RMSE = 0.630825, Val MAE = 0.469248
+Epoch 62: Train Loss = 0.434602, Val Loss = 0.408178, Test Loss =0.426111,Val R2 = 0.570816, Val RMSE = 0.630793, Val MAE = 0.468973
+Epoch 63: Train Loss = 0.434569, Val Loss = 0.408079, Test Loss =0.425698,Val R2 = 0.570917, Val RMSE = 0.630669, Val MAE = 0.469129
+Epoch 64: Train Loss = 0.434514, Val Loss = 0.408085, Test Loss =0.425726,Val R2 = 0.570953, Val RMSE = 0.630697, Val MAE = 0.469732
+Epoch 65: Train Loss = 0.434419, Val Loss = 0.408167, Test Loss =0.425995,Val R2 = 0.570845, Val RMSE = 0.630778, Val MAE = 0.469246
+Epoch 66: Train Loss = 0.434362, Val Loss = 0.408130, Test Loss =0.425816,Val R2 = 0.570886, Val RMSE = 0.630759, Val MAE = 0.469610
+Epoch 67: Train Loss = 0.434283, Val Loss = 0.408112, Test Loss =0.425841,Val R2 = 0.570883, Val RMSE = 0.630728, Val MAE = 0.468994
+==================================================
+
+==================================================
+Symbolic Formula:
+--------------------
+[-0.0093356273902009*x_13 + 0.0181988450345827*x_14 + 0.0327652351119863*x_2 + 0.03490049289618*(0.44799743780572 - x_11)**2 + 0.097322115484916*(-0.767874365179365*x_4 - 1)**2 + 0.196436533173104*(-0.635730656938997*x_5 - 1)**2 - 0.142988173812459*cos(1.1444798707962*x_9 + 7.56400012969971) + 0.508920013904572*cos(-0.0448602089724374*x_14 + 0.16808979607909*(-x_11 - 0.156220624380853)**4 + 0.304382663840432*(-0.658383830530789*x_4 - 1)**2 + 1.1317556724157e-5*exp(3.12352013587952*x_6) - 0.900830292970866*cos(0.619119822978973*x_2 - 5.39391946792603) + 0.378559070012411*cos(1.207279920578*x_9 - 1.78199994564056) + 0.0137461361347435*tan(3.67655992507935*x_13 - 5.53799962997437) + 0.0121298753596908*tan(8.76432037353516*x_5 - 5.22799968719482) + 5.35124647780275 - 0.00421501670501917*exp(-5.1910400390625*x_12) + 1.08993098463477e-8/(-x_3 - 0.312511409869911)**2 + 3.52276576148996e-8/(0.433079759075067 - x_7)**2 + 6.3396198025642e-9/(0.128218680741339 - x_10)**2) - 0.594001219843806 - 0.000514112812826806*exp(-9.9060001373291*x_6) + 0.00310432971793407*exp(-4.17008018493652*x_3) - 0.00174485213216723*exp(-6.59947967529297*x_12) - 1.17213201612833e-9/(0.126874717555652 - x_10)**2 - 4.00462235650084e-6/(0.0809599459171295 - 0.185759857296944*x_7)]
+[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
+==================================================
+
+==================================================
+Configuration: width=[18, 3, 1], grid=5, k=4
+Total Parameters: 1279
+Maximum Memory Consumed: 0.017371648 GB
+Final Validation Loss: 0.4138029410883232
+Epoch-wise Training Statistics:
+Epoch 1: Train Loss = 0.885514, Val Loss = 0.819932, Test Loss =0.832018,Val R2 = 0.139945, Val RMSE = 0.903238, Val MAE = 0.807826
+Epoch 2: Train Loss = 0.777836, Val Loss = 0.698491, Test Loss =0.719084,Val R2 = 0.267476, Val RMSE = 0.832862, Val MAE = 0.736441
+Epoch 3: Train Loss = 0.658766, Val Loss = 0.574581, Test Loss =0.601109,Val R2 = 0.397194, Val RMSE = 0.753426, Val MAE = 0.643716
+Epoch 4: Train Loss = 0.561842, Val Loss = 0.499369, Test Loss =0.525317,Val R2 = 0.475361, Val RMSE = 0.700031, Val MAE = 0.566287
+Epoch 5: Train Loss = 0.510275, Val Loss = 0.465573, Test Loss =0.487797,Val R2 = 0.510239, Val RMSE = 0.674308, Val MAE = 0.523079
+Epoch 6: Train Loss = 0.485783, Val Loss = 0.449719, Test Loss =0.469725,Val R2 = 0.526585, Val RMSE = 0.662068, Val MAE = 0.503146
+Epoch 7: Train Loss = 0.472286, Val Loss = 0.440505, Test Loss =0.458806,Val R2 = 0.536147, Val RMSE = 0.655044, Val MAE = 0.492841
+Epoch 8: Train Loss = 0.463526, Val Loss = 0.434371, Test Loss =0.451458,Val R2 = 0.542718, Val RMSE = 0.650457, Val MAE = 0.488762
+Epoch 9: Train Loss = 0.457336, Val Loss = 0.430064, Test Loss =0.446229,Val R2 = 0.547294, Val RMSE = 0.647222, Val MAE = 0.485436
+Epoch 10: Train Loss = 0.452794, Val Loss = 0.426950, Test Loss =0.442404,Val R2 = 0.550627, Val RMSE = 0.644884, Val MAE = 0.483248
+Epoch 11: Train Loss = 0.449560, Val Loss = 0.424674, Test Loss =0.439911,Val R2 = 0.553074, Val RMSE = 0.643228, Val MAE = 0.481450
+Epoch 12: Train Loss = 0.447124, Val Loss = 0.423000, Test Loss =0.437955,Val R2 = 0.554899, Val RMSE = 0.641986, Val MAE = 0.480267
+Epoch 13: Train Loss = 0.445281, Val Loss = 0.421819, Test Loss =0.437064,Val R2 = 0.556162, Val RMSE = 0.641190, Val MAE = 0.478811
+Epoch 14: Train Loss = 0.443980, Val Loss = 0.420785, Test Loss =0.435436,Val R2 = 0.557368, Val RMSE = 0.640367, Val MAE = 0.479465
+Epoch 15: Train Loss = 0.442918, Val Loss = 0.420003, Test Loss =0.434683,Val R2 = 0.558210, Val RMSE = 0.639815, Val MAE = 0.478738
+Epoch 16: Train Loss = 0.442162, Val Loss = 0.419397, Test Loss =0.434168,Val R2 = 0.558890, Val RMSE = 0.639394, Val MAE = 0.478765
+Epoch 17: Train Loss = 0.441498, Val Loss = 0.418874, Test Loss =0.433570,Val R2 = 0.559379, Val RMSE = 0.638971, Val MAE = 0.477102
+Epoch 18: Train Loss = 0.441004, Val Loss = 0.418485, Test Loss =0.433386,Val R2 = 0.559777, Val RMSE = 0.638731, Val MAE = 0.476455
+Epoch 19: Train Loss = 0.440527, Val Loss = 0.418271, Test Loss =0.433492,Val R2 = 0.559994, Val RMSE = 0.638647, Val MAE = 0.475858
+Epoch 20: Train Loss = 0.440233, Val Loss = 0.417727, Test Loss =0.432245,Val R2 = 0.560648, Val RMSE = 0.638131, Val MAE = 0.476905
+Epoch 21: Train Loss = 0.439860, Val Loss = 0.417413, Test Loss =0.432034,Val R2 = 0.560998, Val RMSE = 0.637926, Val MAE = 0.476943
+Epoch 22: Train Loss = 0.439510, Val Loss = 0.417193, Test Loss =0.432094,Val R2 = 0.561189, Val RMSE = 0.637808, Val MAE = 0.475960
+Epoch 23: Train Loss = 0.439284, Val Loss = 0.416925, Test Loss =0.431389,Val R2 = 0.561487, Val RMSE = 0.637538, Val MAE = 0.476078
+Epoch 24: Train Loss = 0.439077, Val Loss = 0.416733, Test Loss =0.431429,Val R2 = 0.561696, Val RMSE = 0.637438, Val MAE = 0.475908
+Epoch 25: Train Loss = 0.438859, Val Loss = 0.416535, Test Loss =0.431250,Val R2 = 0.561893, Val RMSE = 0.637286, Val MAE = 0.475853
+Epoch 26: Train Loss = 0.438653, Val Loss = 0.416358, Test Loss =0.430993,Val R2 = 0.562076, Val RMSE = 0.637155, Val MAE = 0.475713
+Epoch 27: Train Loss = 0.438475, Val Loss = 0.416267, Test Loss =0.431191,Val R2 = 0.562122, Val RMSE = 0.637126, Val MAE = 0.474999
+Epoch 28: Train Loss = 0.438261, Val Loss = 0.416039, Test Loss =0.430498,Val R2 = 0.562439, Val RMSE = 0.636895, Val MAE = 0.476139
+Epoch 29: Train Loss = 0.438135, Val Loss = 0.415889, Test Loss =0.430400,Val R2 = 0.562578, Val RMSE = 0.636790, Val MAE = 0.475706
+Epoch 30: Train Loss = 0.437950, Val Loss = 0.415792, Test Loss =0.430541,Val R2 = 0.562643, Val RMSE = 0.636758, Val MAE = 0.475166
+Epoch 31: Train Loss = 0.437850, Val Loss = 0.415631, Test Loss =0.430157,Val R2 = 0.562807, Val RMSE = 0.636591, Val MAE = 0.474925
+Epoch 32: Train Loss = 0.437669, Val Loss = 0.415582, Test Loss =0.429948,Val R2 = 0.562834, Val RMSE = 0.636533, Val MAE = 0.474655
+Epoch 33: Train Loss = 0.437546, Val Loss = 0.415406, Test Loss =0.429909,Val R2 = 0.563015, Val RMSE = 0.636405, Val MAE = 0.474349
+Epoch 34: Train Loss = 0.437439, Val Loss = 0.415329, Test Loss =0.429565,Val R2 = 0.563106, Val RMSE = 0.636323, Val MAE = 0.474718
+Epoch 35: Train Loss = 0.437293, Val Loss = 0.415248, Test Loss =0.429679,Val R2 = 0.563118, Val RMSE = 0.636266, Val MAE = 0.473630
+Epoch 36: Train Loss = 0.437149, Val Loss = 0.415122, Test Loss =0.429416,Val R2 = 0.563275, Val RMSE = 0.636146, Val MAE = 0.473892
+Epoch 37: Train Loss = 0.437034, Val Loss = 0.415034, Test Loss =0.429302,Val R2 = 0.563440, Val RMSE = 0.636113, Val MAE = 0.475082
+Epoch 38: Train Loss = 0.436936, Val Loss = 0.414946, Test Loss =0.429156,Val R2 = 0.563498, Val RMSE = 0.636021, Val MAE = 0.474581
+Epoch 39: Train Loss = 0.436799, Val Loss = 0.414861, Test Loss =0.429343,Val R2 = 0.563554, Val RMSE = 0.635993, Val MAE = 0.473907
+Epoch 40: Train Loss = 0.436644, Val Loss = 0.415012, Test Loss =0.430161,Val R2 = 0.563309, Val RMSE = 0.636218, Val MAE = 0.472787
+Epoch 41: Train Loss = 0.436625, Val Loss = 0.414710, Test Loss =0.429167,Val R2 = 0.563730, Val RMSE = 0.635892, Val MAE = 0.474191
+Epoch 42: Train Loss = 0.436483, Val Loss = 0.414633, Test Loss =0.428861,Val R2 = 0.563786, Val RMSE = 0.635769, Val MAE = 0.473810
+Epoch 43: Train Loss = 0.436378, Val Loss = 0.414557, Test Loss =0.428960,Val R2 = 0.563872, Val RMSE = 0.635762, Val MAE = 0.473743
+Epoch 44: Train Loss = 0.436302, Val Loss = 0.414529, Test Loss =0.428780,Val R2 = 0.563868, Val RMSE = 0.635705, Val MAE = 0.473499
+Epoch 45: Train Loss = 0.436180, Val Loss = 0.414451, Test Loss =0.428763,Val R2 = 0.563942, Val RMSE = 0.635655, Val MAE = 0.473304
+Epoch 46: Train Loss = 0.436078, Val Loss = 0.414371, Test Loss =0.428870,Val R2 = 0.564039, Val RMSE = 0.635632, Val MAE = 0.473395
+Epoch 47: Train Loss = 0.435984, Val Loss = 0.414340, Test Loss =0.428757,Val R2 = 0.564040, Val RMSE = 0.635579, Val MAE = 0.473064
+Epoch 48: Train Loss = 0.435868, Val Loss = 0.414307, Test Loss =0.428852,Val R2 = 0.564046, Val RMSE = 0.635559, Val MAE = 0.472499
+Epoch 49: Train Loss = 0.435810, Val Loss = 0.414284, Test Loss =0.428415,Val R2 = 0.564077, Val RMSE = 0.635477, Val MAE = 0.472759
+Epoch 50: Train Loss = 0.435708, Val Loss = 0.414204, Test Loss =0.428728,Val R2 = 0.564170, Val RMSE = 0.635495, Val MAE = 0.472830
+Epoch 51: Train Loss = 0.435635, Val Loss = 0.414267, Test Loss =0.429162,Val R2 = 0.564099, Val RMSE = 0.635622, Val MAE = 0.472798
+Epoch 52: Train Loss = 0.435595, Val Loss = 0.414168, Test Loss =0.429051,Val R2 = 0.564223, Val RMSE = 0.635558, Val MAE = 0.473153
+Epoch 53: Train Loss = 0.435508, Val Loss = 0.414082, Test Loss =0.428607,Val R2 = 0.564301, Val RMSE = 0.635404, Val MAE = 0.472795
+Epoch 54: Train Loss = 0.435379, Val Loss = 0.414139, Test Loss =0.428563,Val R2 = 0.564180, Val RMSE = 0.635433, Val MAE = 0.472018
+Epoch 55: Train Loss = 0.435310, Val Loss = 0.414024, Test Loss =0.428393,Val R2 = 0.564341, Val RMSE = 0.635345, Val MAE = 0.472639
+Epoch 56: Train Loss = 0.435201, Val Loss = 0.414022, Test Loss =0.428166,Val R2 = 0.564357, Val RMSE = 0.635310, Val MAE = 0.472847
+Epoch 57: Train Loss = 0.435153, Val Loss = 0.413998, Test Loss =0.428346,Val R2 = 0.564349, Val RMSE = 0.635311, Val MAE = 0.472305
+Epoch 58: Train Loss = 0.435073, Val Loss = 0.413926, Test Loss =0.428197,Val R2 = 0.564457, Val RMSE = 0.635248, Val MAE = 0.472606
+Epoch 59: Train Loss = 0.434985, Val Loss = 0.413948, Test Loss =0.428283,Val R2 = 0.564418, Val RMSE = 0.635276, Val MAE = 0.472347
+Epoch 60: Train Loss = 0.434899, Val Loss = 0.413982, Test Loss =0.428598,Val R2 = 0.564327, Val RMSE = 0.635337, Val MAE = 0.471531
+Epoch 61: Train Loss = 0.434845, Val Loss = 0.413965, Test Loss =0.428667,Val R2 = 0.564371, Val RMSE = 0.635348, Val MAE = 0.471939
+Epoch 62: Train Loss = 0.434752, Val Loss = 0.413803, Test Loss =0.428013,Val R2 = 0.564617, Val RMSE = 0.635148, Val MAE = 0.472758
+Epoch 63: Train Loss = 0.434713, Val Loss = 0.413819, Test Loss =0.428038,Val R2 = 0.564558, Val RMSE = 0.635150, Val MAE = 0.472204
+Epoch 64: Train Loss = 0.434602, Val Loss = 0.413793, Test Loss =0.427937,Val R2 = 0.564627, Val RMSE = 0.635141, Val MAE = 0.472719
+Epoch 65: Train Loss = 0.434509, Val Loss = 0.413870, Test Loss =0.428579,Val R2 = 0.564491, Val RMSE = 0.635311, Val MAE = 0.472134
+Epoch 66: Train Loss = 0.434450, Val Loss = 0.413811, Test Loss =0.428541,Val R2 = 0.564561, Val RMSE = 0.635254, Val MAE = 0.472168
+Epoch 67: Train Loss = 0.434411, Val Loss = 0.413731, Test Loss =0.427817,Val R2 = 0.564707, Val RMSE = 0.635085, Val MAE = 0.472981
+==================================================
+
+==================================================
+Symbolic Formula:
+--------------------
+[0.020235761617747*x_13 - 0.0179392146064679*x_14 + 0.00784996468812889*x_6 - 0.0571380518760572*exp(0.548639833927155*x_11) - 0.00568016638871054*log(5.99487972259521 - 5.37455987930298*x_5) - 0.0293234789767593*sin(0.79015988111496*x_2 + 8.58607959747314) + 0.29194974899292*sin(-0.136368107164236*x_14 - 0.107222568271088*x_2 - 0.449205930782757*(-0.714762033717969*x_4 - 1)**2 + 4.21603462754057e-10*exp(6.44823980331421*x_6) + 0.00620095152943687*exp(6.74423980712891*x_7) + 1.27900425039201*log(6.11999988555908 - 3.26239991188049*x_5) + 0.532179665722765*cos(1.14367985725403*x_9 + 7.56256008148193) - 4.07272781933941 - 1.22713653077493*exp(-0.14136004447937*x_13) + 6.36265810965532e-7/(-x_12 - 0.388978678576275)**2 - 0.000664832795471818/(-x_11 - 0.634443480117457)**2 + 1.08766222827785e-7/(-x_10 - 0.360227620578424)**2 + 2.10154919188558e-5/(0.300979732875508 - x_3)**2) + 0.676885664463043*cos(-0.0263760240422991*x_14 + 0.280543606251807*x_5 + 0.204350643109285*(-0.764070601696101*x_4 - 1)**2 + 0.000175297991488003*exp(9.10360050201416*x_11) - 0.328900864569253*sin(1.11423993110657*x_9 - 3.46927976608276) + 0.599636410449435*cos(0.662879824638367*x_2 + 4.04239988327026) + 5.18253712073008 - 0.00335183691007999*exp(-7.19999980926514*x_6) - 3.71792668217112e-5*exp(-9.91599941253662*x_10) + 4.90321228772977e-8/(-x_3 - 0.310163142020723)**2 + 8.08539018565479e-9/(0.435084825608098 - x_7)**2 + 2.38406779415912e-8/(0.0483984070506083 - x_12)**2) - 0.308398944328774 - 0.00496884625849778*exp(-2.85951995849609*x_3) + 0.000102280660937703*exp(-7.88719987869263*x_12) + 0.00178712158783382*exp(-6.77568006515503*x_10) - 2.44964058744198e-9/(0.435131886957298 - x_7)**2]
+[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
+==================================================
+
+==================================================
+Configuration: width=[18, 4, 1], grid=5, k=4
+Total Parameters: 1620
+Maximum Memory Consumed: 0.0173952 GB
+Final Validation Loss: 0.41059976871366854
+Epoch-wise Training Statistics:
+Epoch 1: Train Loss = 0.955655, Val Loss = 0.900312, Test Loss =0.902414,Val R2 = 0.056418, Val RMSE = 0.946443, Val MAE = 0.847574
+Epoch 2: Train Loss = 0.851420, Val Loss = 0.779312, Test Loss =0.781061,Val R2 = 0.182915, Val RMSE = 0.880084, Val MAE = 0.781811
+Epoch 3: Train Loss = 0.730606, Val Loss = 0.648257, Test Loss =0.654601,Val R2 = 0.320118, Val RMSE = 0.801481, Val MAE = 0.699814
+Epoch 4: Train Loss = 0.617896, Val Loss = 0.537345, Test Loss =0.552263,Val R2 = 0.436280, Val RMSE = 0.727765, Val MAE = 0.618640
+Epoch 5: Train Loss = 0.533018, Val Loss = 0.468499, Test Loss =0.489370,Val R2 = 0.508033, Val RMSE = 0.677414, Val MAE = 0.550649
+Epoch 6: Train Loss = 0.487318, Val Loss = 0.438799, Test Loss =0.460670,Val R2 = 0.538755, Val RMSE = 0.654377, Val MAE = 0.510994
+Epoch 7: Train Loss = 0.467175, Val Loss = 0.426648, Test Loss =0.447781,Val R2 = 0.551338, Val RMSE = 0.644868, Val MAE = 0.493694
+Epoch 8: Train Loss = 0.457312, Val Loss = 0.420803, Test Loss =0.441884,Val R2 = 0.557433, Val RMSE = 0.640514, Val MAE = 0.484656
+Epoch 9: Train Loss = 0.451600, Val Loss = 0.417448, Test Loss =0.437399,Val R2 = 0.561007, Val RMSE = 0.637947, Val MAE = 0.480413
+Epoch 10: Train Loss = 0.447911, Val Loss = 0.415544, Test Loss =0.435255,Val R2 = 0.563038, Val RMSE = 0.636606, Val MAE = 0.477847
+Epoch 11: Train Loss = 0.445413, Val Loss = 0.414326, Test Loss =0.432914,Val R2 = 0.564335, Val RMSE = 0.635601, Val MAE = 0.476476
+Epoch 12: Train Loss = 0.443717, Val Loss = 0.413600, Test Loss =0.432216,Val R2 = 0.565090, Val RMSE = 0.635176, Val MAE = 0.475111
+Epoch 13: Train Loss = 0.442526, Val Loss = 0.413245, Test Loss =0.431759,Val R2 = 0.565503, Val RMSE = 0.634997, Val MAE = 0.474821
+Epoch 14: Train Loss = 0.441662, Val Loss = 0.412928, Test Loss =0.431054,Val R2 = 0.565841, Val RMSE = 0.634760, Val MAE = 0.474451
+Epoch 15: Train Loss = 0.440887, Val Loss = 0.412638, Test Loss =0.429950,Val R2 = 0.566209, Val RMSE = 0.634462, Val MAE = 0.475128
+Epoch 16: Train Loss = 0.440372, Val Loss = 0.412514, Test Loss =0.429923,Val R2 = 0.566291, Val RMSE = 0.634417, Val MAE = 0.473749
+Epoch 17: Train Loss = 0.439921, Val Loss = 0.412514, Test Loss =0.430133,Val R2 = 0.566271, Val RMSE = 0.634471, Val MAE = 0.472999
+Epoch 18: Train Loss = 0.439542, Val Loss = 0.412267, Test Loss =0.429387,Val R2 = 0.566612, Val RMSE = 0.634247, Val MAE = 0.474059
+Epoch 19: Train Loss = 0.439194, Val Loss = 0.412262, Test Loss =0.429674,Val R2 = 0.566575, Val RMSE = 0.634288, Val MAE = 0.473017
+Epoch 20: Train Loss = 0.438885, Val Loss = 0.412022, Test Loss =0.428866,Val R2 = 0.566831, Val RMSE = 0.634015, Val MAE = 0.473042
+Epoch 21: Train Loss = 0.438562, Val Loss = 0.411977, Test Loss =0.428705,Val R2 = 0.566854, Val RMSE = 0.633951, Val MAE = 0.472850
+Epoch 22: Train Loss = 0.438313, Val Loss = 0.411948, Test Loss =0.428825,Val R2 = 0.566836, Val RMSE = 0.633944, Val MAE = 0.471834
+Epoch 23: Train Loss = 0.438041, Val Loss = 0.411936, Test Loss =0.428996,Val R2 = 0.566880, Val RMSE = 0.634000, Val MAE = 0.472302
+Epoch 24: Train Loss = 0.437822, Val Loss = 0.411754, Test Loss =0.428284,Val R2 = 0.567101, Val RMSE = 0.633783, Val MAE = 0.472820
+Epoch 25: Train Loss = 0.437604, Val Loss = 0.411747, Test Loss =0.428552,Val R2 = 0.567080, Val RMSE = 0.633827, Val MAE = 0.472191
+Epoch 26: Train Loss = 0.437362, Val Loss = 0.411598, Test Loss =0.427744,Val R2 = 0.567210, Val RMSE = 0.633574, Val MAE = 0.472016
+Epoch 27: Train Loss = 0.437189, Val Loss = 0.411530, Test Loss =0.427821,Val R2 = 0.567257, Val RMSE = 0.633569, Val MAE = 0.471657
+Epoch 28: Train Loss = 0.436954, Val Loss = 0.411402, Test Loss =0.427677,Val R2 = 0.567441, Val RMSE = 0.633457, Val MAE = 0.472257
+Epoch 29: Train Loss = 0.436758, Val Loss = 0.411367, Test Loss =0.427734,Val R2 = 0.567434, Val RMSE = 0.633419, Val MAE = 0.471453
+Epoch 30: Train Loss = 0.436544, Val Loss = 0.411284, Test Loss =0.427426,Val R2 = 0.567576, Val RMSE = 0.633334, Val MAE = 0.472721
+Epoch 31: Train Loss = 0.436396, Val Loss = 0.411199, Test Loss =0.427156,Val R2 = 0.567618, Val RMSE = 0.633222, Val MAE = 0.471768
+Epoch 32: Train Loss = 0.436217, Val Loss = 0.411168, Test Loss =0.427221,Val R2 = 0.567644, Val RMSE = 0.633254, Val MAE = 0.471590
+Epoch 33: Train Loss = 0.436013, Val Loss = 0.411170, Test Loss =0.427331,Val R2 = 0.567587, Val RMSE = 0.633256, Val MAE = 0.470978
+Epoch 34: Train Loss = 0.435827, Val Loss = 0.411035, Test Loss =0.427116,Val R2 = 0.567735, Val RMSE = 0.633126, Val MAE = 0.470913
+Epoch 35: Train Loss = 0.435592, Val Loss = 0.410923, Test Loss =0.426709,Val R2 = 0.567888, Val RMSE = 0.632989, Val MAE = 0.471836
+Epoch 36: Train Loss = 0.435517, Val Loss = 0.410895, Test Loss =0.426975,Val R2 = 0.567892, Val RMSE = 0.633012, Val MAE = 0.471353
+Epoch 37: Train Loss = 0.435236, Val Loss = 0.410808, Test Loss =0.426960,Val R2 = 0.567924, Val RMSE = 0.632938, Val MAE = 0.470545
+Epoch 38: Train Loss = 0.435063, Val Loss = 0.410787, Test Loss =0.426671,Val R2 = 0.567966, Val RMSE = 0.632909, Val MAE = 0.471123
+Epoch 39: Train Loss = 0.434918, Val Loss = 0.410817, Test Loss =0.426790,Val R2 = 0.567850, Val RMSE = 0.632916, Val MAE = 0.469638
+Epoch 40: Train Loss = 0.434772, Val Loss = 0.410811, Test Loss =0.426929,Val R2 = 0.567879, Val RMSE = 0.632955, Val MAE = 0.470318
+Epoch 41: Train Loss = 0.434557, Val Loss = 0.410777, Test Loss =0.426910,Val R2 = 0.567881, Val RMSE = 0.632920, Val MAE = 0.469843
+Epoch 42: Train Loss = 0.434421, Val Loss = 0.410705, Test Loss =0.426371,Val R2 = 0.567945, Val RMSE = 0.632787, Val MAE = 0.470097
+Epoch 43: Train Loss = 0.434223, Val Loss = 0.410707, Test Loss =0.426757,Val R2 = 0.567943, Val RMSE = 0.632885, Val MAE = 0.470173
+Epoch 44: Train Loss = 0.434051, Val Loss = 0.410600, Test Loss =0.426044,Val R2 = 0.568015, Val RMSE = 0.632676, Val MAE = 0.469903
+Epoch 45: Train Loss = 0.433887, Val Loss = 0.410575, Test Loss =0.426069,Val R2 = 0.568037, Val RMSE = 0.632671, Val MAE = 0.470005
+Epoch 46: Train Loss = 0.433733, Val Loss = 0.410563, Test Loss =0.426139,Val R2 = 0.568021, Val RMSE = 0.632663, Val MAE = 0.469717
+Epoch 47: Train Loss = 0.433544, Val Loss = 0.410705, Test Loss =0.426494,Val R2 = 0.567889, Val RMSE = 0.632895, Val MAE = 0.470063
+Epoch 48: Train Loss = 0.433429, Val Loss = 0.410617, Test Loss =0.426149,Val R2 = 0.567938, Val RMSE = 0.632750, Val MAE = 0.469678
+Epoch 49: Train Loss = 0.433218, Val Loss = 0.410663, Test Loss =0.426207,Val R2 = 0.567822, Val RMSE = 0.632782, Val MAE = 0.468731
+==================================================
+
+==================================================
+Symbolic Formula:
+--------------------
+[0.260984978561273*(-0.153691978690278*x_14 - 0.12745326084388*x_6 + 0.315394627341585*(-0.244132017764514*x_13 - 1)**2 + 0.334747361159312*exp(0.423679858446121*x_11) - 0.19579018026054*sin(1.17927992343903*x_2 - 0.411519855260849) - 0.00601828913078154*tan(2.47343993186951*x_5 + 5.02263975143433) - 1 - 6.02043361811269e-5*exp(-9.18400001525879*x_7) + 0.00484963204013431*exp(-6.75576019287109*x_3) + 7.74065929371007e-5*exp(-9.17175960540771*x_12) - 1.74114845117787e-7/(0.116701948659158 - x_10)**2)**2 + 0.537911415100098*sin(0.0179858863141487*x_13 - 0.0308428660919477*x_14 - 0.120265885140242*x_2 - 0.0274607162622981*(0.438556111332283 - x_11)**2 - 0.401399459743006*(-0.46551898042732*x_5 - 1)**2 - 0.299730678950306*sin(1.07887983322144*x_9 - 0.33231982588768) + 0.201157899318243*cos(1.09799981117249*x_4 - 4.88543939590454) + 3.09695628283336 + 0.000200248778335561*exp(-8.20792007446289*x_7) - 0.0730864150522751*exp(-0.799999833106995*x_3) + 0.00700011816252544*exp(-4.13967990875244*x_12) + 1.67663623512215e-8/(-x_6 - 0.315313620246723)**2 + 2.08957403381953e-6/(-0.143119901418686*x_10 - 0.0519999675452709)) + 0.189369082450867*cos(-0.0667338452843024*x_14 + 0.0776436030667606*x_6 + 0.747521968855159*(-0.402231435170059*x_2 - 1)**2 + 0.268384457477232*(-0.811578923922826*x_4 - 1)**2 + 0.073854700019286*log(1.5343998670578*x_5 + 2.10583996772766) - 0.57776704982237*sin(1.12455987930298*x_9 - 3.45831990242004) - 9.21379661716504 - 0.00517154378911415*exp(-6.5732798576355*x_7) + 0.699070138530443*exp(-0.277999937534332*x_13) - 0.00118703808800755*exp(-7.25472021102905*x_12) + 0.000455483291720072*exp(-9.37919998168945*x_10) + 0.00183301542276748/(-0.0486401133239269*x_11 - 0.00383999664336443) + 9.93405272117779e-7/(0.277355468342294 - x_3)**2) + 0.402214735746384*cos(0.0584815718400098*x_14 + 0.0453881894294964*x_6 + 0.889090956840261*sqrt(1 - 0.76207285689846*x_5) - 0.145628955413557*(-x_11 - 0.102806993106544)**4 - 0.308873792352146*(-0.762270243711688*x_4 - 1)**2 + 0.00154556391655999*exp(9.36055946350098*x_7) + 0.237826876464645*cos(0.947999835014343*x_2 + 0.98255980014801) - 0.380320316528795*cos(0.940799832344055*x_9 - 2.03999996185303) - 0.0130367268335263*tan(4.17343997955322*x_13 + 6.90016031265259) + 0.754649516467323 - 0.00877756686625871*exp(-3.53199982643127*x_3) - 2.65891577273511e-7/(0.0526928539090956 - x_12)**2 + 1.13951045336571e-6/(0.0165599938482046 - 0.131519913673401*x_10)) - 0.399092201143503]
+[x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
+==================================================
+
+==================================================
+Configuration: width=[18, 10, 1], grid=5, k=4
+Total Parameters: 3666
+Maximum Memory Consumed: 0.017757184 GB
+Final Validation Loss: 0.4171522554975969
+Epoch-wise Training Statistics:
+Epoch 1: Train Loss = 0.864440, Val Loss = 0.757228, Test Loss =0.756479,Val R2 = 0.206957, Val RMSE = 0.866910, Val MAE = 0.764496
+Epoch 2: Train Loss = 0.684738, Val Loss = 0.590075, Test Loss =0.598088,Val R2 = 0.381643, Val RMSE = 0.763473, Val MAE = 0.652254
+Epoch 3: Train Loss = 0.562655, Val Loss = 0.495902, Test Loss =0.508726,Val R2 = 0.479304, Val RMSE = 0.697631, Val MAE = 0.568164
+Epoch 4: Train Loss = 0.500012, Val Loss = 0.455061, Test Loss =0.470644,Val R2 = 0.521479, Val RMSE = 0.667124, Val MAE = 0.521153
+Epoch 5: Train Loss = 0.472007, Val Loss = 0.438218, Test Loss =0.453575,Val R2 = 0.538896, Val RMSE = 0.654177, Val MAE = 0.501036
+Epoch 6: Train Loss = 0.459101, Val Loss = 0.430800, Test Loss =0.445333,Val R2 = 0.546645, Val RMSE = 0.648443, Val MAE = 0.492296
+Epoch 7: Train Loss = 0.452583, Val Loss = 0.427274, Test Loss =0.440964,Val R2 = 0.550327, Val RMSE = 0.645632, Val MAE = 0.487992
+Epoch 8: Train Loss = 0.448818, Val Loss = 0.425320, Test Loss =0.439113,Val R2 = 0.552381, Val RMSE = 0.644208, Val MAE = 0.484720
+Epoch 9: Train Loss = 0.446523, Val Loss = 0.424311, Test Loss =0.437538,Val R2 = 0.553324, Val RMSE = 0.643364, Val MAE = 0.481486
+Epoch 10: Train Loss = 0.445035, Val Loss = 0.423645, Test Loss =0.436325,Val R2 = 0.554159, Val RMSE = 0.642871, Val MAE = 0.482389
+Epoch 11: Train Loss = 0.443962, Val Loss = 0.423143, Test Loss =0.435985,Val R2 = 0.554675, Val RMSE = 0.642548, Val MAE = 0.480997
+Epoch 12: Train Loss = 0.443050, Val Loss = 0.422916, Test Loss =0.435744,Val R2 = 0.554857, Val RMSE = 0.642410, Val MAE = 0.479273
+Epoch 13: Train Loss = 0.442241, Val Loss = 0.422490, Test Loss =0.434496,Val R2 = 0.555342, Val RMSE = 0.642013, Val MAE = 0.479657
+Epoch 14: Train Loss = 0.441671, Val Loss = 0.422197, Test Loss =0.434009,Val R2 = 0.555648, Val RMSE = 0.641770, Val MAE = 0.479144
+Epoch 15: Train Loss = 0.441045, Val Loss = 0.422026, Test Loss =0.433732,Val R2 = 0.555840, Val RMSE = 0.641695, Val MAE = 0.478735
+Epoch 16: Train Loss = 0.440547, Val Loss = 0.421840, Test Loss =0.433416,Val R2 = 0.556053, Val RMSE = 0.641604, Val MAE = 0.478596
+Epoch 17: Train Loss = 0.440064, Val Loss = 0.421616, Test Loss =0.432412,Val R2 = 0.556299, Val RMSE = 0.641330, Val MAE = 0.478762
+Epoch 18: Train Loss = 0.439660, Val Loss = 0.421476, Test Loss =0.432531,Val R2 = 0.556339, Val RMSE = 0.641281, Val MAE = 0.476736
+Epoch 19: Train Loss = 0.439261, Val Loss = 0.421315, Test Loss =0.432226,Val R2 = 0.556560, Val RMSE = 0.641213, Val MAE = 0.476987
+Epoch 20: Train Loss = 0.438902, Val Loss = 0.421082, Test Loss =0.431181,Val R2 = 0.556780, Val RMSE = 0.640907, Val MAE = 0.476727
+Epoch 21: Train Loss = 0.438477, Val Loss = 0.420920, Test Loss =0.430757,Val R2 = 0.556915, Val RMSE = 0.640741, Val MAE = 0.475986
+Epoch 22: Train Loss = 0.438069, Val Loss = 0.420921, Test Loss =0.430056,Val R2 = 0.557032, Val RMSE = 0.640668, Val MAE = 0.477774
+Epoch 23: Train Loss = 0.437767, Val Loss = 0.420632, Test Loss =0.429895,Val R2 = 0.557328, Val RMSE = 0.640504, Val MAE = 0.477015
+Epoch 24: Train Loss = 0.437445, Val Loss = 0.420587, Test Loss =0.430362,Val R2 = 0.557291, Val RMSE = 0.640580, Val MAE = 0.475386
+Epoch 25: Train Loss = 0.437182, Val Loss = 0.420441, Test Loss =0.429712,Val R2 = 0.557485, Val RMSE = 0.640400, Val MAE = 0.476007
+Epoch 26: Train Loss = 0.436852, Val Loss = 0.420491, Test Loss =0.430221,Val R2 = 0.557405, Val RMSE = 0.640558, Val MAE = 0.474972
+Epoch 27: Train Loss = 0.436545, Val Loss = 0.420161, Test Loss =0.429450,Val R2 = 0.557869, Val RMSE = 0.640258, Val MAE = 0.476621
+Epoch 28: Train Loss = 0.436263, Val Loss = 0.419965, Test Loss =0.428894,Val R2 = 0.558043, Val RMSE = 0.640000, Val MAE = 0.476186
+Epoch 29: Train Loss = 0.436009, Val Loss = 0.419722, Test Loss =0.429018,Val R2 = 0.558328, Val RMSE = 0.639909, Val MAE = 0.476090
+Epoch 30: Train Loss = 0.435660, Val Loss = 0.419717, Test Loss =0.428262,Val R2 = 0.558369, Val RMSE = 0.639792, Val MAE = 0.477120
+Epoch 31: Train Loss = 0.435281, Val Loss = 0.419679, Test Loss =0.429042,Val R2 = 0.558325, Val RMSE = 0.639920, Val MAE = 0.474879
+Epoch 32: Train Loss = 0.435153, Val Loss = 0.419502, Test Loss =0.428676,Val R2 = 0.558483, Val RMSE = 0.639725, Val MAE = 0.474428
+Epoch 33: Train Loss = 0.434856, Val Loss = 0.419305, Test Loss =0.428298,Val R2 = 0.558658, Val RMSE = 0.639547, Val MAE = 0.474006
+Epoch 34: Train Loss = 0.434565, Val Loss = 0.419261, Test Loss =0.427294,Val R2 = 0.558690, Val RMSE = 0.639340, Val MAE = 0.474592
+Epoch 35: Train Loss = 0.434238, Val Loss = 0.419075, Test Loss =0.427826,Val R2 = 0.558993, Val RMSE = 0.639367, Val MAE = 0.475194
+Epoch 36: Train Loss = 0.433951, Val Loss = 0.419028, Test Loss =0.428134,Val R2 = 0.559010, Val RMSE = 0.639397, Val MAE = 0.474277
+Epoch 37: Train Loss = 0.433716, Val Loss = 0.418868, Test Loss =0.427375,Val R2 = 0.559113, Val RMSE = 0.639141, Val MAE = 0.474073
+Epoch 38: Train Loss = 0.433464, Val Loss = 0.418802, Test Loss =0.427424,Val R2 = 0.559203, Val RMSE = 0.639123, Val MAE = 0.473932
+Epoch 39: Train Loss = 0.433135, Val Loss = 0.418632, Test Loss =0.426902,Val R2 = 0.559383, Val RMSE = 0.638924, Val MAE = 0.474258
+Epoch 40: Train Loss = 0.432822, Val Loss = 0.418587, Test Loss =0.426298,Val R2 = 0.559413, Val RMSE = 0.638754, Val MAE = 0.474230
+Epoch 41: Train Loss = 0.432687, Val Loss = 0.418472, Test Loss =0.427219,Val R2 = 0.559586, Val RMSE = 0.638928, Val MAE = 0.473959
+Epoch 42: Train Loss = 0.432290, Val Loss = 0.418390, Test Loss =0.426106,Val R2 = 0.559693, Val RMSE = 0.638663, Val MAE = 0.474961
+Epoch 43: Train Loss = 0.432125, Val Loss = 0.418211, Test Loss =0.426814,Val R2 = 0.559878, Val RMSE = 0.638704, Val MAE = 0.473867
+Epoch 44: Train Loss = 0.431910, Val Loss = 0.418104, Test Loss =0.426536,Val R2 = 0.559984, Val RMSE = 0.638591, Val MAE = 0.473943
+Epoch 45: Train Loss = 0.431632, Val Loss = 0.417986, Test Loss =0.426190,Val R2 = 0.560196, Val RMSE = 0.638501, Val MAE = 0.474955
+Epoch 46: Train Loss = 0.431307, Val Loss = 0.418091, Test Loss =0.425599,Val R2 = 0.559927, Val RMSE = 0.638372, Val MAE = 0.473575
+Epoch 47: Train Loss = 0.431204, Val Loss = 0.417948, Test Loss =0.425777,Val R2 = 0.560167, Val RMSE = 0.638416, Val MAE = 0.474020
+Epoch 48: Train Loss = 0.430954, Val Loss = 0.417952, Test Loss =0.426568,Val R2 = 0.560162, Val RMSE = 0.638562, Val MAE = 0.473410
+Epoch 49: Train Loss = 0.430676, Val Loss = 0.417826, Test Loss =0.425982,Val R2 = 0.560210, Val RMSE = 0.638338, Val MAE = 0.472562
+Epoch 50: Train Loss = 0.430427, Val Loss = 0.417807, Test Loss =0.425398,Val R2 = 0.560272, Val RMSE = 0.638261, Val MAE = 0.473523
+Epoch 51: Train Loss = 0.430222, Val Loss = 0.417674, Test Loss =0.425689,Val R2 = 0.560395, Val RMSE = 0.638233, Val MAE = 0.472875
+Epoch 52: Train Loss = 0.429970, Val Loss = 0.417634, Test Loss =0.425293,Val R2 = 0.560424, Val RMSE = 0.638149, Val MAE = 0.472813
+Epoch 53: Train Loss = 0.429699, Val Loss = 0.417513, Test Loss =0.425468,Val R2 = 0.560605, Val RMSE = 0.638134, Val MAE = 0.473005
+Epoch 54: Train Loss = 0.429485, Val Loss = 0.417592, Test Loss =0.425701,Val R2 = 0.560524, Val RMSE = 0.638241, Val MAE = 0.472844
+Epoch 55: Train Loss = 0.429251, Val Loss = 0.417491, Test Loss =0.425074,Val R2 = 0.560584, Val RMSE = 0.638026, Val MAE = 0.472603
+Epoch 56: Train Loss = 0.429040, Val Loss = 0.417392, Test Loss =0.425306,Val R2 = 0.560723, Val RMSE = 0.638062, Val MAE = 0.472865
+Epoch 57: Train Loss = 0.428834, Val Loss = 0.417302, Test Loss =0.425554,Val R2 = 0.560856, Val RMSE = 0.638044, Val MAE = 0.473040
+Epoch 58: Train Loss = 0.428521, Val Loss = 0.417265, Test Loss =0.424693,Val R2 = 0.560841, Val RMSE = 0.637799, Val MAE = 0.472545
+Epoch 59: Train Loss = 0.428447, Val Loss = 0.417152, Test Loss =0.425083,Val R2 = 0.561018, Val RMSE = 0.637865, Val MAE = 0.472873
+Epoch 60: Train Loss = 0.427989, Val Loss = 0.417515, Test Loss =0.426405,Val R2 = 0.560615, Val RMSE = 0.638379, Val MAE = 0.472245
+Epoch 61: Train Loss = 0.427810, Val Loss = 0.417143, Test Loss =0.424995,Val R2 = 0.560955, Val RMSE = 0.637812, Val MAE = 0.472086
+Epoch 62: Train Loss = 0.427689, Val Loss = 0.417059, Test Loss =0.424727,Val R2 = 0.561117, Val RMSE = 0.637769, Val MAE = 0.472933
+Epoch 63: Train Loss = 0.427430, Val Loss = 0.417251, Test Loss =0.425626,Val R2 = 0.560842, Val RMSE = 0.638080, Val MAE = 0.471847
+Epoch 64: Train Loss = 0.427272, Val Loss = 0.417154, Test Loss =0.425457,Val R2 = 0.560965, Val RMSE = 0.637999, Val MAE = 0.471968
+==================================================
+
+==================================================
+Symbolic Formula:
+--------------------
+[-0.619449664568772*exp(0.0112288467735239*x_14 - 0.0229244496252335*x_5 - 0.0175938811361566*x_6 - 0.00619517479477222*(0.234143462939534 - x_11)**2 + 0.035082936643131*(-0.412501620100242*x_13 - 1)**2 + 0.0011776377665846*exp(4.23199987411499*x_7) + 0.0729335965451394*sin(0.734159886837006*x_9 - 3.85064005851746) + 0.000578089571198186*tan(8.03664016723633*x_2 + 2.2850399017334) + 9.5248513642481e-5*exp(-9.84792041778564*x_3) + 7.73402534721544e-5*exp(-9.48104000091553*x_12) - 3.43912517339263e-11/(-x_10 - 0.361525457837993)**2) - 0.063282313492146*exp(-0.114831197293786*x_14 + 0.317670216123547*x_6 - 0.0380237378775066*(-x_13 - 0.791475502617693)**2 - 0.243270158436437*(-0.675308402864481*x_4 - 1)**2 + 0.308588750625757*sin(1.37775981426239*x_5 + 3.20959997177124) - 0.487942796169442*sin(1.04839980602264*x_9 + 5.84248018264771) + 0.016966395386164*Abs(9.39143943786621*x_2 + 4.0939998626709) + 0.000431685365657039*exp(-5.9986400604248*x_7) + 0.00338141774918252*exp(-6.61199998855591*x_3) + 0.0665128520132183*exp(-0.78143984079361*x_11) + 0.00019418399948069/(x_12 + 0.33299932405971)**2 + 7.20433162956518e-8/(0.128062469583001 - x_10)**2) + 0.0928000062704086*cos(0.220372666602268*x_13 - 0.435228936716341*x_14 - 0.270747295382301*x_2 - 0.196401478768065*x_4 - 0.540067210602506*x_5 + 0.0682737202577249*x_6 + 1.19427439048399*exp(0.292799860239029*x_11) + 0.179979078001182*exp(1.82399988174438*x_3) + 6.7614337140284 + 0.00318766550426061*exp(-9.77600002288818*x_7) - 0.00172642293700056*exp(-8.5717601776123*x_10) + 1.06943097662191e-5/(0.000560000713448972 - 0.0127999978139997*x_12)) + 0.29352131485939*cos(0.040008489357709*x_14 + 0.226895692111559*x_6 - 1.33199092073302*sqrt(1 - 0.618908919044079*x_5) + 0.273006744606421*(-0.824471740457787*x_4 - 1)**2 - 0.807002588753175*cos(0.624879837036133*x_2 - 5.56848001480103) - 0.497215240167173 + 0.00219059464869071*exp(-9.75560092926025*x_7) + 0.255725421441158*exp(-0.55735981464386*x_13) + 0.0190219157685729*exp(-2.99968004226685*x_11) - 4.8428872714195e-10/(-x_10 - 0.362058871190114)**2 - 0.00106888859482769/(0.360294363116323 - x_12)**2 - 7.72873623562463e-8/(0.278260054305691 - x_3)**2) - 0.190879702568054*cos(-0.243621530452591*x_14 + 0.295480446722653*x_2 + 0.322451015636918*x_6 - 0.448838787212996*sqrt(0.384353577940196 - x_4) + 0.155581384678525*sqrt(x_13 + 0.501801511591781) + 0.153627072449214*exp(0.675199806690216*x_11) + 0.829949130026264*cos(1.12151980400085*x_5 + 4.26071977615356) + 0.46802230170487*cos(0.892399847507477*x_9 - 1.90127980709076) - 3.94636230661621 - 0.00144193718618687*exp(-9.82256031036377*x_7) - 0.00326319596169994*exp(-6.36800050735474*x_3) + 0.000252221426849881/(x_12 + 0.0357738051101484)**2 + 1.0657826975796e-6/(0.122748002499873 - x_10)**2) + 0.147834822535515*cos(0.106372504609904*x_14 + 0.164380606317755*x_6 + 1.11568664981533*sqrt(1 - 0.681919462792932*x_5) - 0.226584859037016*(-x_4 - 0.977868684042816)**2 - 0.000209782297117386*exp(9.99524021148682*x_11) + 0.487125149519706*sin(1.21399986743927*x_9 + 9.20663928985596) + 0.84599624730788*cos(0.804479837417603*x_2 - 5.40879964828491) - 0.0116760502745386 + 0.00138117623158196*exp(-9.79839992523193*x_7) - 0.000477021341676873*exp(-9.45983982086182*x_3) + 1.78481619195423e-5/(-0.0700799524784088*x_12 - 0.0272799860686064) + 0.0726710598265602/(0.989963781511901 - x_13)**2 - 8.06416214577663e-8/(0.127774911635037 - x_10)**2) - 0.0822365432977676*cos(0.30135706943051*x_14 + 0.378712369827532*x_2 - 0.647995320008417*x_6 + 0.170155933801975*(-0.591211600848426*x_13 - 1)**2 - 0.492790442330609*exp(0.657039821147919*x_11) + 0.273199858597668*cos(1.52359986305237*x_4 - 1.0311998128891) + 1.21775403730442*cos(0.589119851589203*x_9 - 2.40991973876953) - 0.00999648123397412*tan(1.38743984699249*x_5 + 6.58400011062622) + 2.07116123508993 + 0.00347902727238798*exp(-9.39591979980469*x_7) + 1.99246073846196e-7/(0.278106559618908 - x_3)**2 - 5.70703011242784e-7/(0.121718511110123 - x_10)**2 - 8.77464977279854e-11/(0.0492931524358081 - x_12)**2) + 0.109834710136056 + 0.388338318286343/sqrt(0.0653929378413089*x_14 - 0.0178176882808554*x_2 - 0.0229721000337618*x_6 - 0.000387157405747893*exp(5.93368005752563*x_11) - 0.205752508512583*exp(0.601919829845428*x_5) - 0.00217429958533956*exp(5.67648029327393*x_7) + 0.0500192157557089*sin(2.06207990646362*x_4 - 2.55103993415833) + 0.0685105204167878*cos(7.96928024291992*x_13 - 2.52135992050171) + 1 - 5.4955430509248e-5*exp(-8.78991985321045*x_10) + 1.21199519053658e-6/(-0.168959870934486*x_3 - 0.0527199655771255) - 1.21730630481005e-9/(0.0489965500244085 - x_12)**2) + 0.000421564406735545/(-0.129641170238231*x_14 - 0.0818911161846239*(-0.730730103849708*x_4 - 1)**2 - 0.396607282551427*exp(0.443039864301682*x_5) - 0.00600073947500585*Abs(9.59764099121094*x_13 - 2.6399998664856) + 1 - 0.000975278259626424*exp(-9.95599937438965*x_7) - 0.00181936408948932*exp(-8.64792060852051*x_6) - 0.00475070521939737*exp(-1.76343989372253*x_11) - 2.6629877577349e-8/(-x_3 - 0.312938659864147)**2 - 3.00153857798502e-17/(-x_18 - 0.0864565947046262)**3 - 1.1333396533246e-8/(0.127104152810089 - x_10)**2 + 2.6087137970189e-8/(0.0481245886602072 - x_12)**2)**2]
 [x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18]
 ==================================================
 
