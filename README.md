@@ -120,7 +120,9 @@ One of the most valuable outputs is the symbolic formula derived from the KAN mo
 - `kan_model.py`: Contains model training logic, metrics, and early stopping implementation
 - `visualizer.py`: Contains the `LiveVisualizer` class for plotting training metrics
 - `requirements.txt`: Lists all required dependencies
-Project Folder Structure:
+
+### Project Folder Structure:
+```
 KAN-BIOINFORMATICS/
 ├── Data/                      # Contains expression data and interaction files
 ├── figures/                   # Output figures directory 
@@ -142,8 +144,9 @@ KAN-BIOINFORMATICS/
 ├── training_history.png       # Training history visualization
 ├── training_log.txt           # Detailed training logs
 └── training_metrics.png       # Performance metrics visualization
-## Advanced Usage
+```
 
+## Advanced Usage
 ### Analyzing Feature Contributions
 
 After training, the code automatically analyzes which features (genes) contribute most to the prediction:
