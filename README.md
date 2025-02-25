@@ -29,18 +29,18 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 3.1
-Dependencies: 
-numpy==1.22.4
-torch==2.2.2
+# python==3.10.0
 matplotlib==3.6.2
-pandas==2.0.1
+numpy==1.24.4
 scikit_learn==1.1.3
-pykan
-pyyaml
-tqdm==4.66.2
 setuptools==65.5.0
 sympy==1.11.1
+torch==2.2.2
+tqdm==4.66.2
+pandas==2.0.1
 seaborn
+pyyaml
+pykan
 scanpy
 ## Data Preparation
 
