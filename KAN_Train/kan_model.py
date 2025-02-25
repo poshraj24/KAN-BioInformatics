@@ -2,7 +2,7 @@ from kan import *
 import torch
 import numpy as np
 from pathlib import Path
-from data_processor import KANDataProcessor1
+from KAN_Train.data_processor import KANDataProcessor1
 from tqdm import tqdm
 import numpy as np
 from torch.utils.data import Dataset, DataLoader

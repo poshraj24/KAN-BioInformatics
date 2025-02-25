@@ -45,7 +45,7 @@ class KANDataProcessor1:
 
         # Create model config
         config = {
-            "width": [X.shape[1], 10, 1],
+            "width": [X.shape[1], 2, 1],
             # "width": X.shape[1],
             "grid": 5,
             "k": 4,

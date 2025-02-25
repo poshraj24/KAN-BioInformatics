@@ -16,90 +16,18 @@ sp_trainable: true
 state_id: 1
 symbolic.funs_name.0:
 - - '0'
-  - x
-  - exp
-  - x^0.5
-  - cos
-  - x
-  - exp
-  - 1/x^2
-  - cos
-  - 1/x^2
-  - exp
-  - 1/x^2
-  - x^0.5
-  - x
-  - '0'
-  - 1/x^2
-  - '0'
-  - '0'
-- - '0'
-  - x^2
-  - exp
-  - cos
-  - x^2
-  - x
-  - 1/x^2
-  - '0'
-  - x^2
-  - exp
-  - exp
-  - 1/x^2
   - sin
-  - x
-  - '0'
-  - '0'
-  - 1/x^3
-  - 1/x^3
-- - '0'
-  - x
   - exp
-  - x
-  - x
-  - x
-  - exp
-  - '0'
-  - '0'
-  - exp
-  - exp
-  - 1/x
-  - x
-  - x
-  - 1/x^3
-  - '0'
-  - 1/x^3
-  - 1/x^3
-- - '0'
-  - x
+  - x^2
+  - log
   - 1/x^2
-  - cos
+  - exp
+  - '0'
+  - sin
+  - exp
+  - x^4
+  - 1/x^2
   - tan
-  - x
-  - exp
-  - '0'
-  - cos
-  - 1/x^2
-  - exp
-  - 1/x^2
-  - x^2
-  - x
-  - '0'
-  - '0'
-  - 1/x^3
-  - '0'
-- - '0'
-  - abs
-  - exp
-  - x^2
-  - sin
-  - x
-  - exp
-  - '0'
-  - sin
-  - 1/x^2
-  - exp
-  - 1/x^2
-  - x^2
   - x
   - '0'
   - '0'
@@ -107,110 +35,30 @@ symbolic.funs_name.0:
   - '0'
 - - 1/x^3
   - x
+  - exp
+  - x^2
+  - x^2
+  - exp
+  - 1/x^2
+  - '0'
+  - cos
+  - 1/x^2
+  - x^2
   - 1/x
-  - sin
-  - exp
-  - x
-  - exp
-  - 1/x^2
-  - '0'
-  - exp
-  - exp
-  - 1/x^2
-  - cos
-  - x
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-- - '0'
-  - '0'
-  - 1/x^2
-  - x^2
-  - exp
-  - exp
-  - exp
-  - 1/x^2
-  - '0'
-  - 1/x^2
-  - exp
-  - 1/x^2
-  - abs
-  - x
-  - '0'
-  - '0'
-  - '0'
-  - 1/x^3
-- - 1/x^3
-  - cos
-  - 1/x^2
-  - x^2
-  - sqrt
-  - x
-  - exp
-  - '0'
-  - '0'
-  - 1/x^2
-  - exp
-  - 1/x^2
-  - exp
-  - x
-  - 1/x^3
-  - '0'
-  - '0'
-  - 1/x^3
-- - '0'
   - tan
-  - exp
-  - '0'
-  - x
-  - x
-  - exp
-  - '0'
-  - sin
-  - 1/x^2
-  - x^2
-  - exp
-  - x^2
   - x
   - '0'
   - '0'
   - 1/x^3
   - '0'
-- - '0'
-  - cos
-  - exp
-  - x^2
-  - x^0.5
-  - x
-  - exp
-  - '0'
-  - sin
-  - 1/x^2
-  - exp
-  - 1/x
-  - 1/x^2
-  - x
-  - 1/x^3
-  - '0'
-  - 1/x^3
-  - 1/x^2
 symbolic.funs_name.1:
 - - cos
-  - '0'
-  - cos
-  - cos
-  - exp
-  - 1/x^0.5
-  - 1/x^2
-  - cos
-  - exp
-  - cos
+  - x
 symbolic_enabled: true
 width:
 - - 18
   - 0
-- - 10
+- - 2
   - 0
 - - 1
   - 0

@@ -1,11 +1,11 @@
 import torch
 import numpy as np
 from pathlib import Path
-from data_processor import KANDataProcessor1
-from kan_model import *
+from KAN_Train.data_processor import KANDataProcessor1
+from KAN_Train.kan_model import *
 import matplotlib.pyplot as plt
 import warnings
-from visualizer import LiveVisualizer
+from KAN_Train.visualizer import LiveVisualizer
 
 
 warnings.filterwarnings("ignore", message="meta NOT subset.*")

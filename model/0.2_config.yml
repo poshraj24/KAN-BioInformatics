@@ -13,47 +13,47 @@ mult_arity: 2
 round: 0
 sb_trainable: true
 sp_trainable: true
-state_id: 0
+state_id: 2
 symbolic.funs_name.0:
 - - '0'
+  - cos
+  - 1/x
+  - x^2
+  - log
+  - exp
+  - exp
   - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
+  - cos
+  - exp
+  - x^4
+  - exp
+  - tan
+  - x
+  - 1/x^3
+  - 1/x^2
   - '0'
   - '0'
 - - '0'
+  - x
+  - 1/x^2
+  - x^2
+  - x^2
+  - exp
+  - 1/x^2
+  - 1/x^2
+  - cos
+  - exp
+  - x^2
+  - 1/x
+  - tan
+  - x
+  - 1/x^3
   - '0'
   - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
+  - 1/x^3
 symbolic.funs_name.1:
-- - '0'
-  - '0'
+- - cos
+  - x
 symbolic_enabled: true
 width:
 - - 18
