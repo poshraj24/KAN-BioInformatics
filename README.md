@@ -28,8 +28,10 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-3.1
-# python==3.10.0
+
+3.1 Requirements
+```
+#python==3.10.0
 matplotlib==3.6.2
 numpy==1.24.4
 scikit_learn==1.1.3
@@ -42,6 +44,8 @@ seaborn
 pyyaml
 pykan
 scanpy
+```
+
 ## Data Preparation
 
 The code expects data to be organized in a `Data` directory with the following files:
