@@ -43,50 +43,56 @@ def log_symbolic_formula(formula_tuple):
         f.write("=" * 50 + "\n\n")
 
 
-def save_plot(model, filename="model_plot.png", dpi=1200):
+def save_plot(model, filename="model_plot.png", dpi=3600):
     """Save the KAN architecture plot to a file."""
-    model.plot()  # This creates the plot
+    model.plot(beta=10)  # This creates the plot
     plt.savefig(filename, bbox_inches="tight", dpi=dpi)
     plt.close()  # Close the figure to free memory
     print(f"KAN architecture saved to {filename}")
 
 
-def analyze_kan_feature_contributions(model, X_tensor, feature_names):
+def visualize_kan_node_importance(model, gene_names):
+    """
+    Visualize KAN's feature importance scores with gene names in their original node order.
+
+    Args:
+        model: A trained KAN model
+        gene_names: List of gene names corresponding to input features
+
+    Returns:
+        Dictionary of gene importance scores in original order
+    """
+    # Set model to evaluation mode
     model.eval()
-    contributions = {}
 
-    weights = model.state_dict()
-    print("Weights shapes:")
-    print("act_weights shape:", weights["act_fun.0.coef"].shape)
-    print("sym_weights shape:", weights["symbolic_fun.0.affine"].shape)
-    print("X_tensor shape:", X_tensor.shape)
-    print("Number of features:", len(feature_names))
+    # Get feature importance scores directly from the model
+    feature_scores = model.feature_score.cpu().detach().numpy()
 
-    act_weights = weights["act_fun.0.coef"].cpu().numpy()  # Non-linear contribution
-    sym_weights = weights["symbolic_fun.0.affine"].cpu().numpy()  # Linear contribution
+    # Map scores to gene names (maintaining original order)
+    gene_importance = {}
+    for i, gene in enumerate(gene_names):
+        if i < len(feature_scores):
+            gene_importance[gene] = float(feature_scores[i])
 
-    for i in range(X_tensor.shape[1]):
-        w_impact = np.abs(sym_weights[0, i, :]).mean()  # Adjusted for shape (1, 18, 4)
-        a_impact = np.abs(act_weights[i, :, :]).mean()  # Adjusted for shape (18, 1, 7)
-        contributions[feature_names[i]] = float(w_impact + a_impact)
+    # Normalize scores for better interpretability (optional)
+    total = sum(abs(v) for v in gene_importance.values())
+    if total > 0:
+        gene_importance = {k: abs(v) / total for k, v in gene_importance.items()}
 
-    # Normalize and filter
-    total = sum(contributions.values())
-    contributions = {
-        k: v / total for k, v in contributions.items() if v / total > 0.001
-    }
+    # Create visualization (maintaining original order)
+    plt.figure(figsize=(14, 6))
+    genes = list(gene_importance.keys())  # Keep original order
+    scores = list(gene_importance.values())  # Keep original order
 
-    # Plot
-    plt.figure(figsize=(12, 6))
-    names = list(contributions.keys())
-    values = list(contributions.values())
-    plt.bar(names, values)
+    plt.bar(genes, scores)
     plt.xticks(rotation=45, ha="right")
-    plt.title("Feature Contributions Based on Model Weights")
+    plt.title("Gene Importance Scores from KAN (Original Node Order)")
+    plt.ylabel("Normalized Importance")
+    plt.xlabel("Genes")
     plt.tight_layout()
     plt.show()
 
-    return dict(sorted(contributions.items(), key=lambda x: x[1], reverse=True))
+    return gene_importance
 
 
 def main():
@@ -125,7 +131,7 @@ def main():
     formula_tuple = model.symbolic_formula()
     print(formula_tuple[0])
     log_symbolic_formula(formula_tuple)  # Log the formula
-    save_plot(model, "model_plot.png", dpi=1200)
+    save_plot(model, "model_plot.png", dpi=3600)
     # Save model
     torch.save(
         {
@@ -136,17 +142,11 @@ def main():
         },
         "final_model.pt",
     )
-    # Create input tensor
-    X_tensor = torch.FloatTensor(X_data).to(device)
-
-    # Load model with correct map_location
-    checkpoint = torch.load("final_model.pt", map_location="cpu")
-    model.load_state_dict(checkpoint["model_state_dict"])
 
     # Then move model to device
     model = model.to(device)
-    X_tensor = X_tensor.to(device)
-    contributions = analyze_kan_feature_contributions(model, X_tensor, related_genes)
+
+    contributions = visualize_kan_node_importance(model, related_genes)
 
 
 if __name__ == "__main__":
