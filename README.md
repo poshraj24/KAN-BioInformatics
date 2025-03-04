@@ -152,7 +152,7 @@ KAN-BIOINFORMATICS/
 After training, the code automatically analyzes which features (genes) contribute most to the prediction:
 
 ```python
-contributions = analyze_kan_feature_contributions(model, X_tensor, related_genes)
+contributions = visualize_kan_node_importance(model, related_genes)
 ```
 
 This helps identify the most important regulatory relationships for your target gene.
