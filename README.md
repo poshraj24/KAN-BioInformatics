@@ -176,7 +176,9 @@ If you use this code in your research, please cite:
 Liu, Z., Wang, Y., Vaidya, S., Ruehle, F., Halverson, J., Soljačić, M., Hou, T.Y., & Tegmark, M. (2024). 
 KAN: Kolmogorov–Arnold Networks. arXiv:2404.19756v4.
 ```
+## Tutorial
 
+Check out the [experiment notebook](experiment.ipynb) for a step-by-step tutorial.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
