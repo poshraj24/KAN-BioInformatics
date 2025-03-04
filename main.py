@@ -45,9 +45,9 @@ def log_symbolic_formula(formula_tuple):
 
 def save_plot(model, filename="model_plot.png", dpi=3600):
     """Save the KAN architecture plot to a file."""
-    model.plot(beta=10)  # This creates the plot
+    model.plot(beta=10)
     plt.savefig(filename, bbox_inches="tight", dpi=dpi)
-    plt.close()  # Close the figure to free memory
+    plt.close()
     print(f"KAN architecture saved to {filename}")
 
 
@@ -74,18 +74,18 @@ def visualize_kan_node_importance(model, gene_names):
         if i < len(feature_scores):
             gene_importance[gene] = float(feature_scores[i])
 
-    # Normalize scores for better interpretability (optional)
+    # Normalize scores
     total = sum(abs(v) for v in gene_importance.values())
     if total > 0:
         gene_importance = {k: abs(v) / total for k, v in gene_importance.items()}
 
-    # Create visualization (maintaining original order)
-    plt.figure(figsize=(14, 6))
-    genes = list(gene_importance.keys())  # Keep original order
-    scores = list(gene_importance.values())  # Keep original order
+    # Create visualization
+    plt.figure(figsize=(8, 6))
+    genes = list(gene_importance.keys())
+    scores = list(gene_importance.values())
 
     plt.bar(genes, scores)
-    plt.xticks(rotation=45, ha="right")
+    plt.xticks(rotation=90, ha="right")
     plt.title("Gene Importance Scores from KAN (Original Node Order)")
     plt.ylabel("Normalized Importance")
     plt.xlabel("Genes")
@@ -102,7 +102,8 @@ def main():
         Path("Data/expression_data1.h5ad"), Path("Data/JUN_interactions.tsv"), "JUN"
     )
     related_genes = processor.get_related_genes("JUN")
-    # Initialize model here
+
+    # Initialize model
     model = KAN(
         width=config["width"],
         grid=config["grid"],
@@ -114,6 +115,7 @@ def main():
     optimizer = torch.optim.AdamW(model.parameters(), lr=0.0001, weight_decay=0.01)
     criterion = torch.nn.MSELoss()
     epochs = 100
+
     # Create dataloaders
     train_loader, val_loader, test_loader = prepare_data(X_data, y_target)
 
@@ -143,7 +145,7 @@ def main():
         "final_model.pt",
     )
 
-    # Then move model to device
+    # move model to device
     model = model.to(device)
 
     contributions = visualize_kan_node_importance(model, related_genes)

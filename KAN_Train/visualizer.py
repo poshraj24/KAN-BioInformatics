@@ -40,5 +40,5 @@ class LiveVisualizer:
         ax4.legend()
 
         plt.tight_layout()
-        plt.savefig("training_metrics.png")
+        plt.savefig("training_metrics.png", dpi=1200)
         plt.show()
