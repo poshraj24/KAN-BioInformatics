@@ -14,8 +14,8 @@ This project presents a new approach to the inference of Gene Regulatory Network
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/poshraj24/KAN-BioiInformatics.git
-cd KAN-BioiInformatics
+git clone https://github.com/poshraj24/KAN-BioInformatics.git
+cd KAN-BioInformatics
 ```
 
 2. Create a virtual environment (recommended):
